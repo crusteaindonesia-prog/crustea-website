@@ -1,9 +1,9 @@
 module.exports = {
   content: [
-    "./*.html", 
-  "./src/**/*.css",
-  "./src/components/**/*.{js,ts,jsx,tsx}",
-],
+    "./*.html",
+    "./src/**/*.css",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
+  ],
   plugins: [require("@tailwindcss/forms")],
   theme: {
     boxShadow: {
