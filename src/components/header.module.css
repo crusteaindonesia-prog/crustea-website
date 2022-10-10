@@ -1,0 +1,14 @@
+.bg-batik {
+  background-image: url("images/landing/bg-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-image {
+  width: 182px;
+  height: 338px;
+  background-image: url("images/landing/landing-tambak.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 90px 0 90px;
+}

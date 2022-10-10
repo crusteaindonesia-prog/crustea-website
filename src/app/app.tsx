@@ -1,22 +1,11 @@
-
-import styles from "./app.module.css";
-
+import Hero from "components/Hero";
+import Layout from "../components/Layout/Layout";
 
 const App = (): JSX.Element => {
   return (
-    <main className={styles.main}>
-      <header className={styles.header}>
-        <h3 className={styles.headerTopTitle}>
-          
-          Crustea.id
-        </h3>
-        
-      </header>
-      
-      <footer className={styles.footer}>
-        
-      </footer>
-    </main>
+    <Layout>
+      <Hero />
+    </Layout>
   );
 };
 
