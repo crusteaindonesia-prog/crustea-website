@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
       <div className="bg-green-500 flex justify-center py-4 h-16 items-center">
         <h2 className="text-semibold text-md text-white">
-          &copy;ECO AERATOR 2022
+          &copy;ECO AERATOR 2023
         </h2>
       </div>
     </>
