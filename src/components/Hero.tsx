@@ -86,6 +86,27 @@ const Hero = ({
           </motion.div>
         </ScrollAnimationWrapper>
       </div>
+      <div
+        className="flex flex-col items-center main-h-screen mt-24 mb-24"
+        id="company-purpose"
+      >
+        <ScrollAnimationWrapper className={undefined}>
+          <motion.div variants={scrollAnimation}>
+            <h3 className="text-green-600 pt-10 font-sans font-bold text-2xl md:text-4xl py-9 text-center">
+              Dengan <span style={{ color: "#ACCB37" }}>teknologi</span>,
+              menambak jadi lebih mudah
+            </h3>
+            <p className="txt-base text-center">
+              Crustea Indonesia berfokus pada pengembangan teknologi akuakultur
+              untuk memaksimalkan produksi hasil tambak dengan mengurangi biaya
+              operasional yang dibutuhkan untuk menjalankan segala aktivitas
+              tambak. Bersama dengan Crustea, para petambak dapat mengoptimalkan
+              hasil tambak dan mengurangi kegagalan dalam menambak dengan
+              bantuan inovasi teknologi yang telah kami kembangkan
+            </p>
+          </motion.div>
+        </ScrollAnimationWrapper>
+      </div>
       <div className="relative w-full flex">
         <ScrollAnimationWrapper className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
           {listUser.map((listUsers, index) => (
