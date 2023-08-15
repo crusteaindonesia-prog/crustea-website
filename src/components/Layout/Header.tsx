@@ -60,7 +60,7 @@ const Header = () => {
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
-        <nav className="w-full max-w-[1240px] px-4 mx-auto flex flex-row justify-between items-center">
+        <nav className="max-w-screen-xl px-8 xl:px-16 mx-auto flex flex-row justify-between items-center">
           <div className="flex items-center">
             <LogoVPN className="h-8 w-auto" />
           </div>
