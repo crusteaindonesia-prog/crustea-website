@@ -4,26 +4,9 @@ import style from "./header.module.css";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import aboutImg from "/images/landing/WhatsApp Image 2023-02-06 at 11 1.jpg";
 
-const Hero = ({
-  listUser = [
-    {
-      name: "Users",
-      number: "390",
-      icon: "/assets/Icon/heroicons_sm-user.svg",
-    },
-    {
-      name: "Locations",
-      number: "20",
-      icon: "/assets/Icon/gridicons_location.svg",
-    },
-    {
-      name: "Ponds",
-      number: "50",
-      icon: "/assets/Icon/bx_bxs-server.svg",
-    },
-  ],
-}) => {
+const Hero = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
@@ -60,81 +43,54 @@ const Hero = ({
         </motion.div>
       </ScrollAnimationWrapper>
       <div
-        className="flex flex-col items-center main-h-screen mt-24 mb-24"
+        className="flex flex-col items-center main-h-screen mt-4 mb-24"
         id="company-purpose"
       >
         <ScrollAnimationWrapper className={undefined}>
           <motion.div variants={scrollAnimation}>
-            <h3 className="text-green-600 pt-10 font-sans font-bold text-2xl md:text-4xl py-9 text-center">
-              Tujuan utama kami membantu petani tambak Indonesia
+            <h3 className="text-green-600 pt-5 md:pt-10 font-sans font-bold text-3xl md:text-5xl py-9 text-center">
+              Uncover <span style={{ color: "#ACCB37" }}>Our Story</span>
             </h3>
-            <p className="txt-base text-center">
-              Sektor akuakultur Indonesia merupakan salah satu sektor yang
-              paling berpotensi untuk menjadi penopang ekonomi nasional saat ini
-              mengingat melimpahnya sumber daya alam yang mampu menunjang siklus
-              kehidupan biota akuakultur di dalamnya. Namun, masih banyak
-              kendala yang dihadapi dalam sektor akuakultur yang dapat
-              menghambat proses budidaya. <br /> <br />
-              Berawal dari suara keresahan para petani tambak Indonesia yang
-              mengeluhkan tingginya biaya operasional dalam menjalankan budidaya
-              akuakultur yang berdampak pada kurangnya produktivitas petambak
-              Indonesia, kami berkomitmen untuk menciptakan inovasi teknologi
-              yang mampu membantu para petani mendapatkan hasil yang maksimal,
-              sekaligus berkontribusi langsung untuk melindungi bumi dengan
-              inovasi kami yang ramah lingkungan.
-            </p>
-          </motion.div>
-        </ScrollAnimationWrapper>
-      </div>
-      <div
-        className="flex flex-col items-center main-h-screen mt-24 mb-24"
-        id="company-purpose"
-      >
-        <ScrollAnimationWrapper className={undefined}>
-          <motion.div variants={scrollAnimation}>
-            <h3 className="text-green-600 pt-10 font-sans font-bold text-2xl md:text-4xl py-9 text-center">
-              Dengan <span style={{ color: "#ACCB37" }}>teknologi</span>,
-              menambak jadi lebih mudah
-            </h3>
-            <p className="txt-base text-center">
-              Crustea Indonesia berfokus pada pengembangan teknologi akuakultur
-              untuk memaksimalkan produksi hasil tambak dengan mengurangi biaya
-              operasional yang dibutuhkan untuk menjalankan segala aktivitas
-              tambak. Bersama dengan Crustea, para petambak dapat mengoptimalkan
-              hasil tambak dan mengurangi kegagalan dalam menambak dengan
-              bantuan inovasi teknologi yang telah kami kembangkan
-            </p>
-          </motion.div>
-        </ScrollAnimationWrapper>
-      </div>
-      <div className="relative w-full flex">
-        <ScrollAnimationWrapper className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
-          {listUser.map((listUsers, index) => (
-            <motion.div
-              className="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0"
-              key={index}
-              custom={{ duration: 2 + index }}
-              variants={scrollAnimation}
-            >
-              <div className="flex mx-auto w-40 sm:w-auto">
-                <div className="flex items-center justify-center bg-orange-100 w-12 h-12 mr-6 rounded-full">
-                  <img src={listUsers.icon} className="h-6 w-6" />
-                </div>
-                <div className="flex flex-col">
-                  <p className="text-xl text-black-600 font-bold">
-                    {listUsers.number}+
+            <div className="flex flex-wrap">
+              <div className="w-full lg:w-1/2 mx-5 md:mx-auto">
+                <img
+                  className="rounded-2xl mx-auto md:rounded-3xl w-full md:max-w-[568px] lg:mr-14 justify-start lg:max-h-[550px] object-cover"
+                  alt=""
+                  src={aboutImg}
+                ></img>
+              </div>
+              <div className="w-full lg:w-1/2">
+                <div className="mx-5 lg:ml-14 lg:max-w-[510px]">
+                  <h3 className="pt-6 lg:pt-0 font-semibold text-2xl md:text-4xl font-sans ">
+                    We're Dedicated to{" "}
+                    <span style={{ color: "#ACCB37" }}>
+                      Enhancing the Productivity
+                    </span>{" "}
+                    of Indonesian Pond Farmers.
+                  </h3>
+                  <p className="font-sans text-[17px] pt-6 text-justify lg:text-left lg:pt-14 text-black-600">
+                    Driven by the concerns of Indonesian pond farmers who
+                    struggle with high operational costs impacting productivity,
+                    we have taken a pledge to innovate technology solutions.
                   </p>
-                  <p className="text-lg text-black-500">{listUsers.name}</p>
+                  <p className="font-sans text-[17px] pt-3 text-justify lg:text-left lg:pt-10 text-black-600">
+                    Driven by the concerns of Indonesian pond farmers who
+                    struggle with high operational Our goal is to empower
+                    farmers to achieve the best possible outcomes in terms of
+                    quantity and quality in aquaculture production while making
+                    a direct contribution to environmental preservation through
+                    eco-friendly innovations.
+                  </p>
+                  <button className="bg-[#ACCB37] rounded-3xl text-white-300 lg:mt-14 py-3 px-6 shadow-xl font-semibold text-xl hover:bg-white-300 hover:text-[#ACCB37] ring-[#ACCB37] ring-2 mt-6">
+                    Learn More
+                  </button>
                 </div>
               </div>
-            </motion.div>
-          ))}
+            </div>
+          </motion.div>
         </ScrollAnimationWrapper>
-        <div
-          className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-64 sm:h-48 top-0 mt-8 mx-auto left-0 right-0"
-          style={{ filter: "blur(114px)" }}
-        ></div>
       </div>
+      <div className="main-h-screen mt-24 mb-24" id="company-purpose"></div>
     </div>
   );
 };
