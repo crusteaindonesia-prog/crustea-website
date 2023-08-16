@@ -6,6 +6,12 @@ module.exports = {
   ],
   plugins: [require("@tailwindcss/forms")],
   theme: {
+    fontFamily: {
+      'Ubuntu': ['Ubuntu','sans-serif'],
+      'Montserrat': ['Montserrat', 'sans-serif'],
+      'Cabin': ['Cabin', 'sans-serif'],
+      'DMSans': ['DM Sans', 'sans-serif']
+    },
     boxShadow: {
       sm: "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
       DEFAULT:
