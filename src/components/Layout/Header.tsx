@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
@@ -40,11 +41,17 @@ const LogoVPN = (props) => (
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [scrollActive, setScrollActive] = useState(false);
+  const [sidenav, setSideNav] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScrollActive(window.scrollY > 20);
     });
   }, []);
+
+  function handleSideNav() {
+    setSideNav(!sidenav);
+  }
+
   return (
     <>
       <header
@@ -53,48 +60,154 @@ const Header = () => {
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
-        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
-          <div className="col-start-1 col-end-2 flex items-center">
+        <nav className="max-w-screen-xl px-8 xl:px-16 mx-auto flex flex-row justify-between items-center">
+          <div className="flex items-center">
             <LogoVPN className="h-8 w-auto" />
           </div>
-          <ul className="lg:flex col-start-3 col-end-4 text-black-500  items-center">
-            <LinkScroll
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("about");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "about"
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 a")
-              }
-            >
-              About
-            </LinkScroll>
-
-            <LinkScroll
-              activeClass="active"
-              to="testimoni"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("testimoni");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "testimoni"
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 ")
-              }
-            >
-              Testimonial
-            </LinkScroll>
+          <div onClick={handleSideNav} className="md:hidden">
+            {sidenav ? (
+              <AiOutlineClose size={30} className="text-green" />
+            ) : (
+              <AiOutlineMenu size={30} className="text-green" />
+            )}
+          </div>
+          <ul
+            className={
+              sidenav
+                ? "text-white-500 fixed top-0 left-0 w-[60%] h-full bg-green text-base border-r-gray-100 ease-in-out duration-500 border-r border-gray-800 md:hidden"
+                : "ease-in-out duration-500 fixed left-[-100%]"
+            }
+          >
+            <div className="flex items-center p-4 bg-white-500 ">
+              <LogoVPN className="h-8 w-auto" />
+            </div>
+            <li className="p-4 border-b border-b-gray-500 hover:text-main">
+              Home
+            </li>
+            <li className="p-4 border-b border-b-gray-500 hover:text-main">
+              <LinkScroll
+                activeClass="active"
+                to="testimoni"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("testimoni");
+                }}
+                className={
+                  "cursor-pointer hover:text-main inline-block relative" +
+                  (activeLink === "testimoni"
+                    ? " text-main animation-active "
+                    : " text-white-500 hover:text-main a")
+                }
+              >
+                Testimonial
+              </LinkScroll>
+            </li>
+            <li className="p-4 border-b border-b-gray-500 hover:text-main">
+              <LinkScroll
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("about");
+                }}
+                className={
+                  "cursor-pointer hover:text-main inline-block relative" +
+                  (activeLink === "about"
+                    ? " text-main animation-active "
+                    : " text-white-500 hover:text-main a")
+                }
+              >
+                About Us
+              </LinkScroll>
+            </li>
+            <div className="m-4 border-2 border-main rounded-full w-[123px] hover:bg-main">
+              <p className="text-main text-center text-base hover:text-white-300 hover:font-bold py-1">
+                <a
+                  href="https://linktr.ee/crusteaid"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Get Startted
+                </a>
+              </p>
+            </div>
+          </ul>
+          <ul className="hidden md:flex w-[456px] flex-row justify-between items-center p-4 ">
+            <li>
+              <LinkScroll
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("home");
+                }}
+                className={
+                  "cursor-pointer animation-hover inline-block relative" +
+                  (activeLink === "home"
+                    ? " text-green animation-active "
+                    : " text-black-500 hover:text-green a")
+                }
+              >
+                Home
+              </LinkScroll>
+            </li>
+            <li>
+              <LinkScroll
+                activeClass="active"
+                to="testimoni"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("testimoni");
+                }}
+                className={
+                  "cursor-pointer animation-hover inline-block relative" +
+                  (activeLink === "testimoni"
+                    ? " text-green animation-active "
+                    : " text-black-500 hover:text-green a")
+                }
+              >
+                Testimonial
+              </LinkScroll>
+            </li>
+            <li>
+              <LinkScroll
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("about");
+                }}
+                className={
+                  "cursor-pointer animation-hover inline-block relative" +
+                  (activeLink === "about"
+                    ? " text-green animation-active "
+                    : " text-black-500 hover:text-green a")
+                }
+              >
+                About Us
+              </LinkScroll>
+            </li>
+            <div className="border-2 border-green rounded-full w-[123px] hover:bg-green">
+              <p className="text-green text-center text-base hover:text-white-300 hover:font-bold py-1">
+                <a
+                  href="https://linktr.ee/crusteaid"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Get Startted
+                </a>
+              </p>
+            </div>
           </ul>
         </nav>
       </header>
