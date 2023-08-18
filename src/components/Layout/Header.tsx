@@ -56,8 +56,8 @@ const Header = () => {
     <>
       <header
         className={
-          "fixed top-0 w-full  z-30 bg-white-500 transition-all " +
-          (scrollActive ? " shadow-md pt-0" : " pt-4")
+          "fixed top-0 w-full  z-30 bg-white-500 transition-all py-4 md:py-0 " +
+          (scrollActive ? " shadow-md pt-4 md:pt-0" : " pt-4")
         }
       >
         <nav className="max-w-screen-xl px-8 xl:px-16 mx-auto flex flex-row justify-between items-center">
