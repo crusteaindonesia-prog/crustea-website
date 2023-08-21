@@ -11,13 +11,13 @@ import { RxDotFilled } from "react-icons/rx";
 const Hero = ({
   banners = [
     {
-      url: "/images/landing/banner_1.png",
+      url: "/images/landing/banner_1.webp",
     },
     {
-      url: "/images/landing/banner_2.png",
+      url: "/images/landing/banner_2.webp",
     },
     {
-      url: "/images/landing/banner_3.png",
+      url: "/images/landing/banner_3.webp",
     },
   ],
 }) => {
