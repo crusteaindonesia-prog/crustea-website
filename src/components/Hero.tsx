@@ -101,7 +101,7 @@ const Hero = ({
         >
           <ScrollAnimationWrapper className={undefined}>
             <motion.div variants={scrollAnimation}>
-              <h3 className="opacity-100 text-green-600 pt-5 md:pt-10 font-sans font-bold text-3xl md:text-5xl py-9 text-center">
+              <h3 className="opacity-100 text-green-600 pt-5 md:pt-10 font-Cabin font-bold text-3xl md:text-5xl py-20 text-center">
                 Uncover <span style={{ color: "#ACCB37" }}>Our Story</span>
               </h3>
             </motion.div>
@@ -121,19 +121,19 @@ const Hero = ({
                 variants={scrollAnimation}
                 className="mx-5 lg:ml-14 lg:max-w-[510px]"
               >
-                <h3 className="pt-6 lg:pt-0 font-semibold text-2xl md:text-4xl font-sans ">
+                <h3 className="pt-6 lg:pt-0 font-semibold text-2xl md:text-4xl font-Cabin ">
                   We're Dedicated to{" "}
                   <span style={{ color: "#ACCB37" }}>
                     Enhancing the Productivity
                   </span>{" "}
                   of Indonesian Pond Farmers.
                 </h3>
-                <p className="font-sans text-[17px] pt-6 text-justify lg:text-left lg:pt-14 text-black-600">
+                <p className="font-DMSans text-[17px] pt-6 text-justify lg:text-left lg:pt-14 text-black-600">
                   Driven by the concerns of Indonesian pond farmers who struggle
                   with high operational costs impacting productivity, we have
                   taken a pledge to innovate technology solutions.
                 </p>
-                <p className="font-sans text-[17px] pt-3 text-justify lg:text-left lg:pt-10 text-black-600">
+                <p className="font-DMSans text-[17px] pt-3 text-justify lg:text-left lg:pt-10 text-black-600">
                   Driven by the concerns of Indonesian pond farmers who struggle
                   with high operational Our goal is to empower farmers to
                   achieve the best possible outcomes in terms of quantity and
