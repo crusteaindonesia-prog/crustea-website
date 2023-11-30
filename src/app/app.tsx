@@ -4,6 +4,7 @@ import Layout from "../components/Layout/Layout";
 import Vision from "components/Vision";
 import Users from "components/Users";
 import Mission from "components/Mission";
+import ProductCatalog from "components/Produk";
 
 const App = (): JSX.Element => {
   return (
@@ -11,6 +12,7 @@ const App = (): JSX.Element => {
       <Hero />
       <Vision />
       <Mission />
+      <ProductCatalog />
       <Users />
       <Testimoni />
     </Layout>
