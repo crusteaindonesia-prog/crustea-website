@@ -3,12 +3,14 @@ import Testimoni from "components/Testimoni";
 import Layout from "../components/Layout/Layout";
 import Vision from "components/Vision";
 import Users from "components/Users";
+import Mission from "components/Mission";
 
 const App = (): JSX.Element => {
   return (
     <Layout>
       <Hero />
       <Vision />
+      <Mission />
       <Users />
       <Testimoni />
     </Layout>
