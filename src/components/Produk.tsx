@@ -52,7 +52,10 @@ const ProductCatalog = ({
           {ListProducts.map((product, index) => {
             return (
               <ScrollAnimationWrapper key={index} className={undefined}>
-                <motion.div className="mt-5 md:mt-0 md:w-96 md:h-[620px] bg-[#ffff] md:m-4 rounded-3xl drop-shadow-lg">
+                <motion.div
+                  variants={scrollAnimation}
+                  className="mt-5 md:mt-0 md:w-96 md:h-[620px] bg-[#ffff] md:m-4 rounded-3xl drop-shadow-lg"
+                >
                   <img
                     src={product.image}
                     className="rounded-3xl md:w-full"
