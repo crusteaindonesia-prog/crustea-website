@@ -148,7 +148,7 @@ const Header = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Get Startted
+                  Get Started
                 </a>
               </p>
             </div>
