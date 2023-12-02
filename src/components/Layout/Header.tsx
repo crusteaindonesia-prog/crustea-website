@@ -82,7 +82,24 @@ const Header = () => {
               <LogoVPN className="h-8 w-auto" />
             </div>
             <li className="p-4 border-b border-b-gray-500 hover:text-main">
-              Home
+              <LinkScroll
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onSetActive={() => {
+                  setActiveLink("home");
+                }}
+                className={
+                  "cursor-pointer hover:text-main inline-block relative" +
+                  (activeLink === "banner"
+                    ? " text-main animation-active "
+                    : " text-white-500 hover:text-main a")
+                }
+              >
+                Home
+              </LinkScroll>
             </li>
             <li className="p-4 border-b border-b-gray-500 hover:text-main">
               <LinkScroll

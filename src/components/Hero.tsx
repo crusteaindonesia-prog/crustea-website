@@ -50,6 +50,7 @@ const Hero = ({
       <div
         style={{ backgroundImage: `url(${banners[currentBannerIndex].url})` }}
         className="bg-center bg-cover w-full h-screen flex items-center duration-1000 group"
+        id="home"
       >
         {/* Left Arrow */}
         <div className="hidden group-hover:block md:hidden absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white-500 opacity-50 cursor-pointer">
