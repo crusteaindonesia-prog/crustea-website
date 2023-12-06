@@ -57,7 +57,7 @@ const ProductCatalog = ({
           {ListProducts.map((product, index) => {
             return (
               <div key={index}>
-                <div className="mt-5 md:mt-0 md:w-96 h-fit md:h-[820px] bg-[#ffff] md:m-4 rounded-3xl drop-shadow-lg flex flex-col">
+                <div className="mt-5 md:mt-0 md:w-80 2xl:w-96 h-fit md:h-[820px] bg-[#ffff] md:m-4 rounded-3xl drop-shadow-lg flex flex-col">
                   <ScrollAnimationWrapper className={undefined}>
                     <motion.div variants={scrollAnimation}>
                       <img
@@ -86,7 +86,7 @@ const ProductCatalog = ({
                   <ScrollAnimationWrapper className="mt-auto mb-3">
                     <motion.div variants={scrollAnimation} className="ml-3">
                       <a
-                        href="https://linktr.ee/crusteaid"
+                        href="https://bit.ly/InterestedtoOrder-Crustea"
                         className="rounded-md cursor-pointer hover:ring-2 hover:ring-[#ACCB37] flex self-end items-center w-fit p-1"
                       >
                         <h3 className="text-[#ACCB37] md:text-2xl">
