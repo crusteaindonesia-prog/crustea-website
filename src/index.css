@@ -8,3 +8,7 @@
     -webkit-font-smoothing: antialiased;
   }
 }
+
+iframe {
+  @apply w-full h-52 md:h-80 lg:h-[420px];
+}
