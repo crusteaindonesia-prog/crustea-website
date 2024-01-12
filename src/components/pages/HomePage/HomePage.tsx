@@ -1,3 +1,4 @@
+import Blogs from "./Blogs";
 import Hero from "./Hero";
 import Mission from "./Mission";
 import Users from "./Users";
@@ -8,6 +9,7 @@ const HomePage: React.FC = () => (
     <Hero />
     <Vision />
     <Mission />
+    <Blogs />
     <Users />
   </div>
 );
