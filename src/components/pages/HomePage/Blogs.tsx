@@ -47,7 +47,7 @@ const Blogs = () => {
                   <ScrollAnimationWrapper className={undefined}>
                     <motion.div variants={scrollAnimation}>
                       <p className="font-normal font-DMSans text-black-600 text-base p-3 md:text-xl">
-                        {product.desc}
+                        {product.desc.slice(0, 270) + "..."}
                       </p>
                     </motion.div>
                   </ScrollAnimationWrapper>
