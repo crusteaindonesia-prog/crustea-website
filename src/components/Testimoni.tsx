@@ -66,6 +66,24 @@ const Testimoni = ({
       testimoni:
         "Saya ingin menggunakan eco aerator karena mampu meningkatkan produktivitas hasil tambak dan kualitas udang.",
     },
+    {
+      name: "Saiful Arif",
+      image: "/images/landing/husni.png",
+      city: "Surabaya",
+      country: "East Java",
+      rating: "4.6",
+      testimoni:
+        "Saya menggunakan panel surya dan merasa sangat terbantu, terutama untuk penggunaan listrik di kolam ikan yang saya miliki..",
+    },
+    {
+      name: "Saiful Arif",
+      image: "/images/landing/husni.png",
+      city: "Surabaya",
+      country: "East Java",
+      rating: "4.6",
+      testimoni:
+        "Saya menggunakan panel surya dan merasa sangat terbantu, terutama untuk penggunaan listrik di kolam ikan yang saya miliki..",
+    },
   ],
 }) => {
   const settings = {

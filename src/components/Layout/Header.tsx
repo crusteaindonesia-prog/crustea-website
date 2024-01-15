@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
@@ -82,15 +83,8 @@ const Header = () => {
               <LogoVPN className="h-8 w-auto" />
             </div>
             <li className="p-4 border-b border-b-gray-500 hover:text-main">
-              <LinkScroll
-                activeClass="active"
-                to="home"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                onSetActive={() => {
-                  setActiveLink("home");
-                }}
+              <Link
+                to="/"
                 className={
                   "cursor-pointer hover:text-main inline-block relative" +
                   (activeLink === "banner"
@@ -98,19 +92,12 @@ const Header = () => {
                     : " text-white-500 hover:text-main a")
                 }
               >
-                Home
-              </LinkScroll>
+                <Link to="/">Home</Link>
+              </Link>
             </li>
             <li className="p-4 border-b border-b-gray-500 hover:text-main">
-              <LinkScroll
-                activeClass="active"
-                to="testimoni"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                onSetActive={() => {
-                  setActiveLink("testimoni");
-                }}
+              <Link
+                to="/Products"
                 className={
                   "cursor-pointer hover:text-main inline-block relative" +
                   (activeLink === "testimoni"
@@ -118,19 +105,12 @@ const Header = () => {
                     : " text-white-500 hover:text-main a")
                 }
               >
-                Testimonial
-              </LinkScroll>
+                Products
+              </Link>
             </li>
             <li className="p-4 border-b border-b-gray-500 hover:text-main">
-              <LinkScroll
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                onSetActive={() => {
-                  setActiveLink("about");
-                }}
+              <Link
+                to="/About"
                 className={
                   "cursor-pointer hover:text-main inline-block relative" +
                   (activeLink === "about"
@@ -138,8 +118,8 @@ const Header = () => {
                     : " text-white-500 hover:text-main a")
                 }
               >
-                About Us
-              </LinkScroll>
+                <Link to="/About">About Us</Link>
+              </Link>
             </li>
             <div className="m-4 border-2 border-main rounded-full w-[123px] hover:bg-main">
               <p className="text-main text-center text-base hover:text-white-300 hover:font-bold py-1">
@@ -155,15 +135,8 @@ const Header = () => {
           </ul>
           <ul className="hidden md:flex w-[456px] flex-row justify-between items-center p-4 ">
             <li>
-              <LinkScroll
-                activeClass="active"
-                to="home"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                onSetActive={() => {
-                  setActiveLink("home");
-                }}
+              <Link
+                to="/"
                 className={
                   "cursor-pointer animation-hover inline-block relative" +
                   (activeLink === "home"
@@ -172,18 +145,11 @@ const Header = () => {
                 }
               >
                 Home
-              </LinkScroll>
+              </Link>
             </li>
             <li>
-              <LinkScroll
-                activeClass="active"
-                to="testimoni"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                onSetActive={() => {
-                  setActiveLink("testimoni");
-                }}
+              <Link
+                to="/Products"
                 className={
                   "cursor-pointer animation-hover inline-block relative" +
                   (activeLink === "testimoni"
@@ -191,19 +157,12 @@ const Header = () => {
                     : " text-black-500 hover:text-green a")
                 }
               >
-                Testimonial
-              </LinkScroll>
+                Products
+              </Link>
             </li>
             <li>
-              <LinkScroll
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                onSetActive={() => {
-                  setActiveLink("about");
-                }}
+              <Link
+                to="/About"
                 className={
                   "cursor-pointer animation-hover inline-block relative" +
                   (activeLink === "about"
@@ -212,7 +171,7 @@ const Header = () => {
                 }
               >
                 About Us
-              </LinkScroll>
+              </Link>
             </li>
             <div className="border-2 border-green rounded-full w-[123px] hover:bg-green">
               <p className="text-green text-center text-base hover:text-white-300 hover:font-bold py-1">
