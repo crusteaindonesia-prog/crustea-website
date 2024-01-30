@@ -80,7 +80,7 @@ const Hero = ({
             <motion.div variants={scrollAnimation}>
               <div className="w-full grid gap-10 md:grid-cols-2 md:items-center">
                 <h1 className="text-white-500 text-5xl md:text-6xl font-bold text-center md:text-left lg:text-[72px] font-Ubuntu">
-                  FISHING <br />
+                  AQUACULTURE <br />
                   TECHNOLOGY <br />
                   COMPANY
                 </h1>
