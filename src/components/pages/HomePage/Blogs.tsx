@@ -31,7 +31,7 @@ const Blogs = () => {
                     <motion.div variants={scrollAnimation}>
                       <img
                         src={product.img}
-                        className="rounded-3xl w-full md:w-full"
+                        className="rounded-3xl w-full md:w-full aspect-square object-cover object-top"
                       ></img>
                     </motion.div>
                   </ScrollAnimationWrapper>
@@ -39,7 +39,7 @@ const Blogs = () => {
                   <ScrollAnimationWrapper className={undefined}>
                     <motion.div variants={scrollAnimation}>
                       <h2 className="text-xl md:text-xl ml-3 mt-3 font-bold text-black-600">
-                        {product.title}
+                        {product.in.title}
                       </h2>
                     </motion.div>
                   </ScrollAnimationWrapper>
@@ -47,7 +47,7 @@ const Blogs = () => {
                   <ScrollAnimationWrapper className={undefined}>
                     <motion.div variants={scrollAnimation}>
                       <p className="font-normal font-DMSans text-black-600 text-base p-3 md:text-xl">
-                        {product.desc.slice(0, 270) + "..."}
+                        {product.in.desc.slice(0, 220) + "..."}
                       </p>
                     </motion.div>
                   </ScrollAnimationWrapper>

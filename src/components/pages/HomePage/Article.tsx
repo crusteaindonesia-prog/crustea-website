@@ -29,17 +29,17 @@ const Article: React.FC = () => {
 
         <div>
           <h2 className="font-DMSans font-medium md:font-bold mt-3 md:mt-14 text-2xl md:text-4xl">
-            {blog.title}
+            {blog.in.title}
           </h2>
 
           <img
             src={blog.poster}
             alt="alternative"
-            className="xl:max-w-3xl mt-3 md:mt-6"
+            className="xl:max-w-3xl mt-3 md:mt-6 max-h-[415px]"
           />
 
           <div
-            dangerouslySetInnerHTML={{ __html: blog.desc }}
+            dangerouslySetInnerHTML={{ __html: blog.in.desc }}
             className="font-normal text-black-600 text-xl md:text-3xl mt-4 md:mt-14"
           ></div>
 
