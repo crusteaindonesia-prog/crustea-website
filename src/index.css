@@ -12,3 +12,23 @@
 iframe {
   @apply w-full h-52 md:h-80 lg:h-[420px];
 }
+
+.slick-slider {
+  @apply mx-5 md:mx-14 lg:ml-36;
+}
+
+.slick-arrow {
+  @apply ml-5 my-2 md:my-4;
+}
+
+.slick-dots li {
+  @apply bg-black-500 hover:scale-125 w-5 h-5 rounded-full mx-2;
+}
+
+.slick-dots li.slick-active {
+  @apply bg-main text-main/0 w-5 h-5 rounded-full mx-2;
+}
+
+.slick-dots li button {
+  @apply text-xs text-black-500/0;
+}
