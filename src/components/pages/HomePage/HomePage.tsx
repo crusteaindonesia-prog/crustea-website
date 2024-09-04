@@ -9,7 +9,7 @@ const HomePage: React.FC = () => (
     <Hero />
     <Vision />
     <Mission />
-    <Blogs />
+    <Blogs isHomePage={true} />
     <Users />
   </div>
 );

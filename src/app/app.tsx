@@ -6,6 +6,7 @@ import Products from "components/pages/Products/Products";
 import About from "components/pages/About/About";
 import Article from "components/pages/HomePage/Article";
 import Blog from "components/pages/HomePage/Blog";
+import Blogs from "components/pages/HomePage/Blogs";
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Route path="/Products" element={<Products />} />
         <Route path="/About" element={<About />} />
         <Route path="/blog/:id" element={<Article />} />
+        <Route path="/blogs" element={<Blogs isHomePage={false} />} />
       </Routes>
       <Footer />
     </BrowserRouter>
