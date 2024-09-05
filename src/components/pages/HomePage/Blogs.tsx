@@ -6,7 +6,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import arrowIcon from "/images/landing/Component 2.png";
 import Blog from "./Blog";
 
-const Blogs = () => {
+const Blogs = ({ isHomePage = false }) => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
@@ -22,8 +22,25 @@ const Blogs = () => {
             </h2>
           </motion.div>
         </ScrollAnimationWrapper>
-        <div className="mt-8 md:mt-20 justify-center mx-auto flex flex-wrap">
-          {Blog.map((product, index) => {
+        {isHomePage && ( // Conditional rendering
+          <ScrollAnimationWrapper className={undefined}>
+            <motion.div
+              variants={scrollAnimation}
+              className="flex justify-center md:justify-end mt-4"
+            >
+              <Link
+                to="/blogs"
+                className="flex justify-center md:justify-end mt-8"
+              >
+                <div className="md:mr-40 rounded-md cursor-pointer hover:ring-2 hover:ring-[#ACCB37] flex self-end items-center w-fit p-1">
+                  <h3 className="text-[#ACCB37] md:text-2xl">Read blogs...</h3>
+                </div>
+              </Link>
+            </motion.div>
+          </ScrollAnimationWrapper>
+        )}
+        <div className="mt-8 md:mt-8 justify-center mx-auto flex flex-wrap">
+          {Blog.slice(0, isHomePage ? 3 : Blog.length).map((product, index) => {
             return (
               <div key={index}>
                 <div className="mt-5 md:mt-0 md:w-80 2xl:w-96 h-fit md:h-[720px] bg-[#ffff] md:m-4 rounded-3xl drop-shadow-lg flex flex-col">
