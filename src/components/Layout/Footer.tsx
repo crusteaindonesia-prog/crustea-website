@@ -30,8 +30,8 @@ const Footer = () => {
                     info@crustea.id
                   </p>
                   <p className="text-white-300 text-lg mt-1">
-                    Bringin Harapan Gg. III No.16 RT 08 RW 01 Kelurahan Beringin
-                    Sambikerep, Kota Surabaya
+                    Jl. Sanggung Tim. No.1, Jatingaleh, 
+                    Kec. Candisari, Kota Semarang, Jawa Tengah 50254
                   </p>
                 </div>
               </section>
