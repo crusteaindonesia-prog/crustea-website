@@ -30,8 +30,7 @@ const Footer = () => {
                     info@crustea.id
                   </p>
                   <p className="text-white-300 text-lg mt-1">
-                    Jl. Sanggung Tim. No.1, Jatingaleh, 
-                    Kec. Candisari, Kota Semarang, Jawa Tengah 50254
+                    Jl. Sanggung Tim. No.1, Jatingaleh, Kec. Candisari, Kota Semarang, Jawa Tengah 50254
                   </p>
                 </div>
               </section>
