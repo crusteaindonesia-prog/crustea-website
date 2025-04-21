@@ -434,6 +434,67 @@ const Blog = [
     },
     tags: ["tambak", "udang", "Sistem", "EBII", "kualitas", "air"],
   },
+  //update content 9 - DUMMY
+  {
+    id: "9",
+    img: "/images/landing/blog/blog9/blog9.png",
+    poster: "/images/landing/blog/blog9/blog.png",
+    en: {
+      title: "Exploring the Fascinating World of Cultivable Shrimp Varieties",
+      desc: `Cultivating shrimp has become a commonly practiced commodity due to several advantages, such as uniform harvest sizes and the ability to be farmed with high stocking densities. Moreover, shrimp is a highly sought-after fishery commodity in the international market. Currently, shrimp farming locations are nearly widespread across various regions in Indonesia.<br></br>
+      The cultivated types of shrimp are diverse as well. In Indonesia, commonly farmed shrimp species are those that serve as key fisheries export commodities. These include vannamei shrimp, tiger shrimp, giant freshwater prawn, and lobster, all of which experience high market demand.<br></br>
+      Next, let's discuss some of the frequently cultivated shrimp species in ponds!<br></br>
+      1. Vannamei Shrimp (Litopenaeus vannamei)<br></br>
+      <img src="/images/landing/blog/blog9/1_vaname.jpg" alt="Vannamei Shrimp" style="display: block; margin: 20px auto; max-width: 100%; height: auto;" />
+      <p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Source: Foppa.com</p> <br>
+      Vannamei shrimp is the most commonly cultivated shrimp species in Indonesia. They exhibit resilience to various water conditions, rapid growth, and a favorable feed conversion ratio. Vannamei shrimp have a body that is white to yellowish-bronze in color, with thin and hard shells made of chitin material.<br></br>
+      2. Tiger Prawn (Penaeus monodon)<br></br>
+      <img src="/images/landing/blog/blog9/2_windu.jpg" alt="Tiger Prawn" style="display: block; margin: 20px auto; max-width: 100%; height: auto;" />
+      <p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Source: Chefcook.fr</p> <br>
+      Giant tiger prawn, known as 'udang windu'  in Indonesia is a large shrimp species extensively cultivated in ponds in Indonesia. While its growth rate is somewhat slower compared to vannamei shrimp, it holds high commercial value. The giant tiger prawn has a body with red and white coloring, and its antennae are brownish-gray.<br></br>
+      3. Crayfish (Macrobrachium rosenbergii)<br></br>
+      <img src="/images/landing/blog/blog9/3_galah.jpg" alt="Crayfish" style="display: block; margin: 20px auto; max-width: 100%; height: auto;" />
+      <p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Source: Alibaba.com</p> <br>
+      Crayfish, also known as 'udang galah' in Indonesia, is frequently cultivated in freshwater ponds in several regions of Indonesia. Crayfish is a type of crustacean with the largest size among freshwater shrimp. A distinctive feature of crayfish is its long, sword-shaped rostrum.<br></br>
+      4. Lar Shrimp (Macrobrachium lar)<br></br>
+      <img src="/images/landing/blog/blog9/4_lar.jpg" alt="Lar Shrimp" style="display: block; margin: 20px auto; max-width: 100%; height: auto;" />
+      <p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Source: Calphotos</p> <br>
+      Lar shrimp can be found in rivers, swamps, and other freshwater bodies in those areas. This species exhibits good tolerance to water condition variations, including a wide salinity range. Its adaptability to various habitats allows it to thrive in different types of water. River shrimp is relatively small in size, typically measuring 12-18 cm in length.<br></br>
+      The success of shrimp farming in Indonesian ponds heavily relies on factors such as water quality, temperature, sustainable management practices, and shrimp health. Sustainable shrimp farming should adhere to principles that avoid practices harmful to the environment or shrimp health.<br></br>
+      To support successful cultivation, Crustea introduces the environmentally friendly Eco Aerator. With the Eco Aerator, electrical operations in the pond are powered by solar energy, resulting in cost savings for operational expenses. <br></br>
+      The more savings, the more profit!<br></br>
+      Join us and consult your pond issues with Crustea! Stay updated on more interesting information on Crustea's Instagram and kindly contact us directly via<br>WhatsApp: +62-821-4077-3592
+      `,
+    },
+    in: {
+      title: "Mengenal Jenis Udang yang Dapat Dibudidaya",
+      desc: `Budidaya udang menjadi komoditas yang sering dibudidayakan, hal ini disebabkan karena udang memiliki beberapa keunggulan seperti ukuran panen yang seragam serta dapat dibudidayakan dengan padat tebar yang tinggi. Selain itu, udang merupakan komoditas perikanan yang sangat digemari di pasar Internasional. Saat ini, lokasi budidaya udang sudah hampir tersebar di seluruh daerah di Indonesia. <br></br>
+      Jenis udang yang dibudidayakan pun beragam. Di Indonesia, jenis udang yang sering dibudidayakan merupakan jenis udang yang menjadi komoditas ekspor perikanan. Jenis udang tersebut seperti udang vaname, udang windu, udang galah hingga lobster, dengan permintaan pasar yang tinggi.<br></br>
+      selanjutnya, yuk bahas tentang beberapa jenis udang yang sering di budidayakan di tambak.<br></br>
+      1. Udang Vaname (Litopenaeus vannamei)<br>
+      <img src="/images/landing/blog/blog9/1_vaname.jpg" alt="Udang Vaname" style="display: block; margin: 20px auto; max-width: 100%; height: auto;" />
+      <p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Source: Foppa.com</p> <br>
+      Udang vaname adalah jenis udang yang paling umum dibudidayakan di Indonesia. Mereka tahan terhadap berbagai kondisi air, tumbuh cepat, dan memiliki tingkat konversi pakan yang baik. Udang vaname memiliki tubuh berwarna putih kekuning - kuningan dengan kulit tipis dan keras yang terbuat dari bahan kitin.<br></br>
+      2. Udang Windu (Penaeus monodon)<br></br>
+      <img src="/images/landing/blog/blog9/2_windu.jpg" alt="Udang Windu" style="display: block; margin: 20px auto; max-width: 100%; height: auto;" />
+      <p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Source: Chefcook.fr</p> <br>
+      Udang windu adalah jenis udang besar yang juga banyak dibudidayakan di tambak di Indonesia. Meskipun pertumbuhannya agak lambat dibandingkan dengan udang vaname, namun memiliki nilai komersial yang tinggi. Udang windu memiliki tubuh berwarna merah dan putih. Antena berwarna coklat keabu-abuan.<br></br>
+      3. Udang Galah (Macrobrachium rosenbergii)<br></br>
+      <img src="/images/landing/blog/blog9/3_galah.jpg" alt="Udang Galah" style="display: block; margin: 20px auto; max-width: 100%; height: auto;" />
+      <p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Source: Alibaba.com</p> <br>
+      Udang galah juga sering dibudidayakan di tambak air tawar di beberapa daerah di Indonesia. Udang galah merupakan salah satu jenis crustacea, yang mempunyai ukuran terbesar dibandingkan dengan udang air tawar lainnya. Ciri khusus udang galah adalah bentuk rostrum yang panjang dan melengkung seperti pedang.<br></br>
+      4. Udang Lar (Macrobrachium lar)<br></br>
+      <img src="/images/landing/blog/blog9/4_lar.jpg" alt="Udang Lar" style="display: block; margin: 20px auto; max-width: 100%; height: auto;" />
+      <p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Source: Calphotos</p> <br>
+      Udang lar dapat ditemui di sungai, rawa dan perairan air tawar lainnya di daerah-daerah tersebut. Spesies ini memiliki toleransi yang baik terhadap variasi kondisi air, termasuk kisaran salinitas yang lebar, dan kemampuannya untuk beradaptasi dengan berbagai habitat membuatnya dapat ditemukan dalam berbagai tipe perairan. Udang lar tergolong udang yang berukuran tidak terlalu besar dengan panjang 12-18 cm.<br></br>
+      Keberhasilan budidaya udang di tambak Indonesia sangat bergantung pada faktor-faktor seperti kualitas air, suhu, keberlanjutan pengelolaan, dan kesehatan udang. Budidaya udang yang baik perlu memperhatikan prinsip-prinsip keberlanjutan dan menghindari praktek-praktek yang dapat merusak lingkungan atau kesehatan udang. <br></br>
+      Untuk menunjang keberhasilan budidaya, Crustea menghadirkan Eco Aerator ramah lingkungan. Dengan Eco Aerator, pengoperasian listrik di tambak dilakukan dengan memanfaatkan energi matahari sehingga dapat menghemat biaya operasional yang dikeluarkan. <br></br>
+      Makin hemat, makin cuan!<br></br>
+      Mari bergabung dan konsultasikan masalah tambak anda dengan Crustea! Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui<br>WhatsApp: +62-821-4077-3592
+      `,
+    },
+    tags: ["budidaya", "udang", "vaname", "manajemen", "windu", "galah", "lar"],
+  },
 ];
 
 export default Blog;
