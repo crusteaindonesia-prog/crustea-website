@@ -1,90 +1,119 @@
 import React from "react";
-import { FaInstagram, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import bg from "../../../public/images/landing/bg_footer.png";
-import arr from "../../../public/images/landing/arr_footer.png";
-import ig from "../../../public/images/landing/ig.png";
-import linkedin from "../../../public/images/landing/linked.png";
-import fb from "../../../public/images/landing/fb.png";
-import mail from "../../../public/images/landing/mail.png";
+import styles from "./footer.module.css";
+import ig from "../../../public/images/landing/icon_footer/instagram.svg";
+import linkedin from "../../../public/images/landing/icon_footer/linkedin.svg";
+import fb from "../../../public/images/landing/icon_footer/facebook.svg";
+import mail from "../../../public/images/landing/icon_footer/gmail.svg";
 
 const Footer = () => {
   return (
-    <>
-      <div
-        className="bg-center bg-cover relative h-screen lg:h-[528px]"
-        style={{ backgroundImage: `url(${bg})` }}
-      >
-        <div className="flex flex-wrap justify-between md:mx-48 h-fit md:h-full">
-          <div className="bg-[#05546A] md:max-w-3xl lg:max-h-[308px] mx-5 mt-14 lg:mt-40 md:pt-10">
-            <div className="flex flex-wrap">
-              <section className="md:max-w-sm mx-10 lg:mr-16 lg:ml-0">
-                <h2 className="text-white-300 mt-10 md:mt-0 font-bold text-2xl md:text-4xl">
-                  GET IN TOUCH
-                </h2>
-                <p className="text-[#CFCDCD] mt -1 md:mt-2">
-                  Let's Upgrade Your Pond with Crustea!
-                </p>
-                <div className="md:pt-7 mt-6 md:mt-7">
-                  <p className="text-white-300 font-bold md:text-xl">
-                    info@crustea.id
-                  </p>
-                  <p className="text-white-300 text-lg mt-1">
-                    Jl. Sanggung Tim. No.1, Jatingaleh, Kec. Candisari, Kota Semarang, Jawa Tengah 50254
-                  </p>
-                </div>
-              </section>
-              <section className="md:order-first ml-10 w-48 my-10 md:my-0 self-end md:ml-12">
-                <a href="https://linktr.ee/crusteaid">
-                  <img
-                    src={arr}
-                    alt="alternative"
-                    className="hover:scale-125"
-                  />
-                </a>
-              </section>
-            </div>
-          </div>
-          <div className=" w-64 md:max-h-[308px] lg:mr-4 mt-20 lg:mt-40 lg:pt-32 justify-center text-center mx-auto">
-            <h3 className="font-bold text-white-300 text-xl md:text-2xl text-center">
-              Contact Us
-            </h3>
-            <div className="flex justify-between mt-4 md:mt-8">
+    <footer className={styles.footer}>
+      {/* Background footer opacity */}
+      <div className={styles.backgroundImage}></div>
+
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12 relative z-10">
+        {/* Logo & Alamat Crustea*/}
+        <div className="flex-1">
+          <a href="/" className="inline-block">
+            <img
+              src="/assets/Logo.svg"
+              alt="Crustea Logo"
+              className="w-36 mb-4 cursor-pointer hover:opacity-80 transition"
+            />
+          </a>
+          <h4 className="font-semibold text-xl mb-2">PT. Crustea Nusantara Teknologi</h4>
+          <p className="text-sm text-[#3E5F78]">
+            Jl. Sanggung Tim. No.1, Jatingaleh, Candisari, Semarang, <br />
+            Jawa Tengah 50254
+          </p>
+        </div>
+
+        {/* Follow Us SOSMED */}
+        <div className="flex-1">
+          <h4 className={`font-semibold text-xl mb-4 ${styles.sectionTitle}`}>Follow Us</h4>
+          <ul className="space-y-4 text-sm text-[#3E5F78]">
+            <li className={styles.socialItem}>
+              <img src={fb} alt="Facebook" className={styles.icon} />
+              <a href="#" className={styles.link}>Facebook</a>
+            </li>
+            <li className={styles.socialItem}>
+              <img src={ig} alt="Instagram" className={styles.icon} />
               <a
-                target="_blank"
-                rel="noreferrer"
                 href="https://www.instagram.com/crustea.id/"
-              >
-                <img src={ig} alt="ig" className="w-12 hover:scale-110" />
-              </a>
-              <a
                 target="_blank"
                 rel="noreferrer"
+                className={styles.link}
+              >
+                Instagram
+              </a>
+            </li>
+            <li className={styles.socialItem}>
+              <img src={linkedin} alt="LinkedIn" className={styles.icon} />
+              <a
                 href="https://www.linkedin.com/company/crusteaindonesia/"
-              >
-                <img src={linkedin} alt="" className="w-12 hover:scale-110" />
-              </a>
-              <a target="_blank" rel="noreferrer" href="">
-                <img src={fb} alt="ig" className="w-12 hover:scale-110" />
-              </a>
-              <a
                 target="_blank"
                 rel="noreferrer"
-                href="mailto:nusakarya.teknologi@gmail.com"
+                className={styles.link}
               >
-                <img src={mail} alt="" className="w-12 hover:scale-110" />
+                LinkedIn
               </a>
-            </div>
-          </div>
+            </li>
+            <li className={styles.socialItem}>
+              <img src={mail} alt="Email" className={`${styles.icon} ${styles.iconGreen}`} />
+              <a
+                href="mailto:nusakarya.teknologi@gmail.com"
+                className={styles.link}
+              >
+                Email
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Customer Care WhatsApp API*/}
+        <div className="flex-1">
+          <h4 className={`font-semibold text-xl mb-4 ${styles.sectionTitle}`}>Customer Care</h4>
+          &ensp;  <a
+            href="http://api.whatsapp.com/send?phone=6282140773592"
+            className={styles.contactButton}
+          >
+            Contact Us
+          </a>
+          <p className="mt-3 text-sm text-[#3E5F78]">&ensp; &ensp; info@crustea.id</p>
         </div>
       </div>
 
-      <div className="bg-green-500 flex justify-center py-4 h-16 items-center">
-        <h2 className="text-semibold text-md text-white">
-          &copy;ECO AERATOR 2023
-        </h2>
+      <br></br>
+      {/* CTA */}
+      <div className="text-center mt-10 relative z-10">
+        <a
+          href="https://linktr.ee/crusteaid"
+          className={styles.ctaButton}
+        >
+          Crustea.id Informasi
+        </a>
       </div>
-    </>
+
+      {/* Wave Animation */}
+      <div className={styles.waveWrapper}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          className="w-full"
+        >
+          <path
+            fill="#A5C559"
+            fillOpacity="1"
+            d="M0,256L48,213.3C96,171,192,85,288,64C384,43,480,171,576,192C672,213,768,107,864,80C960,53,1056,107,1152,160C1248,213,1344,267,1392,293.3L1440,320V0H1392C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0H0V256Z"
+          ></path>
+        </svg>
+      </div>
+
+      {/* Copyright 2025*/}
+      <div className="text-center text-sm text-[#7D97AD] mt-4 z-10 relative">
+        &copy; {new Date().getFullYear()} Eco Aerator Crustea Indonesia
+      </div>
+    </footer>
   );
 };
 

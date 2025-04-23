@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../../../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "../../Layout/ScrollAnimationWrapper";
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import arrowIcon from "/images/landing/Component 2.png";
 import Blog from "./Blog";
 
@@ -10,87 +10,82 @@ const Blogs = ({ isHomePage = false }) => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <>
-      <div className="mx-8 md:mx-32 mt-16 md:mt-20">
-        <ScrollAnimationWrapper className={undefined}>
+    <div className="mx-4 md:mx-16 lg:mx-24 mt-12 md:mt-20">
+      {/* Title */}
+      <ScrollAnimationWrapper>
+        <motion.div
+          variants={scrollAnimation}
+          className="text-center font-Cabin font-semibold text-2xl md:text-4xl"
+        >
+          <h2 className="text-[#ACCB37]">
+            <span className="text-black">Blogs</span>
+          </h2>
+        </motion.div>
+      </ScrollAnimationWrapper>
+
+      {/* Read Blogs Button for Home Page */}
+      {isHomePage && (
+        <ScrollAnimationWrapper>
           <motion.div
             variants={scrollAnimation}
-            className="mx-auto font-bold text-center font-Cabin text-3xl md:text-5xl"
+            className="flex justify-center md:justify-end mt-6"
           >
-            <h2 className="text-[#ACCB37]">
-              <span className="text-black-600">Blogs</span>
-            </h2>
+            <Link to="/blogs">
+              <div className="md:mr-24 rounded-md cursor-pointer hover:ring-2 hover:ring-[#ACCB37] flex items-center w-fit px-6 py-3 transition-all duration-200 hover:bg-[#ACCB37]/10">
+                <h3 className="text-[#ACCB37] text-base md:text-lg font-medium">
+                  Read Blogs...
+                </h3>
+              </div>
+            </Link>
           </motion.div>
         </ScrollAnimationWrapper>
-        {isHomePage && ( // Conditional rendering
-          <ScrollAnimationWrapper className={undefined}>
+      )}
+
+      {/* Blog Cards */}
+      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {Blog.slice(0, isHomePage ? 3 : Blog.length).map((product, index) => (
+          <ScrollAnimationWrapper key={index}>
             <motion.div
               variants={scrollAnimation}
-              className="flex justify-center md:justify-end mt-4"
+              className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col h-full"
             >
-              <Link
-                to="/blogs"
-                className="flex justify-center md:justify-end mt-8"
-              >
-                <div className="md:mr-40 rounded-md cursor-pointer hover:ring-2 hover:ring-[#ACCB37] flex self-end items-center w-fit p-1">
-                  <h3 className="text-[#ACCB37] md:text-2xl">Read blogs...</h3>
-                </div>
-              </Link>
-            </motion.div>
-          </ScrollAnimationWrapper>
-        )}
-        <div className="mt-8 md:mt-8 justify-center mx-auto flex flex-wrap">
-          {Blog.slice(0, isHomePage ? 3 : Blog.length).map((product, index) => {
-            return (
-              <div key={index}>
-                <div className="mt-5 md:mt-0 md:w-80 2xl:w-96 h-fit md:h-[720px] bg-[#ffff] md:m-4 rounded-3xl drop-shadow-lg flex flex-col">
-                  <ScrollAnimationWrapper className={undefined}>
-                    <motion.div variants={scrollAnimation}>
+              {/* Blog Image */}
+              <img
+                src={product.img}
+                alt={product.in.title}
+                className="rounded-t-2xl w-full h-64 object-cover object-center"
+              />
+              <div className="p-6 flex flex-col flex-grow">
+                {/* Blog Title */}
+                <h2 className="text-lg md:text-xl font-semibold text-black mb-3">
+                  {product.in.title}
+                </h2>
+                {/* Blog Description */}
+                <p className="text-sm md:text-base text-gray-700 font-DMSans flex-grow mb-4">
+                  {product.in.desc.slice(0, 180)}...
+                </p>
+                {/* Read More Link */}
+                <div className="mt-auto">
+                  <Link to={`/blog/${product.id}`}>
+                    <div className="flex items-center text-[#ACCB37] hover:text-[#91b12e] transition-colors">
+                      <span className="text-sm md:text-base font-medium">
+                        Read more...
+                      </span>
                       <img
-                        src={product.img}
-                        className="rounded-3xl w-full md:w-full aspect-square object-cover object-top"
-                      ></img>
-                    </motion.div>
-                  </ScrollAnimationWrapper>
-
-                  <ScrollAnimationWrapper className={undefined}>
-                    <motion.div variants={scrollAnimation}>
-                      <h2 className="text-xl md:text-xl ml-3 mt-3 font-bold text-black-600">
-                        {product.in.title}
-                      </h2>
-                    </motion.div>
-                  </ScrollAnimationWrapper>
-
-                  <ScrollAnimationWrapper className={undefined}>
-                    <motion.div variants={scrollAnimation}>
-                      <p className="font-normal font-DMSans text-black-600 text-base p-3 md:text-xl">
-                        {product.in.desc.slice(0, 220) + "..."}
-                      </p>
-                    </motion.div>
-                  </ScrollAnimationWrapper>
-
-                  <ScrollAnimationWrapper className="mt-auto mb-3">
-                    <motion.div variants={scrollAnimation} className="ml-3">
-                      <Link to={`/blog/${product.id}`}>
-                        <div className="rounded-md cursor-pointer hover:ring-2 hover:ring-[#ACCB37] flex self-end items-center w-fit p-1">
-                          <h3 className="text-[#ACCB37] md:text-2xl">
-                            Read more ...
-                          </h3>
-                          <img
-                            src={arrowIcon}
-                            className="ml-2 hover:hue-rotate-30"
-                          ></img>
-                        </div>
-                      </Link>
-                    </motion.div>
-                  </ScrollAnimationWrapper>
+                        src={arrowIcon}
+                        className="ml-2 w-4 h-4 md:w-5 md:h-5"
+                        alt="Arrow Icon"
+                      />
+                    </div>
+                  </Link>
                 </div>
               </div>
-            );
-          })}
-        </div>
+            </motion.div>
+          </ScrollAnimationWrapper>
+        ))}
       </div>
-    </>
+      <br />
+    </div>
   );
 };
 
