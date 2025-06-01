@@ -1,11 +1,10 @@
-
-
 const Blog = [
   //update content 1
   {
     id: "1",
     img: "/images/landing/blog/blog1/blog1.png",
     poster: "/images/landing/blog/blog1/blog1.png",
+    category: "Tambak Udang",
     en: {
       title: "What is a Shrimp Pond ? ",
       desc: `The term "Tambak" is used in aquaculture. Tambak is defined as a specific area containing water used as a medium for aquaculture. Typically, tambaks are located in coastal areas. Tambak is also defined as an artificial pond situated in tidal areas, functioning as an artificial habitat for brackish water animals. Most of the water in the tambak comes from prepared freshwater, which is then mixed with seawater to become brackish water.<br></br>
@@ -35,6 +34,7 @@ const Blog = [
     id: "2",
     img: "/images/landing/blog/blog2/blog2.png",
     poster: "/images/landing/blog/blog2/blog2.png",
+    category: "Tambak Udang",
     en: {
       title: "Shrimp Farming: Exploring Types of Shrimp Ponds",
       desc: `The diversity of shrimp ponds is influenced by several factors, such as geographical location, cultivation objectives, and available technology. The selection of the right type of pond can help improve production efficiency and minimize environmental impact. There are several common types of shrimp ponds used in shrimp cultivation. Some of them include: <br></br>
@@ -114,6 +114,7 @@ const Blog = [
     id: "3",
     img: "/images/landing/blog/blog3/blog3.png",
     poster: "/images/landing/blog/blog3/blog3.png",
+    category: "Tambak Udang",
     en: {
       title: "Exploring the Fascinating World of Cultivable Shrimp Varieties",
       desc: `Cultivating shrimp has become a commonly practiced commodity due to several advantages, such as uniform harvest sizes and the ability to be farmed with high stocking densities. Moreover, shrimp is a highly sought-after fishery commodity in the international market. Currently, shrimp farming locations are nearly widespread across various regions in Indonesia.<br></br>
@@ -175,6 +176,7 @@ const Blog = [
     id: "4",
     img: "/images/landing/blog/blog4/blog4.jpg",
     poster: "/images/landing/blog/blog4/blog4.jpg",
+    category: "Tambak Udang",
     en: {
       title: "What Needs to Be Known to Start a Shrimp Farming Business?",
       desc: `The shrimp farming business has significant potential due to the continually increasing global market demand for shrimp products. The demand is on the rise, especially in countries with high seafood consumption. Countries like Singapore, the United States, Japan, Australia, and China are major export destinations for marine products such as shrimp. The favorable prices of shrimp make shrimp farming an attractive venture for pond farmers. Additionally, the use of modern technology in shrimp farming facilitates pond farmers in enhancing production efficiency.<br></br>
@@ -236,6 +238,7 @@ const Blog = [
     id: "5",
     img: "/images/landing/blog/blog5/blog5.jpg",
     poster: "/images/landing/blog/blog5/blog5.jpg",
+    category: "Tambak Udang",
     en: {
       title: "Common Issues that Often Occur in Shrimp Farming Businesses",
       desc: `While shrimp farming holds significant potential, it also faces a number of problems and challenges. Several key issues in shrimp farming involve technical, economic, social, and environmental aspects. Technical aspects include the selection of shrimp pond locations. The location of the pond will affect the success risk of shrimp farming, especially regarding wave conditions and the frequency of tidal changes in seawater. Choose a location around the coast with low fluctuating water conditions, tends to be stable, and has mangrove land. The location of the shrimp pond also influences infrastructure, where transportation and supporting shrimp farming equipment should not be difficult to access the location.<br></br>
@@ -285,6 +288,7 @@ const Blog = [
     id: "6",
     img: "/images/landing/blog/blog6/blog6.jpg",
     poster: "/images/landing/blog/blog6/blog6.jpg",
+    category: "Tambak Udang",
     en: {
       title:
         "Pay Attention to These Things Before Choosing a Location to Build a Shrimp Pond",
@@ -336,6 +340,7 @@ const Blog = [
     id: "7",
     img: "/images/landing/blog/blog7/blog7.jpg",
     poster: "/images/landing/blog/blog7/blog7.jpg",
+    category: "Tambak Udang",
     en: {
       title: "Take a Peek at the Condition of Shrimp Ponds in Kebumen",
       desc: `Holding a central role in the aquaculture sector in Indonesia, the largest shrimp farms in Indonesia are interesting to observe. One of them is the region-based shrimp cultivation pond in Kebumen Regency, Central Java. This is the first and largest modern shrimp farm in Indonesia.<br></br>
@@ -373,6 +378,7 @@ const Blog = [
     id: "8",
     img: "/images/landing/blog/blog8/blog8.jpg",
     poster: "/images/landing/blog/blog8/blog8.jpg",
+    category: "Tambak Udang",
     en: {
       title: "The Importance of Monitoring Water Quality in Shrimp Ponds",
       desc: `water quality in shrimp ponds plays a crucial role in the success of shrimp cultivation. Good water quality in shrimp ponds is essential to support the growth and health of shrimp, as well as to maintain the sustainability of pond operations. Monitoring water quality parameters needs to be done periodically to determine the values of water quality. Here are some aspects of water quality management that need to be considered in shrimp ponds:<br></br>
@@ -445,6 +451,7 @@ const Blog = [
   id: "9",
   img: "/images/landing/blog/blog9/blog9.jpg",
   poster: "/images/landing/blog/blog9/blog9.jpg",
+  category: "Tambak Udang",
   en: {
     title: "Understanding Shrimp Diseases in Aquaculture: Tips and How to Prevent Infected Shrimp",
     desc: `
@@ -553,6 +560,7 @@ Dengan memantau pH, suhu, dan oksigen terlarut secara real-time, EBII System mem
   id: "10",
   img: "/images/landing/blog/blog10/blog10.png",
   poster: "/images/landing/blog/blog10/blog10.png",
+  category: "Smart Teknologi",
   en: {
     title: "Modern Technology for More Efficient Fish Farming",
     desc: `The need for high-quality and sustainable fishery products is driving the aquaculture industry to constantly innovate. The application of modern technologies that support environmental health and production efficiency is key to successful fish farming.<br><br>
@@ -609,6 +617,7 @@ Dengan memantau pH, suhu, dan oksigen terlarut secara real-time, EBII System mem
   id: "11",
   img: "/images/landing/blog/blog11/blog11.png",
   poster: "/images/landing/blog/blog11/blog11.png",
+  category: "Renewable Energi",
   en: {
     title: "Smart Solutions for Sustainable Shrimp Farming",
     desc: `If you want a shrimp pond that produces a lot of shrimp while being environmentally friendly, modern technology can be the smart solution. Shrimp farming requires additional feed, care, and stable water conditions. One particularly beneficial tool is the <b>Eco Aerator</b>, which keeps oxygen levels in the water ideal, ensuring healthy shrimp, faster growth, and less stress. Additionally, the <b>Eco Aerator</b> is designed to save energy. It can run on solar panels, saving electricity costs and supporting renewable energy.<br><br>
@@ -665,6 +674,7 @@ Dengan memantau pH, suhu, dan oksigen terlarut secara real-time, EBII System mem
   id: "12",
   img: "/images/landing/blog/blog12/blog12.png",
   poster: "/images/landing/blog/blog12/blog12.png",
+  category: "Tambak Udang",
   en: {
     title: "Complete Guide to Shrimp Farming: From Seed Selection to Optimal Harvesting",
     desc: `Shrimp farming is one of the rapidly growing sectors in aquaculture due to the high market demand. To achieve optimal harvests, proper management is essential at every stage, from seed selection to harvesting. Here's a complete guide to help you get started with shrimp farming.<br><br>
@@ -755,6 +765,7 @@ Dengan memantau pH, suhu, dan oksigen terlarut secara real-time, EBII System mem
   id: "13",
   img: "/images/landing/blog/blog13/blog13.jpeg",
   poster: "/images/landing/blog/blog13/blog13.jpeg",
+  category: "Tambak Udang",
   en: {
     "title": "Profitable Farming with the Biofloc System",
     "desc": `Aquaculture in Indonesia focuses heavily on shrimp farming. With rising market demand, farmers now require more productive and eco-friendly methods to increase output. Using the biofloc system, shrimp farmers can significantly enhance harvest yields with high efficiency. Now, with the help of Crustea technologies such as <b>Eco Aerator, EBII System, and Smart Energy</b>, shrimp farming can be more energy-efficient, results can be accurately measured, and data can be accessed in real time via smartphone.<br><br>
@@ -840,6 +851,7 @@ Lalu, berikut cara Budidaya Udang dengan Sistem Bioflok:<br><br>
   id: "14",
   img: "/images/landing/blog/blog14/blog14.jpg",
   poster: "/images/landing/blog/blog14/blog14.jpg",
+  category: "Tambak Udang",
   en: {
     "title": "Fish Farming: The Key to Success in Aquaculture",
     "desc": `Fish farming is one of the most important sectors in aquaculture. It not only provides a vital source of protein for communities but also contributes to both local and national economies. With increasing demand for fish, efficient and sustainable farming practices are now more essential than ever.<br><br>
@@ -915,6 +927,7 @@ Keuntungan Menggunakan EBII System <br><br>
   id: "15",
   img: "/images/landing/blog/blog15/blog15.jpeg",
   poster: "/images/landing/blog/blog15/blog15.jpeg",
+  category: "Tambak Udang",
   en: {
     "title": "Aquaculture: Opportunities, Innovations, and Challenges in the Modern Era",
     "desc": `This article on aquaculture in Indonesia highlights several key aspects of the field, including various farmed species, technological innovations, economic opportunities, and the challenges faced.<br><br>
@@ -960,6 +973,7 @@ Program perikanan budidaya desa telah terbukti efektif dalam meningkatkan pendap
   id: "16",
   img: "/images/landing/blog/blog16/blog16.jpg",
   poster: "/images/landing/blog/blog16/blog16.jpg",
+  category: "Tambak Udang",
   en: {
     "title": "Tips and Tricks for Successful Aquaculture",
     "desc": `Managing aquaculture requires the right strategy to achieve optimal results. Here are some useful tips and tricks to help you succeed in fish farming.<br><br>
@@ -1133,6 +1147,7 @@ Konsultasikan rencana pembangunan tambak udang kamu dengan Crustea! Ikuti terus 
   id: "17",
   img: "/images/landing/blog/blog17/blog17.png",
   poster: "/images/landing/blog/blog17/blog17.png",
+  category: "Tambak Udang",
   en: {
     "title": "Shrimp Life Cycle from Larvae to Harvest",
     "desc": `The life cycle of shrimp, particularly vannamei shrimp (Litopenaeus vannamei), consists of several stages starting from spawning to harvest readiness. Each stage has its own unique and fascinating characteristics. The stages are as follows:
@@ -1304,6 +1319,7 @@ Investasi pada teknologi yang tepat bukan hanya mempermudah kerja Anda, tetapi j
   id: "18",
   img: "/images/landing/blog/blog18/blog18.png",
   poster: "/images/landing/blog/blog18/blog18.png",
+  category: "Tambak Udang",
   en: {
     "title": "Aquaculture: Opportunities, Innovations, and Challenges in the Modern Era",
     "desc": `This article on aquaculture in Indonesia highlights several key aspects of the field, including various farmed species, technological innovations, economic opportunities, and the challenges faced.<br><br>
@@ -1352,7 +1368,2669 @@ Produk utama Crustea adalah Eco Aerator, sebuah aerator (alat pengaduk air) gene
     `
   },
   tags: ["BudidayaUdang", "Teknologi", "Crustea"]
-}
+},
+// update content 19
+{
+  id: "19",
+  img: "/images/landing/blog/blog19/blog19.jpg",
+  poster: "/images/landing/blog/blog19/blog19.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Tips for Choosing Fresh Shrimp: Ensuring the Deliciousness of Your Dish",
+    desc: `Shrimp is one of the most popular types of seafood and often becomes the base of many delicious dishes. However, the freshness of shrimp can significantly affect the taste and texture of the dish. Ensuring the quality of shrimp properly is important. Non-fresh shrimp can ruin the taste and even cause poisoning.<br><br>
+
+Fresh shrimp is characterized by a distinctive taste, firm texture, and a fresh aroma. In this article, we will share some practical tips to help you choose fresh shrimp to ensure your seafood dish is always delicious.<br><br>
+
+<b>Observe the Eyes and Head</b><br>
+Clear and bright eyes are a main sign that the shrimp is still fresh. Choose shrimp with intact and undamaged heads. If possible, choose shrimp with the head still attached, as this indicates freshness.<br><br>
+
+<b>Bright and Consistent Skin Color</b><br>
+The skin of the shrimp should be bright and consistent. Avoid those that look pale or have suspicious spots, as they may be signs the shrimp is not fresh.<br><br>
+
+<b>Characteristic Smell</b><br>
+Fresh shrimp should not have a fishy or unpleasant smell. Make sure the aroma is clean and fresh. Avoid those that smell like sulfur or other suspicious odors. Fresh shrimp usually has a distinctive fresh sea aroma.<br><br>
+
+<b>Firm Skin Texture</b><br>
+Touch the shrimp's skin to ensure it feels firm and strong. Avoid shrimp with soft or mushy skin, as it could be a sign the shrimp has been dead for a while.<br><br>
+
+<b>Good Body Shape</b><br>
+Choose shrimp with a good body shape that does not look overly curved, as it may be a sign the shrimp has been dead for a long time.<br><br>
+
+<b>Storage Method</b><br>
+Ensure shrimp is stored at low temperatures and in clean and hygienic conditions. Good quality shrimp is stored refrigerated or in another cold storage system, in a closed container to prevent contamination and retain moisture.<br><br>
+
+By prioritizing quality shrimp, you are not only serving delicious dishes but also maintaining food health and safety. Choosing shrimp quality also reflects your concern for the ecological impact of food production. Choosing shrimp from sustainable fishing practices can help minimize carbon footprint and support marine resource preservation efforts.<br><br>
+
+<b>Source:</b> bisnisukm.com, mediatani.co, chelota.com, neonnettle.com, shrimpladyseafood.com, barfoco.com, 10000recipe.com<br><br>
+Stay tuned for more interesting information on Crustea's IG and visit our website at crustea.id.
+    `
+  },
+  in: {
+    title: "Tips Memilih Udang Segar: Memastikan Kelezatan Hidangan Anda",
+    desc: `Udang adalah salah satu jenis seafood yang sangat populer dan sering menjadi bahan dasar masakan lezat. Namun, kualitas udang yang segar dapat mempengaruhi rasa dan tekstur hidangan. Memastikan kualitas udang dengan baik menjadi hal yang penting untuk dilakukan. Udang yang tidak segar dapat merusak rasa hidangan dan bahkan dapat menyebabkan keracunan.<br><br>
+
+Ciri-ciri udang yang segar meliputi cita rasa yang khas, tekstur yang kenyal, dan aroma yang masih segar. Dalam artikel ini, kami akan membagikan beberapa tips praktis yang dapat membantu Anda dalam memilih udang yang segar untuk memastikan setiap sajian seafood Anda menjadi lezat.<br><br>
+
+<b>1. Perhatikan Mata dan Kepala Udang</b><br>
+<img src="/images/landing/blog/blog19/1_19.jpg" alt="Mata Kepala Udang" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Sumber: mediatani.co
+</p><br>
+Mata yang jernih dan cemerlang adalah tanda utama bahwa udang masih segar. Pilih udang dengan kepala yang utuh dan tidak rusak. Jika mungkin, pilih udang dengan kepala yang masih terpasang, karena ini dapat menunjukkan kesegaran.<br><br>
+
+<b>2. Warna Kulit yang Cerah dan Konsisten</b><br>
+<img src="/images/landing/blog/blog19/2_19.jpg" alt="Warna Kulit Cerah Udang" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Sumber: chelota.com
+</p><br>
+Warna kulit udang seharusnya cerah dan konsisten. Hindari yang terlihat pudar atau memiliki bercak-bintik yang mencurigakan, karena itu bisa menjadi tanda udang yang tidak segar.<br><br>
+
+<b>3. Bau yang Khas</b><br>
+<img src="/images/landing/blog/blog19/3_19.png" alt="Bau yang Khas Udang" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Sumber: neonnettle.com
+</p><br>
+Udang yang segar seharusnya tidak memiliki bau amis atau tidak sedap. Pastikan aroma udang bersih dan segar, dan hindari yang memiliki bau seperti belerang atau aroma lain yang mencurigakan. Udang yang segar biasanya memiliki aroma laut yang segar dan khas. Bau ini bisa memberi petunjuk tentang kesegaran produk.<br><br>
+
+<b>4. Tekstur Kulit yang Kenyal</b><br>
+<img src="/images/landing/blog/blog19/4_19.jpg" alt="Tekstur Kenyal Udang" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Sumber: shrimpladyseafood.com
+</p><br>
+Sentuh kulit udang untuk memastikan bahwa teksturnya kenyal dan kuat. Hindari yang memiliki kulit yang terasa lembek atau melempem, karena itu bisa menjadi tanda udang yang sudah lama mati.<br><br>
+
+<b>5. Bentuk Tubuh yang Baik</b><br>
+<img src="/images/landing/blog/blog19/5_19.jpg" alt="Bentuk Tubuh Udang" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Sumber: barfoco.com
+</p><br>
+Pilih udang yang memiliki bentuk tubuh yang baik dan tidak terlihat melengkung atau melengkung ke arah tertentu, karena itu bisa menjadi tanda udang yang sudah lama mati.<br><br>
+
+<b>6. Cara Penyimpanan</b><br>
+<img src="/images/landing/blog/blog19/6_19.jpg" alt="Cara Penyimpanan Udang" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Sumber: 10000recipe.com
+</p><br>
+Pastikan udang disimpan pada suhu yang rendah dan terjaga kebersihan serta kehigienisannya. Udang dengan kualitas baik adalah udang yang didinginkan dalam lemari es atau tempat penyimpanan dingin lainnya. Udang disimpan dalam wadah tertutup untuk mencegah kontaminasi dan menjaga kelembaban.<br><br>
+
+Dengan mengutamakan kualitas udang, Anda tidak hanya menyajikan hidangan lezat, tetapi juga menjaga kesehatan dan keselamatan makanan yang Anda konsumsi. Memilih kualitas udang juga mencerminkan kepedulian Anda terhadap dampak ekologis dari produksi pangan. Pemilihan udang yang berasal dari praktik perikanan yang berkelanjutan dapat membantu meminimalkan jejak karbon dan mendukung upaya pelestarian sumber daya laut.<br><br>
+
+<b>Sumber:</b> bisnisukm.com, mediatani.co, chelota.com, neonnettle.com, shrimpladyseafood.com, barfoco.com, 10000recipe.com<br><br>
+Itu dia informasi mengenai tips memilih udang segar. Ikuti terus informasi menarik lainnya di IG Crustea dan kunjungi situs web kami di crustea.id.
+    `
+  },
+  tags: ["TipsUdang", "Seafood", "Crustea"]
+},
+
+// update content 20
+{
+  id: "20",
+  img: "/images/landing/blog/blog20/blog20.jpg",
+  poster: "/images/landing/blog/blog20/blog20.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Must Know! Diseases That Attack Shrimp",
+    desc: `
+Did you know? The main trigger for the emergence of diseases starts with stress in shrimp caused by declining water quality. Poor water quality allows bacteria and viruses to infect shrimp in aquaculture ponds.<br><br>
+
+<b>White Spot Syndrome Virus (WSSV)</b><br>
+Source: mongabay.co.id<br>
+White Spot Syndrome Virus (WSSV) is a virus from the genus Whispovirus, which attacks shrimp during the egg stage and also when they are adults. Clinical symptoms include the appearance of white circular spots ranging from 0.5–2 mm on the carapace. Infected shrimp exhibit behavioral changes, such as reduced swimming activity, loss of appetite, and a tendency to float near the water surface.<br><br>
+
+<b>Yellow Head Disease (YHD)</b><br>
+Source: panfishnation.com<br>
+Yellow Head Disease (YHD) is caused by Baculovirus. Infected shrimp show yellowing of the hepatopancreas and cephalothorax, along with swelling. Symptoms include reddish tail, bright yellow head, and pale or brownish gills. Signs usually appear 2–4 days after infection and lead to death within 3–5 days.<br><br>
+
+<b>Acute Hepatopancreatic Necrosis Disease (AHPND)</b><br>
+Source: link.springer.com<br>
+AHPND is caused by the bacterium Vibrio parahaemolyticus (VPAHPND), attacking the digestive organs (hepatopancreas, intestine, and stomach). Symptoms include pale and shrunken hepatopancreas, black spots, soft shell, and an empty digestive tract. Infected shrimp become weak and sink to the bottom.<br><br>
+
+<b>Infectious Hypodermal and Hematopoietic Necrosis Virus (IHHNV)</b><br>
+Source: engormix.com<br>
+This Parvoviridae family virus causes runt-deformity syndrome (RDS), resulting in unstable shrimp growth, carapace malformation, and deformities in areas such as the rostrum, antenna, thorax, and abdomen.<br><br>
+
+<b>Infectious Myonecrosis Virus (IMNV)</b><br>
+Source: globalseafood.org<br>
+A virus from the Totiviridae family that damages striated muscle tissue. Symptoms include pale shrimp, redness in the lower segments to the tail, muscle cramps, and cloudy white clumps. In severe cases, muscle tissues die and turn red.<br><br>
+
+<b>Preventing Shrimp Diseases:</b><br>
+- Clean pond and sediment regularly<br>
+- Use effective filtration<br>
+- Choose healthy seed from trusted sources<br>
+- Isolate new seeds<br>
+- Regular health checks<br>
+- Control stocking density<br>
+- Provide high-quality feed<br>
+- Quarantine new shrimp<br>
+- Apply biosecurity (foot/hand wash stations)<br>
+- Use predator protection<br>
+- Maintain optimal water parameters<br><br>
+
+<b>Check Water Quality with EBII Monitoring and Controlling System</b><br>
+This tool measures pH, temperature, salinity, and dissolved oxygen in real time. The smart Crustea system saves electricity by reducing aerator use.<br><br>
+
+Don't miss the opportunity to improve your pond's productivity. Use EBII now for efficient and energy-saving control. Consult us via IG Crustea or WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Wajib Tahu! Penyakit yang Menyerang Udang",
+    desc: `
+Tahu gak sih? jika pemicu utama munculnya penyakit dimulai dengan terjadinya stress pada udang yang disebabkan turunnya kualitas perairan. Kualitas air yang buruk memberikan kesempatan pada bakteri dan virus untuk menginfeksi udang dalam tambak budidaya.<br><br>
+Pemicu utama munculnya penyakit dimulai dengan terjadinya stress pada udang. Penurunan kualitas air menjadi salah satu penyebab stress pada udang dan menjadikannya rentan terkena penyakit. Tidak hanya itu, kualitas air yang buruk juga memberikan kesempatan pada bakteri dan virus untuk menginfeksi udang dalam tambak budidaya.<br><br>
+Wah apa saja ya penyakit yang menyerang udang. Yuk disimak!<br><br>
+
+<b>1. <i>White Spot Syndrome Virus</i> (WSSV)</b><br>
+<img src="/images/landing/blog/blog20/blog20.jpg" alt="WSSV" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Sumber: mongabay.co.id
+</p><br>
+White Spot Syndrome Virus (WSSV) merupakan virus dari genus Whispovirus, yang menyerang udang saat telur maupun ketika udang dewasa. Gejala klinis pada udang yang terinfeksi WSSV adalah munculnya bintik putih berbentuk lingkaran yang berukuran antara 0,5–2 mm di karapas. Udang yang terinfeksi WSSV akan mengalami perubahan tingkah laku, yaitu menurunnya aktivitas berenang, hilangnya nafsu makan serta beberapa hari kemudian udang tampak lemas dan berenang mendekat ke permukaan air.<br><br>
+
+<b>2. <i>Yellow Head Disease</i> (YHD)</b><br>
+<img src="/images/landing/blog/blog20/1_20.PNG" alt="YHD" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Sumber: panfishnation.com
+</p><br>
+Yellow Head Disease (YHD) adalah penyakit yang disebabkan oleh Baculovirus. Udang yang terinfeksi virus ini menyebabkan hepatopankreas berubah warna menjadi kekuningan dan cephalothorax berwarna kekuningan dan membengkak. Gejala klinis yang disebabkan YHD adalah ekor udang tampak kemerah-merahan disertai warna kuning menyala pada kepala udang, serta insang udang yang berwarna pucat atau kecoklatan. Tanda-tanda klinis muncul setelah 2–4 hari infeksi serta butuh waktu 3–5 hari mencapai kematian.<br><br>
+
+<b>3. <i>Acute Hepatopancreatic Necrosis Disease</i> (AHPND)</b><br>
+<img src="/images/landing/blog/blog20/2_20.PNG" alt="AHPND" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Sumber: link.springer.com
+</p><br>
+AHPND adalah penyakit yang disebabkan oleh bakteri Vibrio parahaemolyticus (VPAHPND). Penyakit ini menyerang organ pencernaan yaitu hepatopankreas, usus dan lambung. Gejala klinis adalah hepatopankreas berwarna pucat dan mengecil, terdapat bintik hitam, kulit menjadi lunak serta kosongnya saluran pencernaan. Udang yang terkena penyakit ini menjadi lemas dan tenggelam di dasar kolam.<br><br>
+
+<b>4. <i>Infectious Hypodermal dan Hematopoietic Necrosis Virus</i> (IHHNV)</b><br>
+<img src="/images/landing/blog/blog20/3_20.jpg" alt="IHHNV" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Sumber: engormix.com
+</p><br>
+IHHNV merupakan virus dari famili Parvoviridae. Gejala klinisnya adalah runt-deformity syndrome (RDS) atau tidak stabilnya pertumbuhan dan berat udang serta terhambatnya pembentukan karapas. Udang akan menjadi kerdil. Virus ini juga menyebakan cacat kutikula pada rostrum, antena, dada, dan abdomen.<br><br>
+
+<b>5. <i>Infectious Myonecrosis Virus</i> (IMNV)</b><br>
+<img src="/images/landing/blog/blog20/4_20.jpg" alt="IMNV" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Sumber: globalseafood.org
+</p><br>
+Virus dari famili Totiviridae. Menyerang dan merusak jaringan otot lurik. Gejala: udang terlihat pucat, merah di ruas bawah, kram otot, dan gumpalan awan putih. Jika parah, jaringan otot mati dan berwarna merah.<br><br>
+
+<b>Mencegah penyakit udang:</b><br><br>
+Mencegah penyakit udang dalam budidaya perlu dilakukan dengan hati-hati untuk menjaga kesehatan dan produktivitas udang. Berikut adalah beberapa langkah yang dapat diambil untuk mencegah penyakit udang:
+<br><br>
+<b>1. Kebersihan kolam</b><br>
+Pastikan kolam budidaya udang tetap bersih dari kotoran dan sisa pakan. Bersihkan lumpur secara teratur dan jaga kualitas air dengan monitoring yang rutin.
+<br><br>
+<b>2. Filtrasi efektif</b><br><br>
+Gunakan sistem filtrasi yang efektif untuk menjaga kualitas air dan menghilangkan partikel-partikel yang dapat menjadi tempat hidup bakteri dan virus.
+<br><br>
+<b>3. Benih sehat</b><br><br>
+Pilih benih udang yang sehat dan berasal dari sumber yang terpercaya. Benih yang sehat memiliki kemungkinan lebih kecil untuk membawa penyakit ke dalam kolam budidaya.
+<br><br>
+<b>4. Isolasi benih baru</b><br><br>
+Isolasi benih baru sebelum diperkenalkan ke dalam kolam. Ini membantu mencegah penularan penyakit dari benih baru ke udang yang sudah ada.
+<br><br>
+<b>5. Pemeriksaan rutin</b><br><br>
+Lakukan pemeriksaan rutin terhadap kesehatan udang. Perhatikan perubahan perilaku, warna, atau tanda-tanda penyakit lainnya. Pemantauan rutin dapat membantu mendeteksi penyakit lebih awal.
+<br><br>
+<b>6. Kontrol kepadatan populasi</b><br><br>
+Hindari kepadatan populasi udang yang terlalu tinggi dalam kolam. Populasi yang padat dapat meningkatkan risiko penyebaran penyakit. Sesuaikan jumlah udang dengan ukuran kolam dan kapasitas sistem.
+<br><br>
+<b>7. Pakan berkualitas</b><br><br>
+Pastikan pakan yang diberikan berkualitas dan tidak terkontaminasi. Pakan yang baik membantu meningkatkan daya tahan tubuh udang terhadap penyakit.
+<br><br>
+<b>8. Karantina udang baru</b><br><br>
+Tempatkan udang baru dalam periode karantina sebelum memasukkannya ke kolam utama. Ini memberikan kesempatan untuk memeriksa dan memastikan bahwa udang tersebut bebas dari penyakit.
+<br><br>
+<b>9. Biosekuriti</b><br><br>
+Terapkan tindakan keamanan biosekuriti, seperti menyediakan tempat mencuci kaki dan tangan sebelum memasuki area budidaya, untuk mencegah penularan penyakit oleh manusia atau peralatan.
+<br><br>
+<b>10. Kontrol predator</b><br><br>
+Lindungi kolam dari predator yang dapat membawa penyakit atau merusak udang. Ini melibatkan tindakan pengamanan seperti pemasangan jaring atau penghalang lainnya.
+<br><br>
+<b>11. Sistem pengelolaan air yang baik</b><br><br>
+Pertahankan parameter air yang optimal, seperti suhu dan salinitas, sesuai dengan jenis udang yang dibudidayakan. Parameter air yang baik dapat membantu udang tumbuh dengan baik dan mengurangi risiko penyakit.
+<br><br>
+<b>Cek Kualitas Air dengan EBII</b><br>
+EBII Monitoring dan Controlling System merupakan alat sensor yang dapat mengontrol pH, temperatur, salinitas, dan kadar oksigen terlarut (DO level) pada tambak. Alat ini dapat membantu petani tambak untuk mengontrol kondisi tambak secara real-time.<br><br>
+Tidak hanya monitor kualitas air tambak secara real-time tapi juga dapat mengontrol air tambak udang Anda dengan sistem cerdas Crustea, dimana aerator tidak perlu dioperasikan selama 24 jam, sehingga dapat menghemat pengoperasian listrik. <br><br>
+Jangan lewatkan peluang untuk meningkatkan produktivitas tambak Anda! Segera gunakan EBII Monitoring dan Controlling System untuk kontrol yang lebih efisien dan hemat energi. Dapatkan keunggulan teknologi untuk pertumbuhan optimal udang Anda. <br><br>
+
+Jadi, tunggu apalagi? Konsultasikan permasalahan budidaya dengan mudah bersama Crustea! Hubungi kami melalui IG Crustea atau bisa menghubungi langsung melalui WhatsApp: +62-821-4077-359
+    `
+  },
+  tags: ["PenyakitUdang", "EBII", "Crustea"]
+},
+// update content 21
+{
+  id: "21",
+  img: "/images/landing/blog/blog21/blog21.jpg",
+  poster: "/images/landing/blog/blog21/blog21.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Membuat Tambak Udang: Persiapan dan Langkah-langkah Penting",
+    desc: `Budidaya udang di tambak merupakan usaha yang menjanjikan, namun kesuksesan dalam bisnis ini sangat bergantung pada persiapan dan manajemen yang baik.
+Dalam artikel ini, kita akan menjelaskan secara rinci apa saja yang perlu disiapkan untuk memulai usaha tambak udang, mulai dari pemilihan lokasi yang strategis hingga manajemen kesehatan udang yang efektif.<br><br>
+Memperhatikan hal-hal penting dalam persiapan budidaya udang sebelum memulainya akan membantu mengatasi berbagai tantangan dan meraih hasil yang optimal dalam budidaya udang. Berikut adalah penjelasan mengenai hal-hal yang perlu dipersiapkan untuk membuat tambak udang:
+<br><br>
+<b>1. Lokasi dan Desain Tambak:</b><br>
+Pilihlah daerah yang tidak terlalu terkena polusi dan memiliki akses air yang baik. Rancang desain tambak dengan mempertimbangkan luas lahan, kedalaman, dan sistem drainase yang optimal.<br><br>
+
+<b>2. Jenis Udang:</b><br>
+Pilihlah jenis udang yang akan Anda budidayakan. Setiap jenis udang memiliki kebutuhan lingkungan yang berbeda, oleh karena itu, pilihlah yang sesuai dengan kondisi tambak Anda.<br><br>
+
+<b>3. Persiapan Lahan:</b><br>
+Bersihkan lahan dari tanaman atau material lain yang dapat mengganggu proses budidaya. Pastikan kualitas tanah tambak yang baik, termasuk tingkat salinitas dan kesuburan yang memadai.<br><br>
+
+<b>4. Sistem Pengairan:</b><br>
+Bangun sistem pengairan yang dapat diatur untuk mengontrol kadar salinitas air di tambak. Pastikan juga adanya sumber air yang cukup dan bersih.<br><br>
+
+<b>5. Peralatan Tambak:</b><br>
+Persiapkan peralatan tambak seperti aerator udara, pompa air, dan sistem pemfilteran yang sesuai dengan skala usaha Anda. Peralatan yang baik akan membantu menjaga kondisi lingkungan tambak.<br><br>
+
+<b>6. Pemilihan Benih Udang:</b><br>
+Beli benih udang dari sumber yang terpercaya dan sehat. Sesuaikan ukuran, jenis, dan jumlah benih dengan kapasitas tambak Anda.<br><br>
+
+<b>7. Pemberian Pakan:</b><br>
+Tentukan jenis pakan yang akan diberikan kepada udang dan pastikan ketersediaan pakan yang mencukupi sepanjang siklus budidaya.<br><br>
+
+<b>8. Manajemen Kesehatan:</b><br>
+Perhatikan kebersihan tambak untuk mencegah penyakit. Persiapkan obat-obatan dan vaksinasi yang diperlukan untuk menjaga kesehatan udang.<br><br>
+
+<b>9. Pemantauan Rutin:</b><br>
+Lakukan pemantauan rutin terhadap kondisi air, pertumbuhan udang, dan kondisi lingkungan sekitar. Hal ini akan membantu mendeteksi potensi masalah lebih awal.<br><br>
+
+<b>10. Izin dan Perizinan:</b><br>
+Pastikan Anda memiliki izin dan perizinan yang diperlukan dari otoritas terkait untuk menjalankan kegiatan budidaya udang.<br><br>
+
+<b>11. Pelatihan dan Pengetahuan:</b><br>
+Perdalam pengetahuan Anda tentang manajemen tambak udang dengan mengikuti pelatihan atau berkonsultasi dengan ahli budidaya udang. Pengetahuan yang baik akan membantu Anda mengatasi berbagai tantangan yang mungkin muncul.<br><br>
+
+<b>12. Keuangan dan Perencanaan:</b><br>
+Rencanakan anggaran dan keuangan untuk investasi serta operasional tambak udang. Buatlah perencanaan bisnis yang matang untuk mengantisipasi risiko dan mengoptimalkan keuntungan.<br><br>
+
+Dengan memperhatikan semua aspek di atas, Anda dapat meningkatkan peluang keberhasilan dalam budidaya udang di tambak. Inovasi dalam teknologi aerator menjadi kunci untuk meningkatkan efisiensi dan keberlanjutan dalam bisnis ini. Dengan teknologi ini, kita tidak hanya meningkatkan kualitas air untuk pertumbuhan udang, tetapi juga ikut menjaga keseimbangan ekosistem perairan. Jadilah bagian dari perubahan positif dalam budidaya udang dengan memilih aerator ramah lingkungan.<br><br>
+
+Untuk informasi lebih lanjut mengenai teknologi aerator terkini dan implementasinya dalam budidaya udang, kunjungi terus situs kami. Kami berkomitmen untuk memberikan sumber daya dan wawasan terkini guna mendukung pertumbuhan dan keberhasilan bisnis tambak udang Anda. Bersama, mari wujudkan budidaya udang yang efisien, berkelanjutan, dan inovatif!<br><br>
+
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["TambakUdang", "Teknologi", "Crustea"]
+},
+// update content 22
+{
+  id: "22",
+  img: "/images/landing/blog/blog22/blog22.jpg",
+  poster: "/images/landing/blog/blog22/blog22.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning shrimp:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Pentingnya Dissolved Oxygen (DO) Bagi Kehidupan Udang di Tambak",
+    desc: `Dissolved Oxygen (DO) adalah jumlah oksigen yang terlarut dalam suatu larutan. Pengukuran DO pada perairan menggunakan alat berupa DO meter. Nilai DO pada perairan perlu diketahui untuk menjaga pertumbuhan udang dengan tingkat oksigen yang cukup.
+<br><br>
+
+DO atau oksigen terlarut merupakan unsur vital bagi kehidupan udang dalam tambak. DO berfungsi untuk menjaga pertumbuhan udang dengan tingkat oksigen yang cukup. Berikut adalah beberapa alasan mengapa DO sangat penting bagi kehidupan udang: 
+<br><br>
+<b>1. Metabolisme:</b><br>
+Oksigen terlarut memfasilitasi proses metabolisme udang. Dengan tingkat oksigen yang memadai, udang dapat mencerna makanan dengan efisien, menghasilkan energi, dan mengatur berbagai fungsi tubuh mereka dengan baik.
+<br><br>
+<b>2. Pertumbuhan dan perkembangan:</b><br>
+Tingkat oksigen yang cukup memungkinkan udang untuk tumbuh dan berkembang dengan baik. Oksigen mendukung proses pembentukan jaringan dan pertumbuhan organ-organ vital dalam tubuh udang.
+<br><br>
+<b>3. Bernafas:</b><br>
+Udang memerlukan oksigen terlarut untuk proses bernafas mereka. Oksigen yang larut dalam air memungkinkan udang untuk menyerap oksigen melalui insang mereka, yang diperlukan untuk proses metabolisme dan kelangsungan hidup.
+<br><br>
+<b>4. Imunitas:</b><br>
+Ketersediaan oksigen yang baik dalam air dapat meningkatkan sistem kekebalan udang, membantu mereka melawan infeksi dan penyakit. Udang yang hidup dalam lingkungan dengan kadar oksigen yang rendah cenderung lebih rentan terhadap penyakit dan stres.
+<br><br>
+<b>5. Perilaku:</b><br>
+ Kadar DO yang rendah dalam air dapat mempengaruhi perilaku udang. Udang mungkin menjadi kurang aktif atau malas bergerak saat kadar oksigen turun, yang pada gilirannya dapat mempengaruhi pertumbuhan dan produktivitas mereka.
+ <br><br>
+<b>6. Kualitas Produk:</b><br>
+Kadar oksigen yang rendah dalam air dapat mempengaruhi kualitas udang yang dihasilkan. Udang yang hidup dalam lingkungan dengan DO yang rendah cenderung memiliki pertumbuhan yang lambat, daging yang kurang berkualitas, dan rentan terhadap penyakit.
+<br><br>
+Optimalnya DO bagi kehidupan udang adalah > 4 ppm. Kebutuhan oksigen terlarut dalam tubuh udang dipengaruhi oleh suhu. Tingginya nilai suhu diikuti dengan meningkatnya kebutuhan oksigen terlarut dalam tubuh udang. Suhu optimal bagi pertumbuhan udang berkisar antara 28 – 31 derajat celcius
+<br><br>
+Sehingga oksigen terlarut pada air kolam perlu diketahui untuk menjaga pertumbuhan udang dengan tingkat oksigen yang cukup.<br><br>
+Oksigen yang terlalu rendah dapat menyebabkan berbagai masalah kesehatan dan pertumbuhan yang dapat mengganggu produktivitas tambak. Beberapa dampak yang mungkin terjadi jika udang kekurangan oksigen terlarut adalah sebagai berikut:
+<br><br>
+
+<b>1. Stres:</b><br>
+Udang yang kekurangan oksigen terlarut akan mengalami stres. Stres tersebut dapat mengganggu sistem kekebalan tubuh udang, membuat mereka lebih rentan terhadap penyakit dan infeksi.
+<br><br>
+<b>2. Perilaku Abnormal:</b><br>
+Udang mungkin mulai menunjukkan perilaku yang abnormal, seperti berenang ke permukaan air atau bergerak secara tidak teratur. Hal ini dapat mengakibatkan gangguan pada pola makan dan pertumbuhan udang.
+<br><br>
+<b>3. Pertumbuhan Terhambat:</b><br>
+Kekurangan oksigen terlarut dapat menghambat pertumbuhan udang. Proses metabolisme yang terganggu karena kurangnya oksigen dapat mengurangi efisiensi pencernaan dan penyerapan nutrisi, sehingga memperlambat pertumbuhan udang.
+<br><br>
+<b>4. Kematian Massal:</b><br>
+Jika kondisi kekurangan oksigen terlarut berlanjut dalam jangka waktu yang lama atau menjadi sangat parah, hal ini dapat menyebabkan kematian massal udang. Udang yang tidak dapat bernafas dengan baik akibat kekurangan oksigen dapat mati dalam jumlah yang signifikan.
+<br><br>
+<b>5. Kematian Massal</b><br>
+Udang yang mengalami kekurangan oksigen terlarut cenderung memiliki kualitas daging yang buruk. Mereka mungkin memiliki pertumbuhan yang tidak merata, tekstur daging yang lembek, dan kualitas rasa yang terganggu.
+<br><br>
+Untuk mencegah terjadinya kekurangan oksigen terlarut dalam tambak udang, penting bagi petani tambak untuk memantau dan menjaga tingkat oksigen dalam air dengan baik. 
+<br><br>
+Dengan memahami pentingnya oksigen terlarut bagi kehidupan udang, petani tambak dapat mengambil langkah-langkah untuk memastikan tingkat oksigen yang optimal dalam tambak. Penggunaan aerator dan sistem aerasi lainnya dapat membantu meningkatkan sirkulasi dan oksigen air di tambak, sehingga menjaga kondisi lingkungan yang optimal untuk pertumbuhan dan kesehatan udang.
+<br><br>
+<b>Tingkatkan Efisiensi Tambak Anda dengan Eco Aerator!
+</b><br><br>
+Eco Aerator merupakan solusi aerasi yang inovatif dan ramah lingkungan untuk meningkatkan kualitas air di tambak udang Anda. Dengan menggabungkan teknologi canggih dengan sumber energi terbarukan, Eco Aerator memanfaatkan sinar matahari untuk menghasilkan listrik yang diperlukan untuk meningkatkan sirkulasi dan oksigenasi air secara efisien. 
+<br><br>
+Dengan menggunakan Eco Aerator, Anda tidak hanya mengurangi dampak lingkungan negatif, tetapi juga mengoptimalkan produktivitas tambak Anda. Selain itu penggunaan Eco Aerator dapat menekan tingginya biaya operasional. 
+<br><br>
+Eco-Aerator dengan instalasi panel surya mampu menghemat hingga 80% biaya listrik dan solar. Tentunya membantu para petani tambak untuk mengurangi biaya operasional yang dikeluarkan setiap bulannya.
+<br><br>
+Optimalkan kualitas air di tambak Anda dengan solusi ramah lingkungan dari Crustea. Jangan ragu lagi, tingkatkan produktivitas tambak udang Anda dengan Eco-Aerator hari ini!
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["TambakUdang", "Teknologi", "Crustea"]
+},
+// update content 23
+{
+  id: "23",
+  img: "/images/landing/blog/blog23/blog23.png",
+  poster: "/images/landing/blog/blog23/blog23.png",
+  category: "Smart Teknologi",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Jenis - jenis Aerator beserta Fungsinya di Tambak Udang",
+    desc: `Aerator tambak udang menjadi salah satu komponen penting dalam praktik budidaya, terutama pada kolam yang memiliki tingkat intensitas pemeliharaan yang tinggi, seperti kolam jenis intensif dan super intensif.
+<br><br>
+
+Aerator memiliki beberapa fungsi penting dalam tambak udang yang berkontribusi pada kesejahteraan dan produktivitas udang serta kualitas lingkungan air secara keseluruhan.
+Berikut adalah beberapa fungsi utama aerator di tambak udang:
+<br><br>
+<b>1. Penyediaan Oksigen Terlarut:</b><br>
+Fungsi utama aerator adalah untuk menyediakan oksigen terlarut ke dalam air tambak. Udang membutuhkan oksigen untuk bernafas dan melakukan proses metabolisme mereka. Aerator membantu memastikan bahwa tingkat oksigen dalam air tetap cukup untuk mendukung kehidupan udang.
+<br><br>
+<b>2. Pengurangan Kadar Karbon Dioksida (CO2):</b><br>
+Selain menyediakan oksigen, aerator juga membantu mengurangi kadar karbon dioksida (CO2) dalam air. Udang menghasilkan CO2 melalui proses bernafas mereka, dan penumpukan CO2 yang berlebihan dapat mengganggu fungsi fisiologis udang. Aerator membantu memperlancar pertukaran gas CO2 dengan udara atmosfer, sehingga mengurangi tingkat CO2 dalam air.
+<br><br>
+<b>3. Penggerakan Air (Sirkulasi):</b><br>
+Aerator juga berfungsi untuk menggerakkan air di dalam tambak, menciptakan sirkulasi yang baik. Sirkulasi air membantu dalam penyebaran oksigen terlarut ke seluruh tambak dan memecah stratifikasi termal di dalam air. Hal ini membantu menjaga suhu air yang seragam dan mencegah terjadinya zona anoksik di dasar tambak
+<br><br>
+<b>4. Penghilangan Senyawa Berbahaya:</b><br>
+Aerator membantu dalam penghilangan senyawa berbahaya seperti amonia, nitrit, dan hidrogen sulfida dari air. Senyawa-senyawa ini dapat terbentuk sebagai hasil metabolisme udang dan sisa pakan yang tidak tercerna. Oksigenasi yang baik oleh aerator membantu dalam proses oksidasi senyawa-senyawa berbahaya ini menjadi bentuk yang lebih aman.
+<br><br>
+<b>5. Meningkatkan Pertumbuhan dan Produktivitas:</b><br>
+ Dengan menyediakan lingkungan yang optimal bagi udang, aerator membantu meningkatkan pertumbuhan dan produktivitas udang. Udang yang hidup dalam kondisi lingkungan yang baik cenderung memiliki pertumbuhan yang lebih cepat, kesehatan yang lebih baik, dan tingkat kelangsungan hidup yang lebih tinggi.
+ <br><br>
+Dengan fungsi-fungsi ini, aerator menjadi salah satu komponen penting dalam manajemen tambak udang yang bertujuan untuk menciptakan kondisi lingkungan yang optimal bagi pertumbuhan dan kesehatan udang serta menjaga kualitas air secara keseluruhan.
+<br><br>
+Setelah mengetahui fungsi aerator, selanjutnya yuk kita ketahui jenis-jenis kincir air yang biasa digunakan di tambak udang. Ada 6 jenis aerator yang digunakan untuk meningkatkan kualitas air dan mendukung pertumbuhan udang. Berikut adalah beberapa jenis aerator yang umum digunakan:
+<br><br>
+
+<b>1. Aerator Udara (Air Diffuser):</b><br>
+Aerator udara bekerja dengan menghasilkan gelembung udara ke dalam air. Gelembung-gelembung ini membawa oksigen dari udara ke dalam air, meningkatkan tingkat oksigen terlarut dan sirkulasi air di tambak. Aerator udara tersedia dalam berbagai ukuran dan konfigurasi, termasuk tabung silinder dan membran silikon.
+<br><br>
+<b>2. Kualitas Produk:</b><br>
+
+Kincir air tambak menggunakan baling-baling atau roda berputar untuk mengaduk air di tambak. Gerakan rotasi ini menghasilkan sirkulasi air yang kuat, memungkinkan oksigen terlarut untuk tersebar merata di seluruh tambak. Aerator rotor biasanya dipasang di tepi tambak atau terapung di permukaan air.
+<br><br>
+<b>3. Aerator Superfisial (Surface Aerator):</b><br>
+Aerator superfisial menghasilkan arus udara yang mengarah langsung ke permukaan air tambak. Udara yang disemprotkan ke permukaan air membentuk gerakan berputar atau pusaran, meningkatkan kontak antara udara dan air untuk mengoksidasi dan menghilangkan senyawa yang tidak diinginkan.
+</b><br>
+<b>4. Aerator Tenaga Surya (Solar-Powered Aerator):</b><br>
+Aerator tenaga surya menggunakan energi matahari untuk menghasilkan tenaga yang diperlukan untuk mengoperasikan aerator. Ini merupakan solusi yang ramah lingkungan dan hemat energi. Dapat menekan tingginya biaya operasional, cocok untuk tambak yang terletak di daerah terpencil atau tidak memiliki akses listrik.
+</b><br>
+<b>5. Jet Aerator:</b><br>
+Jet aerator menggunakan poros vertikal yang dioperasikan oleh motor untuk menghasilkan gerakan berputar. Gerakan ini menciptakan sirkulasi air di seluruh kedalaman tambak, membantu dalam penyebaran oksigen terlarut dan memecahkan stratifikasi termal di air.
+</b><br>
+<b>6. Aerator Kincir Angin (Windmill Aerator):</b><br>
+Aerator kincir angin menggunakan tenaga angin untuk menggerakkan kincir angin yang terhubung dengan pompa udara. Angin yang menggerakkan kincir angin akan menghasilkan udara yang disemprotkan ke dalam air, meningkatkan oksigenasi dan sirkulasi air di tambak.
+</b><br>
+Setiap jenis aerator memiliki kelebihan dan kekurangan tersendiri, dan pemilihan jenis aerator yang tepat akan tergantung pada kondisi tambak, kebutuhan udang, dan ketersediaan sumber daya energi.
+<br><br>
+<b>Tingkatkan Efisiensi Tambak Anda dengan Eco Aerator!
+</b><br><br>
+Eco Aerator merupakan solusi aerasi yang inovatif dan ramah lingkungan untuk meningkatkan kualitas air di tambak udang Anda. Dengan menggabungkan teknologi canggih dengan sumber energi terbarukan, Eco Aerator memanfaatkan sinar matahari untuk menghasilkan listrik yang diperlukan untuk meningkatkan sirkulasi dan oksigenasi air secara efisien. 
+<br><br>
+Dengan menggunakan Eco Aerator, Anda tidak hanya mengurangi dampak lingkungan negatif, tetapi juga mengoptimalkan produktivitas tambak Anda. Selain itu penggunaan Eco Aerator dapat menekan tingginya biaya operasional. 
+<br><br>
+Eco-Aerator dengan instalasi panel surya mampu menghemat hingga 80% biaya listrik dan solar. Tentunya membantu para petani tambak untuk mengurangi biaya operasional yang dikeluarkan setiap bulannya.
+<br><br>
+Optimalkan kualitas air di tambak Anda dengan solusi ramah lingkungan dari Crustea. Jangan ragu lagi, tingkatkan produktivitas tambak udang Anda dengan Eco-Aerator hari ini!
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["TambakUdang", "Teknologi", "Crustea"]
+},
+// update content 24
+{
+  id: "24",
+  img: "/images/landing/blog/blog24/blog24.jpg",
+  poster: "/images/landing/blog/blog24/blog24.jpg",
+  category: "Renewable Energi",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Pemanfaatan Panel Surya pada Budidaya Udang: Solusi Ramah Lingkungan dan Hemat Energi",
+    desc: `Budidaya udang telah menjadi salah satu industri utama di Indonesia dan memberikan kontribusi besar terhadap perekonomian nasional. Namun meskipun potensinya besar, budidaya udang juga memerlukan sumber energi yang cukup besar, terutama untuk menjalankan peralatan penting seperti aerator, sistem pompa air, dan alat pemantauan kualitas air. Dengan kebutuhan energi yang tinggi, petambak seringkali harus menghadapi biaya operasional yang tinggi. Salah satu solusi inovatif yang kini semakin populer adalah pemanfaatan  energi terbarukan, yaitu panel surya.
+<br><br>
+
+<b>Manfaat Panel Surya pada Budidaya Udang di Crustea Indonesia
+</b><br><Br>
+Panel surya merupakan solusi energi berkelanjutan dan ramah lingkungan, yang memanfaatkan sinar matahari untuk menghasilkan listrik. Pemasangan panel surya di tambak udang memberikan beberapa manfaat signifikan:
+<br><br>
+
+<b>1. Mengurangi Biaya Energi:</b><br>
+Biaya energi dari sumber listrik konvensional seperti PLN atau generator berbahan bakar fosil dapat menjadi salah satu pengeluaran terbesar dalam operasional tambak. Dengan menggunakan panel surya, petambak dapat menekan atau bahkan menghilangkan biaya listrik sehari-hari secara drastis, karena energi yang dihasilkan dari sinar matahari gratis dan melimpah.
+<br><br>
+<b>2. Ramah lingkungan:</b><br>
+Energi surya tidak menghasilkan emisi gas rumah kaca yang berkontribusi terhadap perubahan iklim. Berbeda dengan pembangkit listrik yang menggunakan bahan bakar fosil dapat mencemari lingkungan. Dengan demikian, budidaya udang menggunakan panel surya menjadi lebih ramah lingkungan, sejalan dengan tren global menuju keberlanjutan.
+<br><br>
+<b>3. Kemandirian Energi di Lokasi Terpencil:</b><br>
+Banyak tambak udang yang berlokasi di daerah terpencil atau pesisir pantai yang sulit dijangkau jaringan listrik. Dengan memasang sistem panel surya, petambak bisa mendapatkan sumber energi yang stabil tanpa harus bergantung pada listrik eksternal atau mengeluarkan uang untuk bahan bakar genset.
+<br><br>
+<b>4. Stabilitas Pasokan Energi:</b><br>
+Panel surya bekerja secara otomatis setiap hari, sehingga mengurangi risiko pemadaman listrik yang dapat mengganggu operasional pertanian. Aerator, alat pengukur kualitas air, dan pompa akan tetap berfungsi untuk memastikan kualitas air di kolam tetap optimal dan mengurangi risiko stres pada udang.
+<br><br>
+
+<b>Teknologi Crustea dan Panel Surya: Sinergi Optimal untuk Budidaya Udang
+</b><Br><br>
+Crusta Indonesia menawarkan solusi inovatif bagi petambak udang yang ingin memanfaatkan energi surya. Dengan mengintegrasikan panel matahari dalam sistem tambak, Crustea menyediakan teknologi yang lebih ramah lingkungan dan efisien. Sistem ini tidak hanya menyediakan energi terbarukan untuk peralatan tambak, namun juga memungkinkan petambak memanfaatkan teknologi pemantauan canggih untuk mengelola kualitas air secara optimal.
+<br><br>
+<b>Fitur utama sistem panel surya Crustea:</b>
+<br><br>
+
+<b>1. Mendukung EBII Sistem (EBII):</b><br>
+Crustea Indonesia juga terintegrasi Sistem EBII, yang menggunakan teknologi Internet of Things (IoT) untuk memantau parameter penting seperti oksigen terlarut (DO), suhu, dan pH air. Kombinasi panel surya dan Sistem EBII memungkinkan petani memantau kondisi kolamnya kapan saja dan dimana saja tanpa khawatir akan konsumsi energi yang besar.
+ <br><br>
+<b>2. Hemat Hingga 60-80% :</b><br>
+Menghemat Biaya Operasional Petambak
+<br><br>
+<img src="/images/landing/blog/blog24/1_24.png" alt="Panel Surya" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Gambar 1.1 Penjelasan Spesifikasi Panel Surya
+</p><br><br>
+<b>Kesimpulan</b><br><br>
+Pemanfaatan panel surya pada budidaya udang tidak hanya menjadi solusi untuk menekan biaya operasional, namun juga merupakan langkah strategis menuju keberlanjutan industri perikanan Indonesia. Dengan dukungan teknologi dari Crustea, petambak dapat memaksimalkan produktivitas kolamnya sekaligus menjaga lingkungan. Yuk mulai budidaya udang ramah lingkungan dengan Crustea !
+<br><br>
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial Instagram @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["PanelSurya", "EnergiSurya", "CrusteaIndonesia", "BudidayaUdang"]
+},
+// update content 25 digimar
+{
+  id: "25",
+  img: "/images/landing/blog/blog25/blog25.jpg",
+  poster: "/images/landing/blog/blog25/blog25.jpg",
+  category: "Renewable Energi",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Bergerak Menuju Akuakultur yang Mandiri dan Berkelanjutan di Indonesia",
+    desc: `Indonesia sebagai negara maritim yang besar mempunyai potensi yang sangat besar di bidang budidaya perikanan. Namun, untuk memastikan keberlanjutan dan kemandirian, transformasi praktik budidaya perikanan sangatlah penting. Berikut beberapa langkah untuk mencapai hal ini:
+<br><br>
+
+<b>Penerapan Teknologi Ramah Lingkungan
+</b><br><Br>
+Memanfaatkan teknologi seperti akuaponik dan Budidaya Multi-Trofik Terpadu (IMTA) dapat membantu mengurangi dampak negatif terhadap lingkungan. Teknologi ini memungkinkan penggunaan sumber daya dan pengurangan limbah yang lebih efisien.
+<br><br>
+
+<b>1. Pengembangan Sumber Energi Terbarukan:</b><br>
+Memanfaatkan panel surya untuk mendukung operasi budidaya udang merupakan solusi inovatif. Panel surya tidak hanya mengurangi biaya operasional tetapi juga menurunkan emisi gas rumah kaca.
+<br><br>
+<b>2. Meningkatkan Kualitas Air:</b><br>
+Pengelolaan kualitas air yang tepat sangat penting untuk memastikan kesehatan dan pertumbuhan udang. Sistem pemantauan tingkat lanjut seperti EBII dapat membantu petambak memantau kondisi kolam secara real-time.
+<br><br>
+<b>3. Kerjasama Lintas Sektor:</b><br>
+Kolaborasi antara pemerintah, sektor swasta, dan pemangku kepentingan lainnya sangat penting untuk mendukung pengembangan teknologi budidaya perikanan berkelanjutan. Kerja sama ini memungkinkan penerapan teknologi baru secara luas dan efektif.
+<br><br>
+<b>4. Pendidikan dan Pelatihan:</b><br>
+Memberikan pelatihan dan pendidikan kepada petambak budidaya udang tentang praktik dan teknologi berkelanjutan dapat meningkatkan kesadaran dan keterampilan mereka dalam mengelola tambak udang secara berkelanjutan.
+<br><br>
+
+Melaksanakan langkah-langkah ini dapat membawa budidaya perikanan Indonesia menuju kemandirian dan keberlanjutan yang lebih besar, sejalan dengan tren global menuju keberlanjutan. Mulailah budidaya udang ramah lingkungan dengan Crustea dan panel surya hari ini!
+<br><br>
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["AkuakulturBerkelanjutan", "BudidayaPerikanan", "TeknologiRamahLingkungan", "EnergiTerbarukan", "PanelSurya", "KualitasAir", "KerjasamaLintasSektor", "PendidikanPetambak", "BudidayaUdang", "EkonomiBiru", "IndonesiaMaritim", "PertumbuhanEkonomi", "Keberlanjutan", "InovasiPerikanan"]
+},
+// update content 26 digimar
+{
+  id: "26",
+  img: "/images/landing/blog/blog26/blog26.jpeg",
+  poster: "/images/landing/blog/blog26/blog26.jpeg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Akuakultur : Peluang dan Tantangan",
+    desc: `Akuakultur, budidaya organisme akuatik seperti ikan, krustasea, moluska, dan tanaman air, telah muncul sebagai komponen penting dalam produksi pangan global. Industri ini menjawab meningkatnya permintaan makanan laut, menawarkan manfaat ekonomi, dan mendukung pembangunan berkelanjutan. Namun, meskipun memiliki potensi yang menjanjikan, budidaya perikanan menghadapi tantangan besar yang perlu diatasi untuk memastikan kelangsungan hidup jangka panjang dan kelestarian lingkungan.
+<br><br>
+
+<b>Peluang dalam Akuakultur
+</b><br><Br>
+
+<b>1. Pertumbuhan Ekonomi:</b><br>
+Akuakultur memberikan peluang bagi pembangunan ekonomi, khususnya di wilayah pesisir dan pedesaan. Hal ini menciptakan lapangan kerja dan pendapatan bagi jutaan orang di seluruh dunia, mulai dari petani hingga pengolah dan pengecer.
+<br><br>
+<b>2. Ketahanan Pangan:</b><br>
+Ketika stok ikan liar menurun, akuakultur memainkan peran penting dalam memastikan pasokan makanan laut yang konsisten. Hal ini berkontribusi terhadap ketahanan pangan dengan menyediakan sumber makanan kaya protein yang dapat diandalkan.
+<br><br>
+<b>3. Kemajuan Teknologi:</b><br>
+Inovasi dalam teknologi akuakultur, seperti sistem resirkulasi akuakultur (RAS), akuakultur multi-trofik terintegrasi (IMTA), dan perbaikan genetik, telah meningkatkan produktivitas dan keberlanjutan.
+<br><br>
+<b>Tantangan dalam Akuakultur</b><br><br>
+<b>1. Dampak Lingkungan:</b><br>
+Memberikan pelatihan dan pendidikan kepada petambak budidaya udang tentang praktik dan teknologi berkelanjutan dapat meningkatkan kesadaran dan keterampilan mereka dalam mengelola tambak udang secara berkelanjutan.
+<br><br>
+<b>2. Manajemen Penyakit:</b><br>
+Kegiatan budidaya perikanan rentan terhadap wabah penyakit dan parasit, yang dapat menyebabkan kerugian ekonomi yang signifikan. Penggunaan antibiotik dan bahan kimia yang berlebihan untuk mengendalikan penyakit menimbulkan risiko bagi kesehatan perairan dan manusia.
+<br><br>
+<b>3. Manajemen Sumber Daya:</b><br>
+Akuakultur membutuhkan masukan yang besar seperti pakan, air, dan energi. Sumber pakan yang berkelanjutan, terutama tepung ikan dan minyak ikan, sangat penting untuk mengurangi tekanan terhadap stok ikan di alam liar. Selain itu, penggunaan air dan energi yang efisien juga diperlukan untuk meminimalkan dampak lingkungan.
+<br><br>
+<b>4. Tantangan Regulasi dan Pasar:</b><br>
+Menavigasi lanskap peraturan dapat menjadi hal yang rumit bagi produsen akuakultur, dengan standar dan persyaratan yang berbeda-beda di berbagai wilayah. Akses pasar dan persaingan dengan sumber protein lain juga menimbulkan tantangan.
+<br><br>
+<b>5. Masalah Sosial dan Ekonomi:</b><br>
+Memastikan akses yang adil terhadap sumber daya dan manfaat akuakultur sangatlah penting. Petani skala kecil seringkali menghadapi hambatan masuk, termasuk kurangnya modal, teknologi, dan pengetahuan.
+<br><br>
+
+<b>Kesimpulan</b><br><br>
+Akuakultur mempunyai potensi besar untuk mengatasi ketahanan pangan global dan pembangunan ekonomi. Namun, industri ini harus menghadapi berbagai tantangan untuk mencapai pertumbuhan berkelanjutan. Dengan menerapkan praktik-praktik yang bertanggung jawab terhadap lingkungan, memajukan inovasi teknologi, dan mendorong kebijakan inklusif, budidaya perikanan dapat mewujudkan potensi penuhnya sebagai sektor yang berkelanjutan dan berketahanan.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["Akuakultur", "PeluangAkuakultur", "TantanganAkuakultur", "BudidayaPerikanan", "EkonomiPesisir", "KetahananPangan", "InovasiTeknologi", "DampakLingkungan", "ManajemenPenyakit", "PertumbuhanEkonomi", "AkuakulturBerkelanjutan", "SumberDayaAkuakultur", "RegulasiAkuakultur", "MasalahSosialEkonomi", "Keberlanjutan"]
+},
+// update content 27
+{
+  id: "27",
+  img: "/images/landing/blog/blog27/blog27.jpg",
+  poster: "/images/landing/blog/blog27/blog27.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Kenapa Banyak Orang Indonesia Alergi Udang Padahal Nenek Moyangnya Seorang Pelaut?",
+    desc: `Alergi makanan, khususnya alergi terhadap udang, telah menjadi perhatian signifikan di Indonesia. Alergi jenis ini merupakan salah satu jenis alergi makanan yang paling umum di Indonesia, dan fenomena ini menarik perhatian banyak orang. Makanan laut, terutama udang, telah menjadi bagian penting dari budaya kuliner Indonesia. Namun, bagi sebagian orang, konsumsi udang dapat memicu reaksi alergi yang serius.
+<br><br>
+Mengutip dari Jurnal “Frekuensi Alergi Makanan Berdasarkan Survei pada Orang Dewasa di Wilayah Yogyakarta dan Jawa,” Tahun 2023 dari , angka prevalensi alergi makanan di Indonesia menunjukkan bahwa sekitar 12,63% dari populasi mengalami alergi terhadap udang. Selain itu, Sumber dari Website Berita Satu menunjukkan bahwa 29,2% responden mengalami reaksi alergi terhadap udang, menjadikannya sebagai salah satu penyebab utama alergi makanan di negara ini.
+<br><br>
+Artikel ini akan membahas penyebab tingginya prevalensi alergi udang di Indonesia serta gejala dan cara menghindarinya.
+<br><br>
+<b>Kenapa Orang Indonesia Banyak yang Alergi Udang?
+</b><br><Br>
+Alergi terhadap udang dan makanan laut lainnya disebabkan oleh reaksi sistem kekebalan tubuh terhadap protein tertentu dalam makanan tersebut. Di Indonesia, beberapa faktor berkontribusi terhadap tingginya angka alergi udang:
+<br><br>
+<b>1. Kandungan Protein:</b><br>
+Alergi udang disebabkan oleh reaksi sistem kekebalan tubuh terhadap protein tertentu dalam udang, terutama tropomiosin. Protein ini dianggap sebagai ancaman oleh sistem imun, yang kemudian memicu pelepasan histamin dan zat lainnya yang menyebabkan gejala alergi.
+<br><br>
+<b>2. Faktor Genetis:</b><br>
+Penelitian menunjukkan bahwa faktor genetik berperan dalam perkembangan alergi makanan. Jika seseorang memiliki riwayat alergi dalam keluarga, risiko untuk mengembangkan alergi udang menjadi lebih tinggi. Hal ini juga berlaku di Indonesia, di mana banyak individu dengan riwayat alergi keluarga lebih rentan terhadap alergi makanan laut.
+<br><br>
+<b>3. Usia dan Jenis Kelamin:</b><br>
+Alergi udang lebih sering terjadi pada anak-anak, terutama anak laki-laki. Namun, pada orang dewasa, wanita cenderung lebih banyak mengalami alergi ini. Perubahan pola konsumsi makanan dan peningkatan eksposur terhadap makanan laut seiring bertambahnya usia juga dapat mempengaruhi prevalensi alergi.
+<br><br>
+<b>4. Peningkatan Konsumsi Makanan Laut:</b><br>
+Dalam beberapa tahun terakhir, konsumsi makanan laut di Indonesia meningkat pesat. Hal ini tidak hanya disebabkan oleh ketersediaan produk laut yang melimpah tetapi juga oleh tren kuliner yang semakin populer. Dengan meningkatnya konsumsi, kemungkinan terpapar alergen seperti udang juga meningkat, sehingga lebih banyak orang mengalami reaksi alergi.
+<br><br>
+<b>5. Lingkungan dan Polusi:</b><br>
+Lingkungan tempat tinggal juga dapat memengaruhi risiko alergi. Paparan terhadap polutan lingkungan atau bahan kimia tertentu dapat memicu sensitivitas terhadap alergen makanan, termasuk udang.
+<br><br>
+<b>Gejala Alergi Udang</b><br><br>
+Gejala alergi udang bervariasi dari ringan hingga berat dan dapat muncul dalam waktu singkat setelah mengonsumsi udang atau produk olahannya. Beberapa gejala umum meliputi:
+<br><br>
+1. Gatal-gatal atau ruam kulit<br>
+2. Pembengkakan pada wajah, bibir, dan tenggorokan<br>
+3. Mengi atau kesulitan bernapas<br>
+4. Mual, muntah, atau diare<br>
+5. Reaksi anafilaksis yang dapat mengancam jiwa.<br><br>
+<b>Cara Menghindari Alergi Udang
+</b><br><br>
+Menghindari konsumsi udang adalah langkah paling efektif untuk mencegah reaksi alergi. Beberapa tips untuk menghindari alergi udang meliputi:
+<br><br>
+1. Membaca label makanan dengan cermat untuk memastikan tidak ada kandungan udang.<br>
+2. Menghindari restoran yang menyajikan hidangan berbahan dasar seafood.<br>
+3. Selalu membawa obat antihistamin atau epinefrin jika memiliki riwayat alergi parah.<br>
+
+<b>Kesimpulan</b><br><br>
+Alergi udang adalah masalah kesehatan yang signifikan di Indonesia, dipengaruhi oleh berbagai faktor termasuk genetika, pola makan, dan lingkungan. Meskipun kelezatan hidangan laut sangat menggoda, penting bagi individu dengan riwayat alergi untuk waspada dan mengambil langkah pencegahan.Bagi mereka yang ingin menikmati seafood tanpa khawatir akan risiko alergi, Crustea.id menawarkan produk seafood berkualitas tinggi yang dijamin aman dan bersih dari kontaminasi alergen. Dengan memilih Crustea.id, Anda bisa menikmati kelezatan hidangan laut sambil mendukung praktik aquaculture berkelanjutan dan bertanggung jawab.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["AlergiUdang", "AlergiMakanan", "KesehatanIndonesia", "BudayaKuliner", "ProteinUdang", "GenetikaAlergi", "KonsumsiMakananLaut", "LingkunganSehat", "GejalaAlergi", "CaraMenghindariAlergi", "Crustea", "SeafoodBerkualitas", "AkuakulturBerkelanjutan", "IndonesiaSehat"]
+},
+// update content 28
+{
+  id: "28",
+  img: "/images/landing/blog/blog28/blog28.jpg",
+  poster: "/images/landing/blog/blog28/blog28.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Manfaat Makan Udang yang Perlu Diketahui",
+    desc: `Udang adalah salah satu makanan laut yang sangat populer dan digemari di berbagai belahan dunia. Selain rasanya yang lezat, udang juga kaya akan nutrisi yang bermanfaat bagi kesehatan. Berikut adalah beberapa manfaat makan udang yang perlu Anda ketahui.
+<br><br>
+
+<b>1. Sumber Protein Berkualitas Tinggi:</b><br>
+Udang merupakan sumber protein yang sangat baik. Protein adalah komponen penting dalam pembentukan otot, memperbaiki jaringan tubuh, dan mendukung sistem imun. Dengan mengonsumsi udang, Anda dapat memenuhi kebutuhan protein harian dengan cara yang lezat.
+<br><br>
+<b>2. Kaya Akan Nutrisi Penting:</b><br>
+Udang mengandung berbagai vitamin dan mineral, termasuk vitamin B12, selenium, dan fosfor. Vitamin B12 berperan penting dalam pembentukan sel darah merah dan fungsi neurologis, sedangkan selenium berfungsi sebagai antioksidan yang melindungi sel-sel tubuh dari kerusakan.
+<br><br>
+<b>3. Rendah Kalori dan Lemak:</b><br>
+Bagi Anda yang sedang menjaga berat badan, udang adalah pilihan yang tepat. Dengan kalori yang rendah dan kandungan lemak yang minimal, udang bisa menjadi alternatif sehat untuk makanan tinggi kalori lainnya.
+<br><br>
+<b>4. Mengandung Asam Lemak Omega-3:</b><br>
+Udang juga mengandung asam lemak omega-3, yang dikenal memiliki banyak manfaat bagi kesehatan jantung. Omega-3 dapat membantu menurunkan risiko penyakit jantung dan meningkatkan kesehatan otak.
+<br><br>
+<b>5. Meningkatkan Kesehatan Kulit:</b><br>
+Kandungan astaxanthin dalam udang memiliki sifat anti-inflamasi dan antioksidan yang dapat membantu menjaga kesehatan kulit. Mengonsumsi udang secara teratur dapat memberikan kilau alami pada kulit Anda.
+<br><br>
+Bersama Crustea berkomitmen untuk menyediakan udang berkualitas tinggi yang kaya akan nutrisi dan manfaat kesehatan. Dengan teknologi budidaya yang canggih dan ramah lingkungan, Crustea memastikan setiap produk yang dihasilkan aman, sehat, dan lezat. Nikmati manfaat kesehatan dari udang dengan produk Crustea yang dapat diandalkan. 
+<br><br>
+<b>Kesimpulan
+</b><br<br>
+Makan udang tidak hanya memanjakan lidah, tetapi juga memberikan banyak manfaat kesehatan bagi tubuh Anda. Dengan Crustea, Anda bisa mendapatkan udang berkualitas tinggi yang kaya akan nutrisi dan manfaat kesehatan. Crustea memastikan setiap produk yang dihasilkan aman, sehat, dan lezat melalui teknologi budidaya yang canggih dan ramah lingkungan. Jadi, tunggu apa lagi? Segera coba produk Crustea dan rasakan sendiri manfaatnya!
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["ManfaatUdang", "SehatBersamaCrustea", "CamilanSehat", "KesehatanKulit", "ProteinBerkualitas", "AkuakulturBerkelanjutan", "SeafoodBerkualitas", "Crustea"]
+},
+// update content 29
+{
+  id: "29",
+  img: "/images/landing/blog/blog29/blog29.png",
+  poster: "/images/landing/blog/blog29/blog29.png",
+  category: "Smart Teknologi",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "IoT (Internet of Things) pada Akuakultur",
+    desc: `Internet of Things (IoT) adalah teknologi yang membuat berbagai alat atau perangkat bisa terhubung ke internet untuk saling bertukar informasi secara langsung. Dalam tambak, teknologi ini membantu petambak mengelola tambaknya dengan lebih pintar. IoT menggunakan alat seperti sensor untuk memantau kondisi tambak, mesin otomatis untuk membantu pekerjaan, dan aplikasi untuk memantau semuanya. Dengan IoT, tambak jadi lebih mudah diawasi dan dikelola, sehingga hasil panennya bisa lebih maksimal.
+<br><br>
+<b>Keuntungan</b><br><br>
+Penggunaan sistem Internet of Things (IoT) dalam akuakultur memberikan banyak keuntungan bagi pembudidaya. IoT memungkinkan pemantauan dan pengendalian kondisi air secara dini, seperti suhu, pH, oksigen terlarut, ketinggian air, serta deteksi bau busuk dan amonia. Dengan IoT, pembudidaya dapat menggunakan sensor untuk mengumpulkan data kualitas air secara real-time, yang kemudian dikirim ke prosesor seperti Arduino untuk pengolahan lebih lanjut.
+<br><br>
+Teknologi IoT telah terbukti meningkatkan efisiensi dan produktivitas akuakultur dengan memungkinkan pemantauan kualitas air yang lebih baik dan tindakan cepat untuk menjaga kondisi tambak. IoT juga membantu menghemat pakan dan tenaga kerja, sehingga menurunkan biaya operasional. Bahkan, penerapan otomatisasi berbasis IoT dapat meningkatkan hasil panen hingga 25% dan mengurangi kematian akibat kondisi lingkungan yang tidak mendukung.
+<br><br>
+<b>Kerugian</b><br><br>
+Penerapan teknologi IoT dalam akuakultur menghadapi beberapa tantangan, terutama terkait dengan infrastruktur seperti ketersediaan listrik dan konektivitas internet yang stabil. Di daerah terpencil, masalah ini bisa menghambat pengoperasian sistem IoT. Untuk mengatasi hal ini, solusi yang diajukan mencakup penggunaan energi terbarukan seperti panel surya atau turbin angin, serta penerapan sistem internet satelit atau offline untuk memastikan kelancaran operasi.
+<br><br>
+<b>Kesimpulan</b><br><br>
+Penerapan teknologi IoT dalam akuakultur tambak memiliki banyak manfaat, namun juga menghadapi tantangan terkait infrastruktur, seperti keterbatasan listrik dan konektivitas internet yang stabil, terutama di daerah terpencil. Untuk mengatasi hal ini, solusi yang sering disarankan adalah pemanfaatan energi terbarukan, seperti panel surya atau turbin angin, serta penggunaan teknologi internet satelit atau sistem offline untuk mendukung konektivitas.
+<br><br>
+<b>IoT pada Crustea: Meningkatkan Efisiensi dan Keberlanjutan Akuakultur</b><br><br>
+Crustea memanfaatkan teknologi Internet of Things (IoT) untuk mengoptimalkan budidaya perikanan dengan sensor real-time yang memantau kualitas air, otomatisasi proses seperti pemberian pakan, dan penggunaan energi terbarukan seperti panel surya. Teknologi ini meningkatkan efisiensi operasional, produktivitas, dan keberlanjutan, serta memungkinkan pemantauan jarak jauh melalui aplikasi mobile. Dengan IoT, Crustea berkomitmen untuk mendukung akuakultur yang lebih efisien dan ramah lingkungan. Untuk informasi lebih lanjut, kunjungi www.crustea.com dan ikuti kami di Instagram @crustea.id 🌊🐟
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["IoTAquaculture", "Akuakultur", "TeknologiIoT", "BudidayaPerikanan", "EfisiensiAkuakultur", "InovasiPerikanan", "PanelSurya", "EnergiTerbarukan", "KualitasAir", "Crustea", "AkuakulturBerkelanjutan", "PertumbuhanEkonomi", "SeafoodBerkualitas"]
+},
+// update content 30
+{
+  id: "30",
+  img: "/images/landing/blog/blog30/blog30.jpg",
+  poster: "/images/landing/blog/blog30/blog30.jpg",
+  category: "Smart Teknologi",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Smart Fisheries Village (SFV)",
+    desc: `Apa itu SFV? Program Smart Fisheries Village (SFV) pertama kali diluncurkan pada tahun 2020 oleh Kementerian Kelautan dan Perikanan Indonesia. Adanya program ini untuk mengembangkan desa-desa pesisir dengan memanfaatkan teknologi dan inovasi dalam sektor perikanan, termasuk akuakultur. Fokus utamanya adalah penggunaan teknologi untuk meningkatkan produktivitas dan keberlanjutan sektor perikanan di wilayah yang terlibat.
+<br><br>
+Kata S.M.A.R.T. merupakan akronim dari Sustainability, Modernization, Acceleration, Regeneration dan Technology.
+<br><br>
+Program ini menghubungkan teknologi digital, seperti platform IoT, untuk memonitor kondisi tambak dan perikanan lainnya, serta menyediakan dukungan melalui pelatihan, fasilitas, dan infrastruktur yang diperlukan untuk meningkatkan ketahanan pangan dan kesejahteraan masyarakat pesisir​
+<br><br>
+
+<b>Tujuan</b><br><br>
+Program ini bertujuan untuk mengubah desa-desa pesisir menjadi desa "pintar" yang tidak hanya mengintegrasikan teknologi untuk meningkatkan produktivitas perikanan, tetapi juga sektor lain seperti pariwisata, keuangan, dan pertanian untuk mendukung keberlanjutan ekonomi masyarakat.
+<br><br>
+<b>Lokasi</b><br><br>
+Program Smart Fisheries Village (SFV) di Indonesia mencakup berbagai desa dan lokasi yang fokus pada pengembangan akuakultur dan sektor terkait. Berikut adalah beberapa desa dan lokasi yang terlibat dalam program ini:
+<br><br>
+<b>1. Desa-desa berbasis desa:
+</b><br><br>
+- Deea Linau, Maje, Kota Kaur, Bengkulu: Komoditas utama Gurita.
+<br><br>
+- Desa Mangunegara, Mrebet, Kab. Purbalingga, Jateng: Komoditas utama Nila.
+<br><br>
+- Desa Ajakkang, Soppeng Riaja, Kab. Barru, Sulsel: Komoditas utama Udang dan Bandeng.
+<br><br>
+- Desa Poka, Teluk Ambon, Maluku: Komoditas utama Kuwe.
+<br><br>
+- Desa Nagari Ranah Koto Tinggi, Koto Balingka, Kab. Pasaman Barat, Sumbar: Fokus pada Wisata Bahari.
+<br><br>
+- Desa Sumberdodol, Panekan, Kab. Magetan, Jatim: Komoditas utama Koi.
+<br><br>
+- Desa Panembangan, Cilongok, Kab. Banyumas, Jateng: Komoditas utama Mina Padi.
+<br><br>
+- Desa Kendalbulur, Boyolangu, Kab. Tulungagung, Jatim: Komoditas utama Patin.
+<br><br>
+- Desa Sungai Dua, Simpang Empat, Kab. Tanah Bumbu, Kalsel: Komoditas utama Patin.
+<br><br>
+- Desa Kawali, Kab. Ciamis, Jabar: Komoditas utama Nila dan Nilem
+<br><br>
+
+<b>2. Lokasi berbasis UPT (Unit Pelaksana Teknis):
+</b><br><br>
+- IPSAL Pamekasan: Fokus pada Usaha Garam.
+<br><br>
+- BRPPUPP di Desa Mariana, Banyuasin: Komoditas utama Nila dan Gabus.
+<br><br>
+- BRPPUPP di Desa Patra Tani, Muara Enim: Fokus pada Konservasi Ikan Lokal.
+<br><br>
+- BBRBLPP Gondol: Fokus pada Marikultur.
+<br><br>
+- BRPI Sukamandi: Fokus pada Pemuliaan Ikan Budidaya.
+<br><br>
+- BRPBATPP Bogor: Fokus pada Budidaya Ikan Air Tawar.
+<br><br>
+- LPTK Wakatobi: Fokus pada Teknologi Kelautan Terintegrasi.
+<br><br>
+- BRBIH Depok: Komoditas utama Ikan Hias.
+<br><br>
+- LRBRL Gorontalo: Komoditas utama Rumput Laut.
+<br><br>
+- Politeknik KP Jembrana: Komoditas utama Udang Vaname.
+<br><br>
+- Politeknik AUP Kampus Serang: Komoditas utama Udang Vaname.
+<br><br>
+
+<b>Crustea mendukung inisiatif Smart Fisheries Village (SFV)</b><br><br>
+Dengan mengimplementasikan teknologi Internet of Things (IoT) dalam budidaya perikanan. Melalui penggunaan sensor real-time untuk memantau kualitas air dan otomatisasi proses seperti pemberian pakan, Crustea membantu meningkatkan produktivitas dan keberlanjutan tambak. Selain itu, Crustea juga memanfaatkan energi terbarukan seperti panel surya untuk mendukung operasi tambak, mengurangi biaya operasional, dan menurunkan emisi gas rumah kaca. Dengan teknologi ini, Crustea berkomitmen untuk mendukung desa-desa pesisir dalam mencapai kemandirian dan keberlanjutan, sejalan dengan tujuan SFV.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["SmartFisheriesVillage", "Akuakultur", "TeknologiIoT", "BudidayaPerikanan", "EfisiensiAkuakultur", "InovasiPerikanan", "PanelSurya", "EnergiTerbarukan", "KualitasAir", "Crustea", "AkuakulturBerkelanjutan", "PertumbuhanEkonomi", "SeafoodBerkualitas"]
+},
+// update content 31
+{
+  id: "31",
+  img: "/images/landing/blog/blog31/blog31.jpg",
+  poster: "/images/landing/blog/blog31/blog31.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Ragam Udang di Dunia: Panduan Lengkap Jenis-Jenis Udang",
+    desc: `Udang merupakan salah satu makanan laut yang sangat digemari di seluruh dunia. Selain rasanya yang lezat, udang juga memiliki berbagai jenis yang masing-masing memiliki karakteristik unik. Berikut adalah beberapa jenis udang yang umum ditemukan di berbagai belahan dunia.
+<br><br>
+<b>Jenis-Jenis Udang di Dunia</b><br><br>
+<b>1. Udang Windu (Penaeus monodon)</b><br><br>
+Udang windu, juga dikenal sebagai tiger shrimp, adalah salah satu jenis udang terbesar yang banyak ditemukan di perairan Asia Tenggara dan Afrika Timur. Ciri khasnya adalah kulit yang keras dengan warna hijau kebiruan atau kemerahan. Udang ini sangat populer untuk diolah menjadi berbagai hidangan seperti sate udang dan udang bakar.
+<br><br>
+<b>2. Udang Vannamei (Litopenaeus vannamei)</b><br><br>
+Dikenal sebagai udang putih, udang vannamei memiliki daging yang empuk dan rasa yang manis. Jenis ini banyak dibudidayakan karena permintaannya yang tinggi di pasar internasional. Udang ini sering digunakan dalam masakan seperti udang goreng tepung dan udang asam manis.
+<br><br>
+<b>3. Udang Galah (Macrobrachium rosenbergii)</b><br><br>
+Udang galah memiliki ukuran tubuh yang besar dengan capit panjang. Jenis ini dapat ditemukan di perairan tawar dan payau, serta sering disajikan dalam bentuk sup atau dibakar.
+<br><br>
+<b>4. Udang Jerbung (Fenneropenaeus merguiensis)</b><br><br>
+Ciri khas dari udang jerbung adalah warna kulitnya yang putih kekuningan dengan bintik-bintik hijau. Jenis ini sangat mudah ditemukan di pasaran Indonesia dan sering diolah menjadi hidangan seperti udang rebus atau udang bakar.
+<br><br>
+<b>5. Udang Dogol (Metapenaeus affinis)</b><br><br>
+Udang dogol memiliki warna merah muda dengan sedikit aksen kuning. Ukurannya kecil dan sering digunakan dalam salad atau sebagai bahan baku terasi.
+<br><br>
+<b>6. Udang Lobster (Panulirus spp.)</b><br><br>
+Meskipun sering disebut lobster, jenis ini sebenarnya termasuk dalam kategori udang. Dikenal karena dagingnya yang lezat dan teksturnya yang kenyal, udang lobster biasanya disajikan dalam hidangan mewah seperti lobster rebus atau panggang.
+<br><br>
+<b>7. Udang Peci (Farfantepenaeus indicus)</b><br><br>
+Udang peci adalah varian dari udang jerbung dengan ukuran kecil dan kulit berwarna cokelat muda hingga kekuningan. Jenis ini sering digunakan dalam masakan seperti bakwan udang dan rempeyek.
+<br><br>
+<b>8. Udang Flower (Pandalus platyceros)</b><br><br>
+Disebut juga sebagai lobster Alaska, udang flower memiliki titik-titik pada tubuhnya yang mirip dengan lobster. Dagingnya manis dan cocok untuk dijadikan sushi atau kaldu.
+<br><br>
+Crustea berkomitmen untuk menyediakan berbagai jenis udang berkualitas tinggi yang kaya akan nutrisi dan manfaat kesehatan. Dengan teknologi budidaya yang canggih dan ramah lingkungan, Crustea memastikan setiap produk yang dihasilkan aman, sehat, dan lezat. Nikmati berbagai jenis udang dari Crustea yang dapat diandalkan untuk berbagai hidangan lezat Anda. 
+<br><br>
+<b>Kesimpulan</b><br><br>
+Beragam jenis udang menawarkan berbagai pilihan rasa dan tekstur yang dapat dinikmati dalam berbagai masakan. Dari udang windu yang besar hingga udang vannamei yang manis, setiap jenis memiliki keunikan tersendiri. Dengan Crustea, Anda dapat mengeksplorasi berbagai resep dan cara penyajian untuk menikmati kelezatan udang berkualitas tinggi.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["JenisUdang", "MakananLaut", "UdangWindu", "UdangVannamei", "KulinerIndonesia", "Crustea", "SeafoodBerkualitas", "AkuakulturBerkelanjutan"]
+},
+// update content 32
+{
+  id: "32",
+  img: "/images/landing/blog/blog32/blog32.png",
+  poster: "/images/landing/blog/blog32/blog32.png",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Pentingnya Kualitas Air dalam Budidaya Udang",
+    desc: `Kualitas air merupakan faktor krusial dalam budidaya udang, terutama dalam menentukan keberlangsungan hidup dan pertumbuhan udang. Berbagai parameter kualitas air, seperti suhu, pH, oksigen terlarut, salinitas, dan kandungan amonia, memiliki dampak langsung terhadap kesehatan dan produktivitas udang. Artikel ini akan membahas mengapa kualitas air sangat berpengaruh terhadap keberlangsungan hidup udang.
+<br><br>
+<b>Pengaruh Kualitas Air Terhadap Udang
+</b><br><br>
+<b>1. Suhu</b><br><br>
+Suhu air yang optimal sangat penting untuk pertumbuhan udang. Suhu yang terlalu tinggi atau rendah dapat menyebabkan stres pada udang, mengganggu metabolisme mereka, dan berpotensi meningkatkan risiko kematian. Penelitian menunjukkan bahwa suhu ideal untuk budidaya udang vaname berkisar antara 24°C hingga 30°C.
+<br><br>
+<b>2. pH</b><br><br>
+pH air yang tidak sesuai dapat memengaruhi kemampuan udang untuk menyerap nutrisi dan oksigen. Rentang pH yang baik untuk udang adalah antara 6,5 hingga 8,5. Jika pH terlalu rendah atau tinggi, dapat menyebabkan gangguan pada sistem pernapasan dan metabolisme udang.
+<br><br>
+<b>3. Oksigen Terlarut (DO)</b><br><br>
+Kadar oksigen terlarut yang cukup sangat penting untuk kelangsungan hidup udang. Kadar DO yang rendah dapat menyebabkan hipoksia, yang berpotensi meningkatkan angka kematian. Penelitian menunjukkan bahwa kadar DO ideal untuk budidaya udang vaname berkisar antara 5 hingga 7 mg/l.
+<br><br>
+<b>4. Salinitas</b><br><br>
+Udang merupakan organisme akuatik yang sensitif terhadap perubahan salinitas. Salinitas yang tidak sesuai dapat menyebabkan stres osmotik dan mempengaruhi kemampuan udang untuk bertahan hidup. Salinitas ideal untuk budidaya udang vaname adalah antara 15 hingga 25 ppt.
+<br><br>
+<b>5. Kandungan Amonia</b><br><br>
+Amonia adalah produk limbah dari metabolisme udang dan dapat menjadi racun jika terkumpul dalam jumlah besar. Kadar amonia yang tinggi dapat menyebabkan keracunan dan kematian pada udang. Oleh karena itu, penting untuk menjaga kadar amonia di bawah 0,02 mg/l.
+<br><br>
+
+<b>Teknologi IoT Crustea untuk Kualitas Air Optimal dalam Budidaya Udang
+</b><br><br>
+Crustea menggunakan teknologi canggih untuk memastikan kualitas air yang optimal dalam budidaya udang. Dengan memanfaatkan sensor IoT, Crustea dapat memantau berbagai parameter kualitas air seperti suhu, pH, oksigen terlarut, salinitas, dan kandungan amonia secara real-time. Data yang dikumpulkan oleh sensor ini kemudian dianalisis untuk memastikan kondisi tambak tetap ideal bagi pertumbuhan udang.
+<br><br>
+Selain itu, Crustea juga menggunakan teknologi aerasi ramah lingkungan yang efisien dan hemat energi untuk meningkatkan kadar oksigen terlarut dalam air, yang sangat penting untuk kesehatan udang. Penggunaan panel surya sebagai sumber energi terbarukan juga membantu mengurangi biaya operasional dan emisi gas rumah kaca, mendukung praktik akuakultur yang lebih berkelanjutan.
+<br><br>
+<b>Kesimpulan</b><br><br>
+Kualitas air memiliki pengaruh signifikan terhadap keberlangsungan hidup dan pertumbuhan udang. Parameter seperti suhu, pH, oksigen terlarut, salinitas, dan kandungan amonia harus dijaga dalam batas optimal untuk memastikan kesehatan dan produktivitas udang. Crustea menggunakan teknologi canggih seperti sensor IoT dan energi terbarukan untuk memantau dan mengelola kualitas air secara real-time, mendukung praktik budidaya yang berkelanjutan dan inovatif. Dengan menjaga kualitas air yang optimal, Crustea berkomitmen untuk menyediakan udang berkualitas tinggi yang aman, sehat, dan lezat.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["KualitasAir", "BudidayaUdang", "UdangVaname", "PertumbuhanUdang", "ManajemenKualitasAir"]
+},
+// update content 33
+{
+  id: "33",
+  img: "/images/landing/blog/blog33/blog33.png",
+  poster: "/images/landing/blog/blog33/blog33.png",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Paddle Wheel: Inovasi Penting dalam Budidaya Perikanan",
+    desc: `Paddle wheel adalah perangkat yang digunakan untuk memindahkan air atau menciptakan sirkulasi dalam berbagai aplikasi, terutama dalam budidaya perikanan dan pengolahan air. Alat ini berfungsi dengan cara memutar bilah-bilah yang terpasang pada roda, sehingga menghasilkan gerakan yang mendorong air. Artikel ini akan membahas apa itu paddle wheel, cara kerjanya, serta kegunaannya dalam berbagai bidang.
+<br><br>
+<b>Apa Itu Paddle Wheel?
+</b><br><br>
+Paddle wheel adalah jenis alat yang biasa digunakan untuk aerasi dan sirkulasi air. Alat ini terdiri dari roda berputar yang dilengkapi dengan bilah (paddle) yang berfungsi untuk menggerakkan air saat roda berputar. Paddle wheel dapat ditemukan dalam berbagai ukuran dan desain, tergantung pada kebutuhan spesifik penggunaannya.
+<br><br>
+
+<b>Kegunaan Paddle Wheel
+</b><br><br>
+<b>1. Aerasi dalam Budidaya Perikanan
+</b><br><br>
+Salah satu kegunaan utama paddle wheel adalah sebagai aerator dalam budidaya perikanan. Dengan meningkatkan kadar oksigen terlarut di dalam air, paddle wheel membantu menciptakan lingkungan yang sehat bagi ikan dan udang. Hal ini sangat penting untuk menjaga kesehatan ikan dan meningkatkan laju pertumbuhan mereka.
+<br><br>
+<b>2. Sirkulasi Air</b><br><br>
+Paddle wheel juga digunakan untuk menciptakan sirkulasi air dalam kolam atau tambak. Sirkulasi yang baik membantu mendistribusikan nutrisi secara merata dan mencegah pembentukan lapisan limbah di dasar kolam, sehingga menjaga kualitas air tetap optimal.
+<br><br>
+<b>3. Pengolahan Air</b><br><br>
+Dalam pengolahan air, paddle wheel digunakan untuk meningkatkan efisiensi proses pengolahan dengan memastikan bahwa bahan kimia tercampur secara merata ke dalam air. Ini penting untuk memastikan bahwa proses pengolahan berjalan dengan baik dan hasilnya memenuhi standar kualitas.
+<br><br>
+<b>4. Pembangkit Listrik</b><br><br>
+Paddle wheel juga digunakan dalam beberapa jenis pembangkit listrik tenaga air, di mana roda berputar dapat menggerakkan generator untuk menghasilkan listrik. Ini merupakan salah satu cara untuk memanfaatkan energi dari aliran air secara efisien.
+<br><br>
+<b>5. Sistem Irigasi
+</b><br><br>
+Dalam sistem irigasi, paddle wheel membantu mendistribusikan air ke area yang membutuhkan dengan lebih efektif, sehingga meningkatkan efisiensi penggunaan sumber daya air.
+<br><br>
+
+<b>Kesimpulan
+</b><br><br>
+Paddle wheel adalah alat multifungsi yang memiliki peran penting dalam berbagai aplikasi, terutama dalam budidaya perikanan dan pengolahan air. Dengan kemampuannya untuk meningkatkan aerasi dan sirkulasi, paddle wheel membantu menciptakan lingkungan yang lebih baik bagi organisme akuatik dan meningkatkan efisiensi proses pengolahan. Crustea menyediakan paddle wheel berkualitas tinggi yang dirancang untuk mendukung praktik budidaya yang berkelanjutan dan inovatif.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["PaddleWheel", "BudidayaPerikanan", "Aerator", "SirkulasiAir", "PengolahanAir", "Crustea", "AkuakulturBerkelanjutan", "SeafoodBerkualitas"]
+},
+// update content 34
+{
+  id: "34",
+  img: "/images/landing/blog/blog34/blog34.jpeg",
+  poster: "/images/landing/blog/blog34/blog34.jpeg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Jenis-jenis Ikan Air Tawar Populer di Indonesia",
+    desc: `Ikan air tawar telah menjadi bagian integral dari tradisi kuliner Indonesia. Dengan variasi rasa dan tekstur yang beragam, ikan air tawar tidak hanya menyajikan kesegaran tapi juga kaya akan nutrisi yang penting untuk kesehatan manusia. Berikut adalah penjabaran tentang beberapa jenis ikan air tawar yang paling populer di Indonesia, beserta informasi tambahan tentang karakteristik dan cara penyajiannya.
+<br><br>
+
+<b>1. Ikan Lele
+</b><br><br>
+Ikan lele adalah salah satu jenis ikan air tawar yang paling diminati di Indonesia. Ciri-ciri utama ikan lele adalah tubuh licin tanpa sisik, kepala keras dengan bola mata kecil, dan mulut lebar yang letaknya di ujung moncong. Ikan lele sering diolah dengan cara digoreng atau dimasak mangut, serta kuah santan untuk menambah aroma dan rasa.
+<br><br>
+<b>2. Ikan Nila
+</b><br><br>
+Ikan nila, atau Oreochromis niloticus, merupakan jenis ikan air tawar yang populer dan mudah dijumpai. Karakteristik fisiknya mirip dengan ikan mujair, tetapi nila memiliki rasa yang lebih khas dan sering diolah dengan cara goreng atau tumis menggunakan bumbu asam manis.
+<br><br>
+<b>3. Ikan Gurame</b><br><br>
+Ikan gurame adalah salah satu jenis ikan air tawar yang populer di Indonesia setelah mujair. Gurame memiliki tubuh pipih dan lebar, dengan sisik yang kuat dan tepi yang kasar. Dagingnya padat dan tebal, serta rasanya yang gurih membuatnya menjadi favorit banyak orang.
+<br><br>
+<b>4. Ikan Mujair</b><br><br>
+Ikan mujair diberi nama dari seorang pria yang menemukannya di Selatan Blitar pada tahun 1939. Ikan ini mudah ditemukan di perairan Afrika dan Indonesia, serta cocok untuk dibudidayakan karena adaptabilitasnya di air tawar maupun air payau.
+<br><br>
+<b>5. Ikan Patin
+</b><br><br>
+Ikan patin adalah ikan asli Indonesia yang termasuk dalam genus Pangasius. Habitatnya berada di tepi sungai-sungai besar dan muara-muara sungai serta danau. Tubuhnya panjang dengan warna putih keperakan dan punggung biru.
+<br><br>
+<b>6. Ikan Bawal
+</b><br><br>
+Ikan bawal memiliki bentuk tubuh yang mirip dengan ikan piranha tetapi lebih tebal dengan duri halus di dagingnya. Rasanya gurih meski terdapat banyak duri, membuatnya menjadi favorit hidangan untuk dikonsumsi.
+<br><br>
+<b>7.  Ikan Wader
+</b><br><br>
+Ikan wader merupakan salah satu jenis ikan air tawar yang mudah ditemukan di Indonesia bagian barat seperti Sumatra, Kalimantan, Jawa, Bali, dan Lombok. Ikan ini sering diolah menjadi snack atau lauk lalap karena popularitasnya yang tinggi.
+<br><br>
+<b>8.  Ikan Gabus
+</b><br><br>
+Gabus adalah ikan yang cukup populer di Indonesia dengan bentuk tubuh yang besar dan habitat hidupnya di sungai, rawa, dan danau. Keypadanya mirip dengan ular dan harga ikan jenis ini relatif mahal.
+<br><br>
+
+<b>Kesimpulan
+</b><br><br>
+Beragam jenis ikan air tawar di atas tidak hanya memberikan pilihan kuliner yang lezat tetapi juga kaya akan manfaat gizi bagi kesehatan. Budidaya ikan air tawar semakin berkembang seiring dengan meningkatnya permintaan pasar.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["IkanAirTawar", "BudidayaIkan", "KulinerIndonesia", "GiziSeimbang", "IkanLele", "IkanNila", "IkanGurame"]
+},
+// update content 35
+{
+  id: "35",
+  img: "/images/landing/blog/blog35/blog35.jpg",
+  poster: "/images/landing/blog/blog35/blog35.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Jenis-Jenis Akuakultur dan Bentuknya di Indonesia",
+    desc: `Akuakultur, atau budidaya perairan, merupakan praktik penting dalam menyediakan sumber pangan yang berkelanjutan. Di Indonesia, akuakultur mencakup berbagai jenis organisme air yang dibudidayakan, mulai dari ikan hingga tanaman laut. Berikut adalah penjelasan mengenai jenis-jenis akuakultur dan bentuknya.
+<br><br>
+
+<b>1. Budidaya Ikan
+</b><br><br>
+Budidaya ikan adalah salah satu jenis akuakultur yang paling umum. Ini meliputi pemeliharaan berbagai spesies ikan baik di air tawar, air payau, maupun air laut. Beberapa contoh ikan yang sering dibudidayakan antara lain:
+<br><br>
+- Ikan Nila: Populer di kolam-kolam air tawar.
+<br><br>
+- Ikan Lele: Dikenal dengan dagingnya yang lembut dan mudah dibudidayakan.
+<br><br>
+- Ikan Kerapu: Banyak dibudidayakan di perairan laut sebagai komoditas ekspor.
+<br><br>
+
+<b>2. Budidaya Udang dan Krustasea
+</b><br><br>
+Budidaya udang, khususnya udang vaname, menjadi pilihan utama karena permintaan pasar yang tinggi. Selain itu, krustasea lain seperti kepiting dan lobster juga banyak dibudidayakan. Kegiatan ini biasanya dilakukan di tambak dengan media air payau untuk mencapai hasil yang optimal.
+<br><br>
+<b>3.  Budidaya Kerang-Kerangan</b><br><br>
+Kerang-kerangan, seperti tiram dan kerang hijau, memiliki peran penting dalam menjaga kualitas ekosistem perairan. Budidaya kerang melibatkan proses dari pemilihan bibit hingga panen, dan memiliki nilai ekonomi yang cukup tinggi
+<br><br>
+<b>4. Budidaya Rumput Laut</b><br><br>
+Rumput laut merupakan salah satu komoditas yang banyak dibudidayakan di Indonesia. Praktik ini tidak hanya memberikan manfaat ekonomi tetapi juga membantu menjaga biodiversitas. Rumput laut sering digunakan sebagai bahan makanan dan produk kosmetik.
+<br><br>
+<b>5. Budidaya Teripang
+</b><br><br>
+Teripang atau timun laut adalah hewan laut yang memiliki nilai ekonomis tinggi. Budidayanya dilakukan di perairan dengan kondisi tertentu untuk menghasilkan produk berkualitas.
+<br><br>
+
+<b>Bentuk-Bentuk Akuakultur
+</b><br><br>
+Akuakultur dapat dilakukan dalam berbagai bentuk, antara lain:
+<br><br>
+- Kolam: Digunakan untuk budidaya ikan air tawar seperti nila dan lele.
+<br><br>
+- Tambak: Umumnya digunakan untuk budidaya udang dan kerang di lingkungan air payau.
+<br><br>
+- Keramba: Struktur terapung di laut untuk budidaya ikan seperti kerapu dan kakap.
+<br><br>
+- Tangki: Digunakan dalam sistem akuakultur terkontrol untuk berbagai jenis organisme air.
+<br><br>
+
+<b>Kesimpulan
+</b><br><br>
+Akuakultur memainkan peranan penting dalam memenuhi kebutuhan pangan serta meningkatkan perekonomian masyarakat pesisir. Dengan berbagai jenis dan bentuk budidayanya, sektor ini terus berkembang seiring dengan meningkatnya permintaan akan produk perairan.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["Akuakultur", "BudidayaIkan", "BudidayaUdang", "Kerang", "RumputLaut", "Teripang", "PertanianPerairan"]
+},
+// update content 36
+{
+  id: "36",
+  img: "/images/landing/blog/blog36/blog36.jpg",
+  poster: "/images/landing/blog/blog36/blog36.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Mengenal Ikan Nila: Karakteristik dan Bentuknya",
+    desc: `Ikan nila, yang dikenal dengan nama ilmiah Oreochromis niloticus, adalah salah satu jenis ikan air tawar yang sangat populer di Indonesia. Dikenal karena kemudahan dalam budidaya dan nilai gizi yang tinggi, ikan ini telah menjadi pilihan utama bagi banyak konsumen. Dalam artikel ini, kita akan membahas lebih dalam mengenai karakteristik, bentuk, dan manfaat dari ikan nila.
+<br><br>
+<b>Asal Usul dan Penyebaran</b><br><br>
+Ikan nila berasal dari Afrika Timur, khususnya dari Sungai Nil, dan pertama kali diperkenalkan ke Indonesia pada tahun 1969. Sejak saat itu, ikan ini telah menyebar luas dan menjadi salah satu komoditas perikanan yang penting di berbagai daerah di Indonesia.
+<br><br>
+<b>Ciri-Ciri dan Karakteristik Ikan Nila</b><br><br>
+Ikan nila memiliki beberapa ciri khas yang membedakannya dari jenis ikan lainnya:
+<br><br>
+
+1. Bentuk Tubuh: Ikan nila memiliki tubuh yang pipih dan memanjang dengan ukuran rata-rata mencapai 30 cm. Tubuhnya cenderung berwarna kehitaman atau keabuan dengan garis-garis gelap yang dapat memudar seiring pertumbuhan.
+<br><br>
+2. Mata Menonjol: Salah satu ciri fisik yang mencolok adalah mata ikan nila yang menonjol dengan tepi putih, memberikan tampilan yang khas.
+<br><br>
+3. Sisik Besar: Ikan ini memiliki sisik besar dan berlendir, yang membantu mereka dalam melindungi diri dari predator.
+<br><br>
+4. Omnivora: Ikan nila adalah pemakan segala (omnivora), memakan berbagai jenis makanan mulai dari plankton hingga tumbuhan air seperti ganggang dan lumut.
+<br><br>
+
+<b>Reproduksi</b><br><br>
+Ikan nila dikenal sebagai "mouth breeder," di mana induk betina mengerami telurnya di dalam mulut setelah proses pemijahan. Sekali bertelur, seekor betina dapat menghasilkan antara 300 hingga 1.500 butir telur tergantung pada ukuran tubuhnya.
+<br><br>
+<b>Manfaat dan Penggunaan</b><br><br>
+Ikan nila kaya akan protein, rendah lemak, serta mengandung berbagai vitamin dan mineral penting. Dalam 100 gram daging ikan nila terdapat sekitar 128 kalori, menjadikannya pilihan sehat untuk diet seimbang. Ikan ini dapat diolah dengan berbagai cara, seperti digoreng, dibakar, atau dipanggang.
+<br><br>
+
+<b>Kesimpulan
+</b><br><br>
+Ikan nila adalah salah satu jenis ikan air tawar yang memiliki banyak manfaat baik dari segi gizi maupun ekonomi. Dengan karakteristik unik dan kemudahan dalam budidaya, ikan ini terus menjadi pilihan utama bagi masyarakat Indonesia.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["IkanNila", "BudidayaIkan", "GiziSeimbang", "KulinerIndonesia", "IkanAirTawar"]
+},
+// update content 37
+{
+  id: "37",
+  img: "/images/landing/blog/blog37/blog37.jpg",
+  poster: "/images/landing/blog/blog37/blog37.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Fungsi Oksigen pada Tambak Udang: Kunci Kesuksesan Budidaya",
+    desc: `Oksigen terlarut (DO) adalah salah satu elemen paling penting dalam ekosistem tambak udang. Ketersediaan oksigen yang cukup tidak hanya mendukung pertumbuhan udang, tetapi juga menjaga keseimbangan ekosistem di dalam tambak. Dalam artikel ini, kita akan membahas fungsi oksigen di tambak udang dan pentingnya pengelolaan oksigen untuk keberhasilan budidaya.
+<br><br>
+<b>1. Proses Respirasi</b><br><br>
+Salah satu fungsi utama oksigen di tambak udang adalah untuk proses respirasi. Udang, meskipun hidup di dalam air, memerlukan oksigen terlarut untuk bernapas. Oksigen ini masuk melalui insang dan sangat penting untuk metabolisme udang. Kadar oksigen yang ideal untuk pertumbuhan udang berkisar antara 4-6 ppm. Jika kadar oksigen turun di bawah 2 ppm, dapat terjadi hipoksia, yang berpotensi menyebabkan kematian massal pada udang.
+<br><br>
+<b>2. Mendukung Mikroorganisme</b><br><br>
+Oksigen juga berperan penting dalam mendukung kehidupan mikroorganisme seperti bakteri dan fitoplankton yang ada di dalam tambak. Bakteri memerlukan oksigen untuk proses dekomposisi bahan organik, yang membantu menjaga kualitas air dan mencegah penumpukan limbah beracun. Sementara itu, fitoplankton berfungsi sebagai produsen utama oksigen melalui fotosintesis pada siang hari. Namun, pada malam hari, mereka juga membutuhkan oksigen untuk respirasi.
+<br><br>
+<b>3. Menjaga Kualitas Air</b><br><br>
+Kualitas air di tambak sangat dipengaruhi oleh kadar oksigen terlarut. Oksigen berkontribusi pada reaksi kimia yang terjadi di dalam air, seperti penguraian senyawa organik dan pengendapan zat-zat berbahaya. Dengan menjaga kadar oksigen tetap optimal, petambak dapat mencegah masalah kualitas air yang dapat merugikan kesehatan udang.
+<br><br>
+<b>4. Penggunaan Kincir Air</b><br><br>
+Untuk memastikan ketersediaan oksigen yang cukup, banyak petambak menggunakan kincir air atau aerator. Alat ini membantu meningkatkan aerasi dengan menciptakan aliran air yang mempercepat proses difusi oksigen dari udara ke dalam air. Kincir air juga membantu mencegah stratifikasi lapisan air dalam tambak, sehingga distribusi kualitas air menjadi lebih merata.
+<br><br>
+<b>5. Manajemen Pakan</b><br><br>
+Manajemen pakan yang baik juga berkontribusi pada ketersediaan oksigen di tambak. Overfeeding dapat menyebabkan penumpukan limbah organik yang mengurangi kadar oksigen terlarut dan meningkatkan risiko munculnya gas beracun seperti amonia. Oleh karena itu, penting bagi petambak untuk mengatur pakan dengan bijaksana agar tidak terjadi pemborosan.
+<br><br>
+
+<b>Kesimpulan
+</b><br><br>
+Fungsi oksigen pada tambak udang sangat krusial bagi kelangsungan hidup dan pertumbuhan udang serta kesehatan ekosistem secara keseluruhan. Dengan memahami peran penting ini dan menerapkan manajemen yang tepat, petambak dapat meningkatkan produktivitas dan keberhasilan budidaya udang.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["TambakUdang", "OksigenTerlarut", "BudidayaUdang", "Akuakultur", "KualitasAir", "KincirAir"]
+},
+// update content 38
+{
+  id: "38",
+  img: "/images/landing/blog/blog38/blog38.jpg",
+  poster: "/images/landing/blog/blog38/blog38.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Bentuk Limbah pada Tambak Udang: Tantangan dan Solusi",
+    desc: `Budidaya udang merupakan salah satu sektor akuakultur yang berkembang pesat di Indonesia. Namun, proses budidaya ini juga menghasilkan limbah yang dapat berdampak negatif terhadap lingkungan jika tidak dikelola dengan baik. Dalam artikel ini, kita akan membahas berbagai bentuk limbah yang dihasilkan dari tambak udang dan pentingnya pengelolaan limbah tersebut.
+<br><br>
+<b>1. Jenis Limbah pada Tambak Udang</b><br><br>
+Limbah yang dihasilkan dari tambak udang dapat dibagi menjadi dua kategori utama: limbah organik dan limbah anorganik.
+<br><br>
+
+- Limbah Organik: Ini adalah limbah yang berasal dari sisa pakan udang yang tidak termanfaatkan, feses udang, dan sisa metabolisme lainnya. Limbah organik ini dapat mencapai 24% dari total pakan yang diberikan selama proses budidaya. Limbah organik terdiri dari:
+<br><br>
+1. Sisa Pakan: Pakan yang tidak dimakan oleh udang dan terbuang ke dalam air.
+<br><br>
+2. Feses Udang: Kotoran yang dihasilkan selama proses pencernaan.
+<br><br>
+3. Bahan Organik Lainnya: Termasuk sisa-sisa tanaman atau organisme lain yang ada di dalam tambak.
+<br><br>
+- Limbah Anorganik: Ini termasuk bahan kimia seperti amonia, nitrit, dan fosfat yang muncul akibat dekomposisi limbah organik. Senyawa-senyawa ini bisa menjadi kontaminan utama dalam air jika tidak dikelola dengan baik
+<br><br>
+
+<b>2. Karakteristik Limbah Tambak Udang</b><br><br>
+Limbah tambak udang memiliki karakteristik fisik dan kimia yang berbeda-beda:
+<br><br>
+- Karakteristik Fisik:
+<br><br>
+1. Warna: Limbah cair biasanya berwarna kuning keruh.
+<br><br>
+2. Bau: Memiliki bau busuk akibat dekomposisi bahan organik.
+<br><br>
+3. Suhu: Suhu air tambak dapat meningkat hingga 40-46°C.
+<br><br>
+- Karakteristik Kimia:
+<br><br>
+1. Mengandung bahan organik seperti protein, karbohidrat, nitrogen, dan fosfor.
+<br><br>
+2. pH limbah umumnya berkisar antara 7 hingga 9, menunjukkan sifat basa.
+<br><br>
+
+<b>3. Dampak Limbah terhadap Lingkungan</b><br><br>
+Jika tidak dikelola dengan baik, limbah tambak udang dapat menyebabkan penurunan kualitas air, memicu eutrofikasi, dan mengganggu keseimbangan ekosistem perairan. Akumulasi limbah dapat mengurangi kadar oksigen terlarut dalam air, yang berpotensi membahayakan kehidupan organisme akuatik lainnya.
+<br><br>
+<b>4. Pengelolaan Limbah</b><br><br>
+Pengelolaan limbah tambak udang sangat penting untuk meminimalkan dampak negatifnya. Beberapa metode pengelolaan meliputi:
+<br><br>
+- Pembuangan Terencana: Mengalirkan limbah ke area tertentu yang telah ditentukan untuk pengolahan lebih lanjut.
+<br><br>
+- Penggunaan Pakan Sesuai Kebutuhan: Menghindari overfeeding untuk mengurangi jumlah sisa pakan yang terbuang.
+<br><br>
+- Pengolahan Limbah Menjadi Pupuk: Limbah padat dapat diproses menjadi pupuk organik untuk pertanian, sehingga memberikan nilai tambah ekonomi.
+<br><br>
+
+<b>Kesimpulan
+</b><br><br>
+Limbah pada tambak udang merupakan tantangan serius dalam budidaya akuakultur. Dengan pengelolaan yang tepat, limbah ini dapat diminimalisir dampaknya dan bahkan dimanfaatkan kembali untuk meningkatkan produktivitas pertanian.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["TambakUdang", "LimbahAkuakultur", "PengelolaanLimbah", "BudidayaUdang", "LingkunganHidup"]
+},
+// update content 39
+{
+  id: "39",
+  img: "/images/landing/blog/blog39/blog39.jpg",
+  poster: "/images/landing/blog/blog39/blog39.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Cara Agar Lingkungan Tambak Udang Tidak Tercemar",
+    desc: `Budidaya udang merupakan salah satu sektor yang berkembang pesat di Indonesia, namun juga berpotensi menimbulkan pencemaran lingkungan jika tidak dikelola dengan baik. Limbah dari tambak udang dapat mencemari air, tanah, dan udara, yang berdampak negatif terhadap ekosistem sekitar. Oleh karena itu, penting untuk menerapkan langkah-langkah yang efektif agar lingkungan tambak tetap bersih dan berkelanjutan. Berikut adalah beberapa cara untuk mencegah pencemaran di tambak udang.
+<br><br>
+<b>1. Pemilihan Lokasi yang Tepat</b><br><br>
+Memilih lokasi tambak yang jauh dari sumber pencemaran seperti pabrik atau daerah industri sangat penting. Lokasi tambak sebaiknya bebas dari banjir dan memiliki akses ke sumber air bersih. Dengan demikian, risiko pencemaran dari limbah industri dapat diminimalisir2.
+<br><br>
+<b>2. Pengelolaan Limbah yang Baik</b><br><br>
+Pengelolaan limbah harus dilakukan secara intensif untuk memastikan bahwa limbah cair yang dihasilkan memenuhi baku mutu sebelum dibuang ke lingkungan. Salah satu metode yang efektif adalah menggunakan Instalasi Pengolah Air Limbah (IPAL), yang dapat mengolah limbah menjadi aman untuk dibuang5. IPAL dapat terdiri dari kolam pengendapan, oksigenasi, dan biokonversi untuk menurunkan kadar polutan dalam air.
+<br><br>
+<b>3. Penerapan Metode Constructed Wetland</b><br><br>
+Metode constructed wetland menggunakan tanaman air seperti eceng gondok untuk menyerap nutrisi berlebih dari limbah udang. Tanaman ini dapat membantu menurunkan parameter pencemar dalam air dan meningkatkan kualitas lingkungan sekitar tambak1. Dengan memanfaatkan vegetasi alami, proses pemurnian air menjadi lebih efisien.
+<br><br>
+<b>4. Penggunaan Pakan Secara Efisien</b><br><br>
+Menghindari overfeeding adalah langkah penting dalam mengurangi limbah organik di tambak. Dengan memberikan pakan sesuai kebutuhan udang berdasarkan umur dan beratnya, sisa pakan yang terbuang dapat diminimalisir4. Hal ini tidak hanya mengurangi pencemaran tetapi juga meningkatkan efisiensi pakan.
+<br><br>
+<b>5. Monitoring Kualitas Air Secara Rutin</b><br><br>
+Melakukan pengecekan kualitas air secara berkala sangat penting untuk mendeteksi adanya pencemaran lebih awal. Parameter seperti pH, kadar oksigen terlarut, dan konsentrasi amonia harus dipantau untuk memastikan bahwa kondisi air tetap optimal bagi pertumbuhan udang dan tidak mencemari lingkungan3.
+<br><br>
+<b>6. Edukasi dan Pelatihan Petambak</b><br><br>
+Memberikan pelatihan kepada petambak mengenai praktik budidaya ramah lingkungan sangat penting. Pengetahuan tentang teknik pengelolaan limbah dan pemilihan lokasi yang tepat akan membantu petambak dalam menjaga keberlanjutan usaha mereka sekaligus melindungi lingkungan5.
+<br><br>
+
+<b>Kesimpulan
+</b><br><br>
+Dengan menerapkan langkah-langkah di atas, petambak udang dapat menjaga lingkungan tambak agar tidak tercemar. Pengelolaan yang baik tidak hanya bermanfaat bagi ekosistem tetapi juga meningkatkan produktivitas usaha budidaya udang secara berkelanjutan.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["TambakUdang", "PengelolaanLimbah", "BudidayaRamaiLingkungan", "AkuakulturBerkelanjutan", "KualitasAir"]
+},
+// update content 40
+{
+  id: "40",
+  img: "/images/landing/blog/blog40/blog40.png",
+  poster: "/images/landing/blog/blog40/blog40.png",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Cara Sukses Budidaya Udang Vaname dari Persiapan, Teknis Budidaya Hingga Panen!",
+    desc: `Budidaya tambak udang vaname salah satu bisnis yang sangat menguntungkan, memiliki prospek yang bagus karena tingkat konsumsi terhadap udang vaname terus meningkat (Yunarty et al., 2022). Terlebih lagi, udang vaname tergolong jenis udang yang tumbuh dengan cepat mulai dari benur hingga siap panen, yaitu satu siklus hanya perlu waktu kurang lebih 3 bulan (Aulia, D et al.,2023) .
+<br><br>
+Selain karena budidaya tambak udang vaname sangat menguntungkan, memiliki prospek yang bagus. Udang vaname juga merupakan udang yang sangat cocok untuk dibudidayakan karena memiliki Tingkat keberlangsungan hidup yang tinggi dan ketahanan yang baik terhadap penyakit (Ramadhani, A.S., 2024). Meskipun udang vaname terlihat mudah untuk dibudidayakan, ada beberapa teknik yang perlu diperhatikan agar pembudidayaannya menghasilkan keuntungan yang besar.
+<br><br>
+Simak untuk mengetahui teknik sukses budidaya udang vaname hingga panen!
+<br><br>
+<b>Tahap Persiapan Budidaya</b><br><br>
+<b>1. Persiapkan Kelayakan Tambak,</b><br><br>
+bertujuan percepat proses oksidasi yang bisa membuang gas-gas beracun serta membunuh bibit hama penyakit yang ada di dasar tambak. Tahap ini dilakukan dengan mengeringkan tambak, dan mengembalikan pH tanah tambak ke tingkat keasaman 7.5-8.5.
+<br><br>
+<b>2. Persiapkan Penebaran Mikroorganisme,</b><br><br>
+yang dipersiapkan mikroorganisme yang menghasilkan pakan alami bagi udang. Mikroorganisme ini nantinya juga akan bantu menyerap amonia, memberantas bakteri yang merugikan, menghasilkan oksigen, dan menstabilkan suhu air.
+<br><br>
+
+<b>Teknis Budidaya</b><br><br>
+<b>1. Pemilihan Serta Cara Menebar Benur</b><br><br>
+Pilihlah benur udang vaname yang layak dibudidayakan yaitu harus sehat, dan berukuran minimal 0,8 cm. Selain itu, benur juga harus beradaptasi dengan suhu tambak. Adapun cara Untuk menebar benur udang vaname karena sifat kanibalismenya, idealnya benur ditebar dengan kepadatan 50-100 ekor/m2
+<br><br>
+<b>2. Manajemen Pakan</b><br><br>
+Pada udang vaname pakan dibedakan menjadi 3 jenis, yaitu pakan tepung (udang berusia <15 hari), pakan granula (udang berusia 16-45 hari), dan pelet (udang berusia 46-120 hari). Manajemen pakan harus diatur dengan baik agar tidak mengalami kerugian.
+<br><br>
+<b>3. Manajemen Kualitas Air</b><br><br>
+Air yang digunakan untuk budidaya udang vaname yaitu air laut dengan tingkat salinitas >15 ppt yang harus diganti setiap 60 hari sekali.  Untuk tetap menjaga kualitas air diperlukan pengukuran beberapa parameter seperti parameter suhu, DO, pH, salinitas, alkalinitas, kecerahan, dan warna air (Yunarty et al., 2022).
+<br><br>
+
+<b>Jaga kualitas air: Kontrol dan monitoring 4 parameter dengan mudah menggunakan EBII System Crustea!
+</b><br><br>
+<img src="/images/landing/blog/blog40/blog40.png" alt="EBII" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">EBII System
+</p><br><br>
+
+<b>4. Perawatan </b><br><br>
+Macam-macam perawatan seperti pemberian probiotik harus dilakukan untuk menjaga kesehatan udang vaname. 
+<br><br>
+<b>5. Panen </b><br><br>
+Sebelum panen, sebaiknya air tambak diberi kapur untuk mencegah molting (proses pergantian cangkang) pada saat panen. Lakukan panen jika udang sudah berbobot 16–20 gram/ekor atau berumur 3-4 bulan. Untuk menjaga mutu, panen bisa dilakukan secara keseluruhan (panen total) ataupun sebagian (panen parsial).
+<br><br>
+
+<b>Kesimpulan
+</b><br><br>
+Dengan menerapkan langkah-langkah di atas, petambak udang dapat menjaga lingkungan tambak agar tidak tercemar. Pengelolaan yang baik tidak hanya bermanfaat bagi ekosistem tetapi juga meningkatkan produktivitas usaha budidaya udang secara berkelanjutan.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["udangvaname", "udang", "budidaya", "budidayaudang", "kualitasair", "crustea", "akuakultur", "tambakcerdas", "manajementambakudang"]
+},
+// update content 41
+{
+  id: "41",
+  img: "/images/landing/blog/blog41/blog41.png",
+  poster: "/images/landing/blog/blog41/blog41.png",
+  category: "Smart Teknologi",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Berbagai Metode Mengukur Kualitas Air di Tambak Udang: Dari Manual hingga Teknologi IoT",
+    desc: `Kualitas air adalah aspek penting dalam budidaya udang. Kualitas air yang baik akan menghasilkan budidaya yang produktif dan meminimalisir dampak buruk pada lingkungan sekitar. Salah satu metode untuk mengelola serta menjaga kualitas air yaitu dengan melakukan pengukuran parameter secara rutin.
+<br><br>
+
+<b>Parameter Kualitas Air</b><br><br>
+Beberapa parameter kualitas air yang diukur adalah parameter suhu, pH,  oksigen terlarut (DO level), salinitas, temperature, fitoplankton, dan total bakteri. Parameter-parameter kualitas air ini saling mempengaruhi.
+<br><br>
+Setelah petambak mendapatkan hasil pengukuran parameter kualitas air, hasil pengukuran ini bisa menjadi informasi yang berguna bagi petambak. Petambak bisa menggunakan data yang dihasilkan sebagai dasar pengambilan keputusan untuk budidaya mereka.
+<br><br>
+
+<b>Metode pengukuran kualitas air</b><br><br>
+Pengukuran kualitas air dilakukan rutin oleh petambak pada waktu tertentu setiap harinya. Namun, petambak umumnya mengukur pada pagi dan siang hari. Pagi, DO dan pH mencapai titik terendahnya serta Siang, DO dan pH mencapai titik tertinggi sehingga pengukuran dilakukan kembali.
+<br><br>
+Setiap petambak punya metode yang berbeda dalam mengukur kualitas air. Berikut metode-metode pengukuran kualitas air yang bisa dilakukan
+<br><br>
+
+<b>1. Metode konvensional</b><br><br>
+Metode konvensional yaitu menggunakan insting atau perasaan. Bahkan ada yang mengukur dengan cara mencicipi air kemudian mengira-ngira kondisinya, Cara ini beresiko karena kita yang mencicipi tidak tahu apa saja yang terkandung dalam air.
+<br><br>
+<b>2. Menggunakan Alat ukur manual</b><br><br>
+Umumnya, alat ukur manual hanya mengakomodasi satu parameter, seperti salinity meter (refraktometer) untuk salinitas, pH meter untuk pH, dan termometer untuk suhu. Namun, ada juga alat ukur manual yang dapat mengukur beberapa parameter sekaligus, sehingga petambak tidak perlu menyediakan banyak alat ukur. Alat-alat ukur ini menghasilkan data parameter berupa angka.
+<br><br>
+Untuk beberapa parameter yang berkaitan dengan konsentrasi senyawa atau populasi mikroorganisme, pengukuran dilakukan dengan mengambil sampel air kolam untuk diuji di laboratorium. Metode ini biasanya dilakukan secara mingguan di laboratorium komersial.
+<br><br>
+<b>3. Menggunakan Alat ukur berbasis Internet of Things</b><br><br>
+alat ukur berbasis Internet of Things mulai dikembangkan serta menjadi pilihan petambak, karena data hasil pengukuran pada alat ukur ini bisa dikirim secara online sehingga petambak dapat melihatnya kapan saja dan di mana saja. Cara kerja alat ini akan memudahkan pemilik tambak yang berada jauh dari tambaknya untuk tetap memantau kondisi air di tambak secara real-time serta melihat pola data tersimpan seperti apa dan menjadikan pola data tersebut bahan evaluasi.
+<br><br>
+Dari berbagai metode yang ada, sebaiknya pilih metode yang menghasilkan data paling akurat. Karena data parameter yang akurat akan memberikan wawasan yang jelas seputar kualitas air tambak, yang dimana data hasil pengukuran akan digunakan untuk mengambil keputusan yang tepat.
+<br><br>
+
+<b>Kabar Baiknya, EBII System Crustea Hadir Membantu Petambak!
+</b><br><br>
+<img src="/images/landing/blog/blog41/1_41.png" alt="EBII" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">EBII System
+</p><br><br>
+EBII System Crustea, memiliki beberapa fitur sensor yang dapat mengontrol parameter pH, temperatur, salinitas, dan kadar oksigen terlarut (DO level) pada tambak. Selain itu, data kondisi air pada tambak dapat dilihat langsung melalui aplikasi serta website. Petambak bisa memantau dan menganalisis data parameter kualitas air yang dihasilkan kapan saja dan di mana saja. Dengan mencatat secara rutin, petambak bisa mendapatkan wawasan terkait kondisi kualitas air di tambak mereka.
+<br><br>
+Ayo, Mulai berbudidaya Bersama EBII System Crustea!
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["budidaya", "tambakudang", "crustea", "kualitasair", "metode", "metodepengukuran"]
+},
+// update content 42
+{
+  id: "42",
+  img: "/images/landing/blog/blog42/blog42.jpg",
+  poster: "/images/landing/blog/blog42/blog42.jpg",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Sustainability dalam Budidaya Udang: Mewujudkan Praktek Akuakultur berkelanjutan dengan Teknologi Ramah Lingkungan",
+    desc: `Budidaya udang merupakan sektor penting dalam industri akuakultur. Sektor ini tidak hanya menyediakan sumber protein bagi konsumen namun sebagai salah satu perikanan yang memiliki permintaan pasar yang tinggi, baik untuk konsumsi domestik maupun ekspor. Menurut Food an Agriculture Organization (FAO), udang adalah komoditas akuakultur terbesar yang diperdagangkan di pasar Internasional dan memberikan kontribusi dignifikan terhadap perekonomian negara. 
+<br><br>
+
+Namun, Seiring dengan berkembangnya industri akuakultur, terdapat berbagai tantangan yang perlu dihadapi untuk memastikan bahwa budidaya udang telah dilakukan secara berkelanjutan dan ramah lingungan. Salah satu cara yang dapat dilakukan untuk mencapai tujuan tersebut adalah dengan mengintegrasikan teknologi inovatif yang dapat mengoptimalkan efisiensi dan meminimalkan dampak negatif terhadap lingkungan.
+<br><br>
+
+<b>Tantangan dalam Budidaya Udang dan Kebutuhan akan Praktik Akuakultur Berkelanjutan
+</b><br><br>
+Budidaya udang seringkali menghadapi sejumlah tantangan yang mengancam keberlanjutan jangka panjang, diantarannya yaitu:
+<br><br>
+
+<b>1. Penyakit Udang:</b><br><br>
+Penyakit seperti White Spot Syndrome Virus (WSSV) dan Early Mortality Syndrome (EMS) merupakan ancaman serius yang dapat menyebabkan penurunan produksi dan kerugian ekonomi yang besar bagi petambak.
+<br><br>
+<b>2. Kualitas Air:</b><br><br>
+Dinamika kualitas air yang tidak stabil dapat mempengaruhi kesehatan dan pertumbuhan udang. Kondisi kualitas air yang buruk, seperti kadar oksigen rendah, salinitas yang tidak stabil, dan polusi akibat sisa pakan atau obat-obatan, dapat mempengaruhi kesehatan udang dan mengurangi hasil produksi.
+<br><br>
+Untuk beberapa parameter yang berkaitan dengan konsentrasi senyawa atau populasi mikroorganisme, pengukuran dilakukan dengan mengambil sampel air kolam untuk diuji di laboratorium. Metode ini biasanya dilakukan secara mingguan di laboratorium komersial.
+<br><br>
+<b>3. Penggunaan Energi:</b><br><br>
+Penggunaan energi untuk aerasi, pemompaan air, dan pencahayaan merupakan salah satu kontributor utama emisi karbon di sektor akuakultur. Ketergantungan pada sumber energi fosil tidak hanya meningkatkan biaya operasional tetapi juga memberikan dampak lingkungan yang besar.
+<br><br>
+<b>4. Polusi dan Limbah:</b><br><br>
+Proses budidaya udang yang tidak dikelola dengan baik dapat menghasilkan limbah organik yang mencemari lingkungan, seperti pakan yang tidak habis dimakan dan bahan kimia yang digunakan dalam pengendalian penyakit.
+<br><br>
+
+Untuk mengatasi masalah-masalah ini, teknologi inovatif yang ramah lingkungan dan efisien menjadi kunci untuk mewujudkan praktik akuakultur yang lebih berkelanjutan. Teknologi ramah lingkungan memainkan peran penting dalam menciptakan budidaya udang yang berkelanjutan dengan mengurangi dampak negatif terhadap lingkungan dan meningkatkan efisiensi operasional. Misalnya, penggunaan teknologi berbasis IoT dapat mengontrol kondisi tambak, air, dan bibit udang secara teliti dan baik melalui gadget maupun laptop. Selain itu, teknologi ramah lingkungan seperti sistem aerasi yang efisien dan pemantauan kualitas air secara real-time membantu menjaga kondisi optimal bagi pertumbuhan udang, mengurangi risiko penyakit, dan meningkatkan produktivitas. Dengan demikian, teknologi ini tidak hanya mendukung keberlanjutan lingkungan tetapi juga memberikan manfaat ekonomi bagi petambak dengan mengurangi biaya operasional dan meningkatkan hasil panen.
+<br><br>
+Crustea sebagai salah satu startup di Indonesia telah menciptakan solusi teknologi berbasis IoT untuk mendukung keberlanjutan dalam industri budidaya udang. Produk-produknnya dirancang untuk meminimalkan dampak lingkungan, meningkatkan efisiensi operasional, serta memastikan kesehatan dan kesejahteraan udang yang lebih baik. Teknologi berbasis IoT yang telah diciptakan diantaranya Eco-Aerator yang terintegrasi dengan panel surya, EBII System untuk pengukuran kualitas air secara real-time melalui aplikasi mobile atau dashboard berbasis web, dan Smart Energy untuk Monitoring Penggunaan Energi
+<br><br>
+
+<b>Manfaat Teknologi Ramah Lingkungan dalam Budidaya Udang
+</b><br><br>
+Integrasi teknologi ramah lingkungan dalam budidaya udang memberikan berbagai manfaat yang signifikan, baik untuk petambak maupun lingkungan sekitar, antara lain:
+<br><br>
+
+<b>1. Pengurangan Dampak Lingkungan:</b><br><br>
+Dengan menggunakan energi terbarukan (seperti solar power) dan mengoptimalkan penggunaan energi, jejak karbon dari industri budidaya udang dapat diminimalkan. Selain itu, pengelolaan kualitas air yang lebih baik juga mengurangi potensi pencemaran lingkungan.
+<br><br>
+<b>2. Peningkatan Efisiensi Produksi:</b><br><br>
+Teknologi yang tepat dapat mengurangi biaya operasional, meningkatkan hasil produksi, dan mengurangi risiko penyakit pada udang. Dengan memantau kualitas air secara real-time, petambak dapat mencegah masalah sejak dini dan mengurangi pemborosan pakan serta obat-obatan.
+<br><br>
+Untuk beberapa parameter yang berkaitan dengan konsentrasi senyawa atau populasi mikroorganisme, pengukuran dilakukan dengan mengambil sampel air kolam untuk diuji di laboratorium. Metode ini biasanya dilakukan secara mingguan di laboratorium komersial.
+<br><br>
+<b>3. Keberlanjutan Ekonomi:</b><br><br>
+Penggunaan teknologi yang efisien membantu petambak untuk meningkatkan margin keuntungan mereka. Dengan penghematan energi, peningkatan hasil produksi, dan pengurangan kerugian, sektor budidaya udang menjadi lebih berkelanjutan secara ekonomi.
+<br><br>
+<b>4. Peningkatan Kesejahteraan Udang:</b><br><br>
+Dengan pemantauan kualitas air yang optimal dan penerapan teknologi aerasi yang tepat, kondisi hidup udang akan lebih baik. Udang yang sehat lebih tahan terhadap penyakit dan stres, yang pada akhirnya meningkatkan kualitas dan kuantitas hasil panen.
+<br><br>
+<b>Kesimpulan</b><br><br>
+Sustainability dalam budidaya udang bukanlah sebuah pilihan, tetapi kebutuhan untuk memastikan kelangsungan industri perikanan di masa depan. Mengadopsi teknologi ramah lingkungan dalam budidaya udang tidak hanya membantu menjaga kelestarian lingkungan tetapi juga meningkatkan produktivitas dan efisiensi operasional. Crustea berkomitmen untuk membantu para petambak udang mewujudkan praktek akuakultur yang lebih efisien, ramah lingkungan, dan berkelanjutan. Dengan inovasi teknologi yang diciptakan crustea, tidak hanya mendukung pertumbuhan industri budidaya udang tetapi juga menjaga kelestarian lingkungan untuk generasi yang akan datang.
+<br><br>
+<b>Closing:</b><br><br>
+Konsultasikan rencana pembangunan tambak udang kamu dengan teknologi ramah lingkungan dari Crustea! Kami siap mendukung Anda untuk mewujudkan budidaya udang yang berkelanjutan dan menguntungkan.
+<br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Ikuti terus informasi menarik lainnya di sosial media (IG, FB, LinkedIdn, Tiktok) Crustea dan bisa hubungi kami langsung melalui WhatsApp: +62-821-4077-3592
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["BudidayaUdang", "Sustainability", "TeknologiRamahLingkungan"]
+},
+
+// update content 43
+{
+  id: "43",
+  img: "/images/landing/blog/blog43/blog43.png",
+  poster: "/images/landing/blog/blog43/blog43.png",
+  category: "Tambak Udang",
+  en: {
+    title: "Building a Shrimp Pond: Preparation and Important Steps",
+    desc: `
+Shrimp farming in ponds is a promising business, but success depends heavily on good preparation and management.<br><br>
+
+This article explains what needs to be prepared to start a shrimp pond business—from site selection to effective shrimp health management.<br><br>
+
+<b>1. Location and Pond Design:</b><br>
+Choose a location with low pollution and good water access. Design the pond with appropriate land area, depth, and drainage.<br><br>
+
+<b>2. Shrimp Species:</b><br>
+Choose species suitable for your pond conditions. Different shrimp types require different environments.<br><br>
+
+<b>3. Land Preparation:</b><br>
+Clear the land of unwanted materials. Ensure soil salinity and fertility are ideal.<br><br>
+
+<b>4. Irrigation System:</b><br>
+Install a system to control salinity and ensure a clean, sufficient water source.<br><br>
+
+<b>5. Equipment:</b><br>
+Prepare equipment like aerators, water pumps, and filters. Good tools help maintain the pond environment.<br><br>
+
+<b>6. Shrimp Seed:</b><br>
+Buy healthy shrimp seed from trusted suppliers, tailored to pond size.<br><br>
+
+<b>7. Feeding:</b><br>
+Plan shrimp feed type and ensure supply throughout the farming cycle.<br><br>
+
+<b>8. Health Management:</b><br>
+Keep ponds clean to prevent disease. Prepare medications and vaccines as needed.<br><br>
+
+<b>9. Regular Monitoring:</b><br>
+Monitor water quality, shrimp growth, and environmental conditions regularly.<br><br>
+
+<b>10. Licensing:</b><br>
+Obtain all permits from authorities for shrimp farming operations.<br><br>
+
+<b>11. Training & Knowledge:</b><br>
+Improve your knowledge through training or consulting aquaculture experts.<br><br>
+
+<b>12. Financial Planning:</b><br>
+Plan budgets for investment and operations. Create a business plan to manage risks and profits.<br><br>
+
+Considering these factors increases the chances of success. Innovation in aerator technology helps improve efficiency and sustainability. This not only improves water quality for shrimp but supports aquatic ecosystem balance.<br><br>
+
+For more info about eco-friendly aerators and their use in shrimp farming, visit our site. We are committed to providing resources and insights to support your shrimp farming success.<br><br>
+
+Follow more updates on Crustea’s IG or contact us on WhatsApp: +62-821-4077-3592.
+    `
+  },
+  in: {
+    title: "Risiko Budidaya Udang!Jangan Pakai Kaporit Kebanyakan",
+    desc: `Kaporit merupakan zat kimia yang digunakan dalam budidaya tambak udang untuk membersihkan air dan mematikan kuman. Namun, dosis penggunaan kaporit dalam budidaya harus diperhatikan. Karena dosis yang terlalu tinggi dapat memberikan efek samping yaitu dapat mematikan organisme budidaya seperti udang dan dapat merusak lingkungan. Yuk baca artikel ini untuk mengetahui resiko pemakaian kaporit yang terlalu tinggi pada tambak udang!
+<br><br>
+
+<b>Efek Samping dari Dosis Kaporit yang Tinggi pada Tambak Udang
+</b><br><br>
+Penggunaan kaporit harus sesuai dengan kondisi air. Proses oksidasi kaporit yang tidak sempurna dapat merubah kaporit menjadi senyawa yang mematikan udang vannamei. Dosis penggunaan kaporit yang tidak tepat juga dapat menurunkan daya dukung lingkungan dengan mematikan mikroorganisme, bakteri baik, dan plankton dalam air yang berguna bagi pertumbuhan udang vannamei (Hartoyo dan Anna, 2018)
+<br><br>
+<b>Pengaplikasian Kaporit bagi Tambak Udang
+</b><br><br>
+Menurut Farabi dan Husain (2023), pemberian kaporit bagi tambak udang dimulai dari :
+<br><br>
+
+1. Pengeringan tambak sebelum budidaya yang dilakukan selama 1-3 hari <br><br>
+2. Pengapuran dinding tambak dengan menggunakan kapur tohor<br><br>
+3. Pengisian  air  dan aplikasi  kaporit  dengan  menghidupkan  kincir  untuk  pemerataan  penyebaran  kandungan partikel dalam air<br><br>
+4. Kincir air dimatikan untuk mengendapkan partikel dalam air selama ±4 hari kondisi  air  steril<br><br>
+5. Dilakukan uji kandungan chlor dan pemberian probiotik (opsional)<br><br>
+
+Keberhasilan pasca budidaya udang sangat tergantung pada kualitas air dan pengelolaan pada tambak dari awal dan selama proses budidaya berlangsung. Pencemaran lingkungan pasca budidaya dapat diminimalisir dengan penggunaan Aerator Crustea  Yuk beralih ke teknologi ramah lingkungan, bersama Crustea!
+<br><br>
+<img src="/images/landing/blog/blog43/1_43.jpg" alt="Petani Tambak" style="display: block; margin: 20px auto; max-width: 30%; height: auto;" />
+<p style="text-align: center; font-family: inherit; font-size: 80%; color: inherit;">Petani Tambak
+</p><br><br>
+
+Untuk informasi lebih lanjut tentang produk dan inovasi terbaru dari Crustea, kunjungi website kami di www.crustea.com dan ikuti kami di media sosial <b>Instagram</b> @crustea.id.
+<br><br>
+Ikuti terus informasi menarik lainnya di sosial media (IG, FB, LinkedIdn, Tiktok) Crustea dan bisa hubungi kami langsung melalui WhatsApp: +62-821-4077-3592
+<br><br>
+Dapatkan update terkini, tips budidaya, dan penawaran eksklusif hanya di Crustea. Mari bersama-sama menuju akuakultur yang lebih berkelanjutan dan inovatif! 🌊🐟
+
+<br><br>
+Ikuti terus informasi menarik lainnya di IG Crustea dan bisa menghubungi langsung melalui WhatsApp: +62-821-4077-3592
+    `
+  },
+  tags: ["BudidayaUdang", "kualitasairbudidaya", "monitoringtambak", "Crustea", "manajementambakudang"]
+},
+
+
 
 ];
 

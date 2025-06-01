@@ -19,7 +19,7 @@ const Values = () => {
         <ScrollAnimationWrapper className={undefined}>
           <motion.div variants={scrollAnimation}>
             <h2 className="text-black-600 text-center font-Cabin justify-center mx-auto md:px-0 text-3xl md:text-5xl font-bold">
-              Values of <span className="text-[#ACC937]">Crustea</span>
+              Company <span className="text-[#ACC937]">Philosophy</span>
             </h2>
           </motion.div>
         </ScrollAnimationWrapper>

@@ -49,7 +49,7 @@ const ProductCatalog = ({
             className="mx-auto font-bold text-center text-3xl md:text-5xl"
           >
             <h2 className="text-[#ACCB37]">
-              <span className="text-black-600">Our</span> Product Catalog
+              <span className="text-black-600">Our</span> Products Catalog
             </h2>
           </motion.div>
         </ScrollAnimationWrapper>
@@ -86,7 +86,7 @@ const ProductCatalog = ({
                   <ScrollAnimationWrapper className="mt-auto mb-3">
                     <motion.div variants={scrollAnimation} className="ml-3">
                       <a
-                        href="https://bit.ly/InterestedtoOrder-Crustea"
+                       href={`https://wa.me/6282140773592?text=Hi%20Crustea,%20I'm%20interested%20in%20your%20product:%20${product.name}`}
                         className="rounded-md cursor-pointer hover:ring-2 hover:ring-[#ACCB37] flex self-end items-center w-fit p-1"
                       >
                         <h3 className="text-[#ACCB37] md:text-2xl">

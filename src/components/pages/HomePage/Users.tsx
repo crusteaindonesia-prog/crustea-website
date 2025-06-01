@@ -7,7 +7,7 @@ const Users = ({
   listUser = [
     {
       name: "Users",
-      number: "390",
+      number: "600",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {

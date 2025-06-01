@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose, AiFillSetting, AiFillInfoCircle, AiOutlineDown } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 // Import react scroll
@@ -39,10 +39,14 @@ const LogoVPN = (props) => (
     </svg>
   </div>
 );
+
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [scrollActive, setScrollActive] = useState(false);
   const [sidenav, setSideNav] = useState(false);
+  const [productDropdown, setProductDropdown] = useState(false);
+  const [aboutDropdown, setAboutDropdown] = useState(false);
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScrollActive(window.scrollY > 20);
@@ -57,7 +61,7 @@ const Header = () => {
     <>
       <header
         className={
-          "fixed top-0 w-full  z-30 bg-white-500 transition-all py-4 md:py-0 " +
+          "fixed top-0 w-full z-30 bg-white-500 transition-all py-4 md:py-0 " +
           (scrollActive ? " shadow-md pt-4 md:pt-0" : " pt-4")
         }
       >
@@ -72,55 +76,90 @@ const Header = () => {
               <AiOutlineMenu size={30} className="text-green" />
             )}
           </div>
+
+          {/* MOBILE SIDENAV */}
           <ul
             className={
               sidenav
-                ? "text-white-500 fixed top-0 left-0 w-[60%] h-full bg-green text-base border-r-gray-100 ease-in-out duration-500 border-r border-gray-800 md:hidden"
+                ? "text-white-500 fixed top-0 left-0 w-[70%] h-full bg-green text-base border-r-gray-100 ease-in-out duration-500 border-r border-gray-800 md:hidden overflow-y-auto"
                 : "ease-in-out duration-500 fixed left-[-100%]"
             }
           >
-            <div className="flex items-center p-4 bg-white-500 ">
+            <div className="flex items-center p-4 bg-white-500">
               <LogoVPN className="h-8 w-auto" />
             </div>
             <li className="p-4 border-b border-b-gray-500 hover:text-main">
-              <Link
-                to="/"
-                className={
-                  "cursor-pointer hover:text-main inline-block relative" +
-                  (activeLink === "banner"
-                    ? " text-main animation-active "
-                    : " text-white-500 hover:text-main a")
-                }
-              >
-                <Link to="/">Home</Link>
-              </Link>
+              <Link to="/">Home</Link>
             </li>
-            <li className="p-4 border-b border-b-gray-500 hover:text-main">
-              <Link
-                to="/Products"
-                className={
-                  "cursor-pointer hover:text-main inline-block relative" +
-                  (activeLink === "testimoni"
-                    ? " text-main animation-active "
-                    : " text-white-500 hover:text-main a")
-                }
+
+          {/* Dropdown Mobile - Products */}
+              <li
+                className="p-4 border-b border-b-gray-500 hover:text-main cursor-pointer flex justify-between items-center"
+                onClick={() => setProductDropdown(!productDropdown)}
               >
-                Products
-              </Link>
+                <span>Products</span>
+                <AiOutlineDown />
+              </li>
+
+              {productDropdown && (
+                <ul className="bg-white px-4 py-2 space-y-3">
+                  <li className="flex items-start gap-3 border-b pb-3">
+                    <AiFillSetting className="text-xl text-primary mt-1" />
+                    <div>
+                      <Link to="/Products" className="font-medium text-main">All Products</Link>
+                      <p className="text-sm text-gray-500">Aerator hemat energi untuk kolam atau tambak Anda.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3 border-b pb-3">
+                    <AiFillSetting className="text-xl text-primary mt-1" />
+                    <div>
+                      <Link to="/Products" className="font-medium text-main">Eco Aerator</Link>
+                      <p className="text-sm text-gray-500">Energy-saving aerator for your pond or fishpond.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3 border-b pb-3">
+                    <AiFillInfoCircle className="text-xl text-primary mt-1" />
+                    <div>
+                      <Link to="/Products" className="font-medium text-main">EBII System</Link>
+                      <p className="text-sm text-gray-500">Smart biofloc system for optimal shrimp growth.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3 border-b pb-3">
+                    <AiFillSetting className="text-xl text-primary mt-1" />
+                    <div>
+                      <Link to="/Products" className="font-medium text-main">Smart System</Link>
+                      <p className="text-sm text-gray-500">IoT-based cultivation monitoring and automation.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <AiFillInfoCircle className="text-xl text-primary mt-1" />
+                    <div>
+                      <Link to="/Products" className="font-medium text-main">Konsultasi</Link>
+                      <p className="text-sm text-gray-500">Discuss your cultivation needs with our experts.</p>
+                    </div>
+                  </li>
+                </ul>
+              )}
+
+            {/* Dropdown Mobile - About Us */}
+            <li
+              className="p-4 border-b border-b-gray-500 hover:text-main cursor-pointer flex justify-between items-center"
+              onClick={() => setAboutDropdown(!aboutDropdown)}
+            >
+              <span>About Us</span>
+              <AiOutlineDown />
             </li>
-            <li className="p-4 border-b border-b-gray-500 hover:text-main">
-              <Link
-                to="/About"
-                className={
-                  "cursor-pointer hover:text-main inline-block relative" +
-                  (activeLink === "about"
-                    ? " text-main animation-active "
-                    : " text-white-500 hover:text-main a")
-                }
-              >
-                <Link to="/About">About Us</Link>
-              </Link>
-            </li>
+            {aboutDropdown && (
+              <ul className="pl-8 bg-green-700 text-sm">
+                <li className="py-2">
+                  <Link to="/About#team">Our Team</Link>
+                </li>
+                <li className="py-2">
+                  <Link to="/About#mission">Video Crustea Profile</Link>
+                </li>
+              </ul>
+            )}
+
             <div className="m-4 border-2 border-main rounded-full w-[123px] hover:bg-main">
               <p className="text-main text-center text-base hover:text-white-300 hover:font-bold py-1">
                 <a
@@ -133,6 +172,8 @@ const Header = () => {
               </p>
             </div>
           </ul>
+
+          {/* DESKTOP MENU */}
           <ul className="hidden md:flex w-[456px] flex-row justify-between items-center p-4 ">
             <li>
               <Link
@@ -147,36 +188,83 @@ const Header = () => {
                 Home
               </Link>
             </li>
-            <li>
-              <Link
-                to="/Products"
-                className={
-                  "cursor-pointer animation-hover inline-block relative" +
-                  (activeLink === "testimoni"
-                    ? " text-green animation-active "
-                    : " text-black-500 hover:text-green a")
-                }
-              >
+
+            {/* Dropdown Desktop - Products */}
+            <li className="relative group">
+              <div className="cursor-pointer flex items-center gap-1 text-black-500 hover:text-green">
                 Products
-              </Link>
+                <AiOutlineDown />
+              </div>
+             <div className="relative group">
+                {/* Dropdown menu */}
+                <div className="absolute right-0 mt-2 top-full z-100 hidden group-hover:grid grid-cols-2 gap-4 bg-[#cfff42] shadow-xl rounded-xl p-6 w-[600px] transition-1s duration-300">
+                  <Link to="/Products" className="flex items-start gap-3 hover:bg-gray-50 p-3 rounded-lg transition">
+                    <AiFillSetting className="text-xl text-primary mt-1" />
+                    <div>
+                      <p className="font-medium">All Products</p>
+                      <p className="text-sm text-[#08556b]">Get to know all Crustea pond products better.</p>
+                    </div>
+                  </Link>
+                  <Link to="/Products" className="flex items-start gap-3 hover:bg-gray-50 p-3 rounded-lg transition">
+                    <AiFillSetting className="text-xl text-primary mt-1" />
+                    <div>
+                      <p className="font-medium">Eco Aerator</p>
+                      <p className="text-sm text-[#08556b]">Energy-saving aerator for your pond or fishpond.</p>
+                    </div>
+                  </Link>
+                  <Link to="/Products" className="flex items-start gap-3 hover:bg-gray-50 p-3 rounded-lg transition">
+                    <AiFillInfoCircle className="text-xl text-primary mt-1" />
+                    <div>
+                      <p className="font-medium">EBII System</p>
+                      <p className="text-sm text-[#08556b]">Smart biofloc system for optimal shrimp growth.</p>
+                    </div>
+                  </Link>
+                  <Link to="/Products" className="flex items-start gap-3 hover:bg-gray-50 p-3 rounded-lg transition">
+                    <AiFillSetting className="text-xl text-primary mt-1" />
+                    <div>
+                      <p className="font-medium">Smart System</p>
+                      <p className="text-sm text-[#08556b]">IoT-based cultivation monitoring and automation.</p>
+                    </div>
+                  </Link>
+                  <Link to="/Products" className="flex items-start gap-3 hover:bg-gray-50 p-3 rounded-lg transition">
+                    <AiFillInfoCircle className="text-xl text-primary mt-1" />
+                    <div>
+                      <p className="font-medium">Konsultasi</p>
+                      <p className="text-sm text-[#08556b]">Discuss your cultivation needs with our experts.</p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
             </li>
-            <li>
-              <Link
-                to="/About"
-                className={
-                  "cursor-pointer animation-hover inline-block relative" +
-                  (activeLink === "about"
-                    ? " text-green animation-active "
-                    : " text-black-500 hover:text-green a")
-                }
-              >
+
+            {/* Dropdown Desktop - About Us */}
+            <li className="relative group">
+              <div className="cursor-pointer flex items-center gap-1 text-black-500 hover:text-green">
                 About Us
-              </Link>
+                <AiOutlineDown />
+              </div>
+              <div className="absolute hidden mt-2 group-hover:block top-full right-0 bg-[#cfff42] shadow-lg p-4 w-64 rounded-xl z-100">
+                <ul className="flex flex-col gap-2">
+                  <li>
+                    <Link to="/About#team" className="flex items-center gap-2 text-[#08556b] hover:text-[#f1ffff]">
+                      <AiFillInfoCircle />
+                      Our Team
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/About#mission" className="flex items-center gap-2 text-[#08556b] hover:text-[#f1ffff]">
+                      <AiFillInfoCircle />
+                      Video Crustea Profile
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </li>
+
             <div className="border-2 border-green rounded-full w-[123px] hover:bg-green">
               <p className="text-green text-center text-base hover:text-white-300 hover:font-bold py-1">
                 <a
-                  href="https://linktr.ee/crusteaid"
+                  href="http://api.whatsapp.com/send?phone=6282140773592"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -187,9 +275,6 @@ const Header = () => {
           </ul>
         </nav>
       </header>
-      {/* Mobile Navigation */}
-
-      {/* End Mobile Navigation */}
     </>
   );
 };

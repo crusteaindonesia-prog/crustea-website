@@ -16,12 +16,19 @@ const Header = () => {
                 Operational cost <span className="text-[#ACCB37]">savings</span>{" "}
                 of up to <span className="text-[#ACCB37]">80%</span>{" "}
               </h1>
-              <a
-                className="font-semibold text-base text-white-300 bg-[#ACCB37] py-3 px-8 rounded-lg hover:shadow-lg hover:bg-slate-500 cursor-pointer "
-                href="#about"
-              >
-                Buy Processed Products
-              </a>
+              <button
+  onClick={() => {
+    const section = document.getElementById("Product");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }}
+  className="font-semibold text-base text-white-300 bg-[#ACCB37] py-3 px-8 rounded-lg hover:shadow-lg hover:bg-slate-500 cursor-pointer transition-all duration-300"
+>
+  Buy Processed Products
+</button>
+
+
             </motion.div>
           </ScrollAnimationWrapper>
         </div>
