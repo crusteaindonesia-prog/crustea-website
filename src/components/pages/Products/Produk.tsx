@@ -29,7 +29,7 @@ const ProductCatalog = ({
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <section className="relative bg-gradient-to-b from-white via-white to-transparent py-24 px-4 md:px-8 lg:px-16 xl:px-24 overflow-hidden">
+    <section id="Product" className="relative bg-gradient-to-b from-white via-white to-transparent py-24 px-4 md:px-8 lg:px-16 xl:px-24 overflow-hidden">
       <ScrollAnimationWrapper>
         <motion.div
           variants={scrollAnimation}
@@ -67,7 +67,7 @@ const ProductCatalog = ({
                 {product.desc}
               </p>
               <a
-                href="https://bit.ly/InterestedtoOrder-Crustea"
+                href={`https://wa.me/6282140773592?text=Hi%20Crustea,%20I'm%20interested%20in%20your%20product:%20${product.name}`}
                 className="inline-flex items-center justify-center text-sm md:text-base font-semibold text-[#ACCB37] bg-white border-2 border-[#ACCB37] px-6 py-3 rounded-full shadow-md transition-all duration-300 transform hover:bg-[#ACCB37] hover:text-white hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-200"
               >
                 Interested to Order

@@ -25,6 +25,8 @@ Mocking up web app with <b>Vital</b><sup><em>(speed)</em></sup><br>
 - 🗂 [Absolute imports](https://github.com/vitejs/vite/issues/88#issuecomment-762415200)
 - 😃 [Hero icons](https://heroicons.com/)
 - ☁️ Deploy on Netlify, zero-config
+- ## Requirements
+- Node.js >= 18.18.0
 
 ### Coding Style
 

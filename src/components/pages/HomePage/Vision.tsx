@@ -1,47 +1,74 @@
-import getScrollAnimation from "../../../utils/getScrollAnimation";
-import ScrollAnimationWrapper from "../../Layout/ScrollAnimationWrapper";
 import React, { useMemo } from "react";
 import { motion } from "framer-motion";
+import ScrollAnimationWrapper from "../../Layout/ScrollAnimationWrapper";
+import getScrollAnimation from "../../../utils/getScrollAnimation";
+import { CheckCircle } from "lucide-react";
 import imgBG from "/images/landing/hueBG.jpg";
 
 const Vision = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+
   return (
-    <>
-      <ScrollAnimationWrapper className={undefined}>
-        <div className="flex flex-wrap lg:h-72 md:mt-40">
-          <motion.div
-            variants={scrollAnimation}
-            className="w-full lg:w-[2/5] md:h-72 md:basis-2/5 md:order-2"
-          >
-            <div
-              className="bg-center bg-cover relative h-32 lg:h-72"
-              style={{ backgroundImage: `url(${imgBG})` }}
+    <ScrollAnimationWrapper>
+      <motion.section
+        variants={scrollAnimation}
+        className="relative py-20 bg-gradient-to-r from-[#ffffff] via-[#ffffff] to-[#ffffff] overflow-hidden"
+      >
+        {/* Animated background glow */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#dfffff] via-[#def9df] to-[#f2ffe6] bg-[length:400%_400%] animate-[bg-shift] z-0 opacity-30 blur-2xl" />
+
+        <div className="relative z-10 container mx-auto px-6 md:px-10 lg:px-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center bg-white/80 backdrop-blur-md border border-gray-200 rounded-3xl shadow-xl overflow-hidden p-6 md:p-12">
+            
+            {/* TEXT */}
+            <motion.div
+              variants={scrollAnimation}
+              className="text-center lg:text-left"
             >
-              <div className="bg-[#ACCB37] h-full lg:h-full w-full mix-blend-multiply">
-                <h2 className="text-white-300 h-full lg:h-full font-Cabin font-bold mx-auto mix-blend-normal flex items-center justify-center text-3xl lg:text-6xl">
-                  OUR VISION
-                </h2>
-              </div>
-            </div>
-            {/* <div className="bg-[#ACCB37] text-white-300 lg:h-72">
-              <h2 className="mx-auto text-center text-3xl font-bold my-auto lg:text-6xl align-middle">OUR VISION</h2>
-            </div> */}
-          </motion.div>
-          <motion.div
-            variants={scrollAnimation}
-            className="w-full lg:w-[3/5] md:h-72 md:basis-3/5"
-          >
-            <div className="bg-[#DEE8DB] lg:py-16 h-32 w-full lg:h-72">
-              <p className="text-xl text-[#000000] h-full lg:text-3xl max-w-xl mx-5 sm:mx-10 md:mx-auto font-DMSans text-center font-medium flex items-center lg:leading-[48px] md:justify-center italic lg:text-right lg:mr-16">
-                Increasing the Pond Farmer's Productivity & Food Security by
-                Implementing Eco-Aerator Technology
+              <h2 className="text-3xl md:text-5xl font-Cabin font-bold text-gray-900 mb-6 leading-tight">
+                Our Vision
+              </h2>
+              <p className="text-base sm:text-lg md:text-xl font-DMSans text-gray-700 mb-6 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                Increasing the Pond Farmer's Productivity{" "}
+                <span className="text-[#6A994E] font-semibold">
+                  & Food Security by Implementing
+                </span>{" "}
+                Eco-Aerator Technology
               </p>
-            </div>
-          </motion.div>
+              <ul className="space-y-4 text-gray-800 text-sm sm:text-base md:text-lg font-medium max-w-2xl mx-auto lg:mx-0">
+                {[
+                  "Boosting productivity with precision Eco-Aerator systems",
+                  "Supporting sustainable food security for future generations",
+                  "Empowering digital-savvy pond farmers with real-time tech"
+                ].map((item, index) => (
+                  <li key={index} className="flex items-start gap-3">
+                    <CheckCircle className="text-[#6A994E]" size={20} />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+
+            {/* IMAGE */}
+            <motion.div
+              variants={scrollAnimation}
+              className="relative w-full h-[240px] sm:h-[320px] md:h-[400px] lg:h-full rounded-xl overflow-hidden"
+            >
+              <div
+                className="absolute inset-0 bg-cover bg-center"
+                style={{ backgroundImage: `url(${imgBG})` }}
+              />
+              <div className="absolute inset-0 bg-[#ACCB37]/70 mix-blend-multiply backdrop-blur-sm" />
+              <div className="relative z-10 h-full flex items-center justify-center p-6">
+                <h3 className="text-white text-2xl sm:text-3xl md:text-4xl font-Cabin font-bold text-center leading-tight drop-shadow-lg">
+                  Smart Farming<br className="hidden sm:block" /> for a Better Future
+                </h3>
+              </div>
+            </motion.div>
+          </div>
         </div>
-      </ScrollAnimationWrapper>
-    </>
+      </motion.section>
+    </ScrollAnimationWrapper>
   );
 };
 

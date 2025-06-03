@@ -1,109 +1,181 @@
 .footer {
-    position: relative;
-    background-color: #f4f9fc;
-    color: #1f3c58;
-    padding: 3rem 1.5rem;
-    overflow: hidden;
+  position: relative;
+  background-color: #f4f9fc;
+  color: #1f3c58;
+  padding: 3rem 1.5rem;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.backgroundImage {
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/landing/bg_footer_opacity.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  z-index: 0;
+  transition: transform 0.8s ease;
+}
+
+.sectionTitle {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #1a9aae;
+  padding-bottom: 0.5rem;
+  width: fit-content;
+  color: #1f3c58;
+}
+
+.socialItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-left: 0.75rem;
+  border-left: 4px solid #21b3c8;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.socialItem:hover {
+  border-color: #1a9aae;
+}
+
+.socialItem:hover .icon {
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  padding: 4px;
+  background-color: white;
+  border: 2px solid #A5C559;
+  border-radius: 6px;
+  object-fit: contain;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.iconGreen {
+  border-color: #A5C559;
+}
+
+.link {
+  color: #3e5f78;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.link:hover {
+  color: #21b3c8;
+  text-decoration: underline;
+}
+
+.contactButton,
+.ctaButton {
+  display: inline-block;
+  font-weight: 500;
+  border-radius: 9999px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.contactButton {
+  background-color: #21b3c8;
+  color: white;
+  padding: 0.5rem 1.5rem;
+}
+
+.contactButton:hover {
+  background-color: #1a9aae;
+  transform: scale(1.05);
+}
+
+.ctaButton {
+  background-color: #ff6f61;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.ctaButton:hover {
+  background-color: #e55b51;
+  transform: scale(1.05);
+}
+
+.waveWrapper {
+  margin-top: 3rem;
+  position: relative;
+  z-index: 0;
+}
+
+/* -------------------- */
+/* ✅ Responsive Layout */
+/* -------------------- */
+
+.footerContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.footerColumn {
+  flex: 1 1 45%;
+  min-width: 250px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 1rem;
   }
-  
-  .backgroundImage {
-    position: absolute;
-    inset: 0;
-    background-image: url('/images/landing/bg_footer_opacity.png'); /* mengganti path background */
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
-    z-index: 0;
-    transition: transform 0.8s ease;
+
+  .sectionTitle {
+    font-size: 1.125rem;
   }
-  
+
+  .footerContent {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footerColumn {
+    flex: 1 1 100%;
+  }
+
+  .contactButton,
+  .ctaButton {
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+  }
+
   .icon {
     width: 24px;
     height: 24px;
-    padding: 4px;
-    background-color: white;
-    border: 2px solid #A5C559; /* warna hijau logo dari Crustea */
-    border-radius: 4px;
-    object-fit: contain;
-    transition: transform 0.3s ease;
+    padding: 3px;
   }
-  
-  .iconGreen {
-    border-color: #A5C559; /* warna hijau logo dari Crustea */
-  }  
-  
-  .socialItem {
+}
+
+/* Tambahan khusus layout 2 kolom di mobile */
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .footerGrid {
     display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding-left: 0.75rem;
-    border-left: 4px solid #21b3c8;
-    transition: all 0.3s ease;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
-  
-  .socialItem:hover .icon {
-    transform: scale(1.1);
-  }
-  
-  .socialItem:hover {
-    border-color: #1a9aae;
-  }
-  
-  .sectionTitle {
-    font-weight: 600;
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #1a9aae; /* Warna garis */
-    padding-bottom: 0.5rem;
-    width: fit-content;
-  }
-  
-  .link {
-    color: #3e5f78;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .link:hover {
-    color: #21b3c8;
-    text-decoration: underline;
-  }
-  
-  .contactButton {
-    display: inline-block;
-    background-color: #21b3c8;
-    color: white;
-    font-weight: 500;
-    padding: 0.5rem 1.5rem;
-    border-radius: 9999px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-  }
-  
-  .contactButton:hover {
-    background-color: #1a9aae;
-    transform: scale(1.05);
-  }
-  
-  .ctaButton {
-    display: inline-block;
-    background-color: #ff6f61;
-    color: white;
-    font-weight: 600;
-    padding: 0.75rem 2rem;
-    border-radius: 9999px;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
-  }
-  
-  .ctaButton:hover {
-    background-color: #e55b51;
-    transform: scale(1.05);
-  }
-  
-  .waveWrapper {
-    margin-top: 3rem;
-    position: relative;
-    z-index: 0;
-  }
-  
+}
