@@ -163,7 +163,7 @@ const Header = () => {
             <div className="m-4 border-2 border-main rounded-full w-[123px] hover:bg-main">
               <p className="text-main text-center text-base hover:text-white-300 hover:font-bold py-1">
                 <a
-                  href="https://linktr.ee/crusteaid"
+                  href="http://api.whatsapp.com/send?phone=6282140773592"
                   target="_blank"
                   rel="noreferrer"
                 >

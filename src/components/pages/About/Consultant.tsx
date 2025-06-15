@@ -14,8 +14,8 @@ const Consultant = () => {
       <div className="mt-40 mx-auto justify-center text-center">
         <ScrollAnimationWrapper className={undefined}>
           <motion.div variants={scrollAnimation}>
-            <h2 className="text-black-600 px-2 md:px-0 text-3xl md:text-5xl font-bold">
-              Project and Consultation
+            <h2 className="text-black-600 text-center font-Cabin justify-center mx-auto md:px-0 text-3xl md:text-5xl font-bold">
+              Project <span className="text-[#ACC937]">and Consultant</span>
             </h2>
           </motion.div>
         </ScrollAnimationWrapper>

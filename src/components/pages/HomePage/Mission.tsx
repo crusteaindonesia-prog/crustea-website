@@ -1,7 +1,7 @@
-import React, { useMemo } from "react";
-import { motion } from "framer-motion";
-import getScrollAnimation from "../../../utils/getScrollAnimation";
-import ScrollAnimationWrapper from "../../Layout/ScrollAnimationWrapper";
+import React from "react"; // Hapus useMemo untuk debugging
+// import { motion } from "framer-motion"; // <-- KOMENKAN INI
+// import getScrollAnimation from "../../../utils/getScrollAnimation"; // <-- KOMENKAN INI
+// import ScrollAnimationWrapper from "../../Layout/ScrollAnimationWrapper"; // <-- KOMENKAN INI
 
 const icons = {
   Innovation: (
@@ -60,22 +60,48 @@ const icons = {
   ),
 };
 
+// KOMENKAN varian animasi
+// const missionItemVariants = {
+//   hidden: { opacity: 0, y: 50 },
+//   visible: (i: number) => ({
+//     opacity: 1,
+//     y: 0,
+//     transition: {
+//       delay: i * 0.1,
+//       duration: 0.5,
+//       ease: "easeOut",
+//     },
+//   }),
+// };
+
 const MissionItem = ({
   title,
   description,
+  // index, // Tidak perlu lagi jika tidak ada animasi
 }: {
   title: keyof typeof icons;
   description: string;
+  // index: number;
 }) => (
-  <div className="flex flex-col items-center text-center bg-white shadow-md rounded-lg p-6 h-full">
+  // <motion.div // <-- KOMENKAN motion.div
+  <div // <-- Kembali ke div biasa
+    className="flex flex-col items-center text-center bg-white shadow-md rounded-lg p-6 h-full"
+    // varians={missionItemVariants} // <-- KOMENKAN
+    // initial="hidden" // <-- KOMENKAN
+    // whileInView="visible" // <-- KOMENKAN
+    // viewport={{ once: true, amount: 0.2 }} // <-- KOMENKAN
+    // custom={index} // <-- KOMENKAN
+  >
     {icons[title]}
     <h3 className="text-xl font-semibold mt-4">{title}</h3>
     <p className="text-sm text-gray-600 mt-2">{description}</p>
   </div>
+  // </motion.div>
 );
 
 const Mission = () => {
-  const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+  // KOMENKAN useMemo dan scrollAnimation
+  // const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   const missions = [
     {
@@ -107,26 +133,28 @@ const Mission = () => {
   ];
 
   return (
-    <ScrollAnimationWrapper>
-      <motion.div
-        variants={scrollAnimation}
-        className="w-full max-w-screen-xl px-4 sm:px-6 md:px-8 mx-auto py-16"
-      >
-        <h1 className="font-Cabin text-3xl md:text-5xl font-bold text-center mb-12">
-          Our Mission
-        </h1>
+    // <ScrollAnimationWrapper> {/* <-- KOMENKAN INI */}
+    // <motion.div // <-- KOMENKAN INI
+    <div // <-- Kembali ke div biasa
+      // variants={scrollAnimation} // <-- KOMENKAN INI
+      className="w-full max-w-screen-xl px-4 sm:px-6 md:px-8 mx-auto py-16"
+    >
+      <h1 className="font-Cabin text-3xl md:text-5xl font-bold text-center mb-12">
+        Our Mission
+      </h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {missions.map((mission, index) => (
-            <MissionItem
-              key={index}
-              title={mission.title as keyof typeof icons}
-              description={mission.description}
-            />
-          ))}
-        </div>
-      </motion.div>
-    </ScrollAnimationWrapper>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {missions.map((mission, index) => (
+          <MissionItem
+            key={index}
+            title={mission.title as keyof typeof icons}
+            description={mission.description}
+            // index={index} // Tidak perlu lagi
+          />
+        ))}
+      </div>
+    </div>
+    // </ScrollAnimationWrapper> {/* <-- KOMENKAN INI */}
   );
 };
 
