@@ -22,13 +22,44 @@ iframe {
 }
 
 .slick-dots li {
-  @apply bg-black-500 hover:scale-125 w-5 h-5 rounded-full mx-2;
+  @apply bg-gray-500 hover:scale-125 w-5 h-5 rounded-full mx-2;
 }
 
 .slick-dots li.slick-active {
-  @apply bg-main text-main/0 w-5 h-5 rounded-full mx-2;
+  @apply bg-green text-main/0 w-5 h-5 rounded-full mx-2;
 }
 
 .slick-dots li button {
   @apply text-xs text-black-500/0;
+}
+
+.text-outline-black {
+  /* very thin black outline — pilih 0.2px / 0.15px / 0.1px sesuai preferensi /
+    -webkit-text-stroke: 0.15px #000;
+    -webkit-text-stroke-color: #000;
+    text-stroke: 0.15px #000;
+
+    / fallback: sangat subtle shadow (atau set ke 'none' jika tidak ingin fallback) */
+  text-shadow: 0.2px 0.2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.img-rounded {
+  display: block;
+  margin: 20px auto;
+  width: 380px;
+  height: auto;
+  border-radius: 15px; /* ubah ke 50% kalau mau bulat */
+}
+.caption-myonecrosis {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 90%; /* sedikit lebih besar */
+  color: #333;
+  font-weight: 600; /* sedikit tebal */
+  font-style: normal;
+  margin: 0;
+}
+
+.caption-myonecrosis + .caption-myonecrosis {
+  margin-top: 4px; /* jarak antar baris */
 }

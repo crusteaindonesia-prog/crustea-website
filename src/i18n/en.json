@@ -1,0 +1,645 @@
+{
+ "popup": {
+    "title": "Upgrade Your Shrimp Pond!",
+    "description": "Expert renovation and revitalization services to boost your pond's productivity!",
+    "button_text": "Sign Up Now"
+  },
+  "home": {
+    "title": "AQUACULTURE TECHNOLOGY COMPANY",
+    "subtitle": "for Sustainable Cultivation",
+    "desc": "Creating solutions for pond farmers in Indonesia by developing various technologies to increase productivity and efficiency in ponds.",
+    "contact": "Contact Us",
+    "products": "Get Products"
+  },
+ 
+  "header": {
+    "home": "Home",
+    "products": "Products",
+    "resources": "Resources",
+    "company": "Company",
+    "careers": "Careers",
+    "language": "Language",
+    "getStarted": "Get Started"
+  },
+  "productDropdown": {
+    "allProducts": {
+      "title": "All Products",
+      "desc": "Browse our full range of technology products."
+    },
+    "iotProduct": {
+      "title": "IoT Products",
+      "desc": "Explore what Crustea's IoT flagship products are."
+    },
+    "pesanProduk": {
+      "title": "Product Details & Order",
+      "desc": "Learn before ordering Pond Products."
+    },
+    "krastyFood": {
+      "title": "Food Processing",
+      "desc": "Take a closer look at the processed food products from ponds."
+    },
+    "consultation": {
+      "title": "Consultation",
+      "desc": "Get expert advice for your needs."
+    },
+      "produkLayanan": {
+      "title": "Products & Services",
+      "desc": "Explore all our products and services."
+    }
+  },
+  "resourcesDropdown": {
+    "blog": "Blog",
+    "testimonials": "Testimonials",
+    "videos": "Video"
+  },
+  "companyDropdown": {
+    "aboutUs": "About Us",
+    "partners": "Partners with us"
+  },
+  "careersDropdown": {
+    "fullTime": "Full Time",
+    "partTime": "Part Time",
+    "intern": "Intern"
+  },
+  "produkLayanan": {
+  "title": "Products & Services",
+  "desc": "Explore all our products and services.",
+  "eco_title": "Farming Projects with Profit-Sharing Schemes and Pond Development",
+  "eco_description": "Crustea conducts farming partnerships with profit-sharing, providing services from pond construction to technology support and market access, in exchange for a share of the harvest, ensuring an efficient and sustainable system.",
+  "lightbulb_title": "Consultation Services and Operational Support for Shrimp and Fish Farms",
+  "lightbulb_description": "Crustea offers expert guidance in shrimp and fish farming, from planning to implementation, ensuring optimal harvests and sustainability. It also enhances farm performance with on-site and remote tech support, emphasizing water quality, energy efficiency, and disease prevention.",
+  "memory_title": "Energy Management and Optimization",
+  "memory_description": "A real-time system for monitoring, managing, and optimizing energy use with efficient devices, automation, and renewable energy. This service reduces electricity costs, enhances energy efficiency, and promotes sustainability while maintaining productivity.",
+  "water_drop_title": "Sustainability and Empowerment Projects",
+  "water_drop_description": "ECrustea ensures efficient aquaculture trade with the best quality and value. The company also creates value-added processed shrimp and fish products through women's empowerment, promoting economic inclusion and sustainability by reducing waste.",
+  "science_title": "Access to Funding Partner",
+  "science_description": "Tailored financial solutions to empower aquaculture projects, ensuring access to resources for scaling and optimizing operations.",
+  "groups_title": "Access to Markets",
+  "groups_description": "Crustea sells high-quality processed shrimp, fish, and waste-based products in the local market and exports them globally, supporting sustainable aquaculture and market expansion."
+  },
+
+  "footer": {
+    "company_name": "PT Eco Karya Teknologi",
+    "address_line1": "Ground Floor Crustea Labs,",
+    "address_line2": "Jl. Sanggung Timur No.1, Jatingaleh, Semarang,",
+    "address_line3": "Jawa Tengah 50254",
+    "cs_sales": "CS & Sales",
+    "products_heading": "Products",
+    "products_catalog": "Catalog Product Crustea",
+    "products_buy_smart_energy": "Buy Smart Energy",
+    "products_buy_ebii_system": "Buy EBII System",
+    "products_buy_eco_aerator": "Buy Eco Aerator",
+    "products_buy_turbo_jet_aerator": "Buy Turbo Jet Aerator",
+    "products_buy_mini_aerator": "Buy Mini Aerator",
+    "products_shrimp_market_tokopedia": "Shrimp Market Toko Pedia",
+    "products_blog_news_article": "Blog News Artikel",
+    "solutions_heading": "Solutions",
+    "solutions_challenges_shrimp_farmers": "Tantangan Petambak",
+    "solutions_success_vaname_cultivation": "Sukses Budidaya Udang Vaname",
+    "solutions_iot_aquaculture": "IoT Akuakultur",
+    "solutions_biofloc": "Bioflok",
+    "resources_heading": "Resources",
+    "resources_blog": "Blog",
+    "resources_testimoni": "Testimonials",
+    "resources_videos": "Videos",
+    "resources_konsultasi": "Consultation",
+    "resources_food_processing": "Food Processing",
+    "resources_pesan_produk": "Orders Product",
+    "company_heading": "Company",
+    "company_pricing": "Pricing",
+    "company_about_us": "About Us",
+    "company_careers": "Careers",
+    "company_partner_with_us": "Partner with Us",
+    "reports_heading": "Reports",
+    "reports_2025": "The 2025 Report",
+    "reports_2024": "The 2024 Report",
+    "reports_2023": "The 2023 Report",
+    "reports_2022": "The 2022 Report",
+    "copyright": "© {{year}} PT Eco Karya Teknologi CRUSTEA"
+  },
+  "hero": {
+    "tagline_part1": "AQUACULTURE",
+    "tagline_part2": "TECHNOLOGY",
+    "tagline_part3": "COMPANY",
+    "subtitle": "for Sustainable Cultivation",
+    "description": "Creating solutions for pond farmers in Indonesia by developing various technologies to increase productivity and efficiency in ponds.",
+    "contact_us_button": "📞 Contact Us",
+    "get_products_button": "Get Products",
+    "product_label": "PRODUCT CRUSTEA",
+    "uncover_story_heading_part1": "Uncover",
+    "uncover_story_heading_part2": "Our Story",
+    "dedicated_to_heading_part1": "We're Dedicated to",
+    "dedicated_to_heading_part2": "Enhancing the Productivity",
+    "dedicated_to_heading_part3": "of Indonesian Pond Farmers.",
+    "about_paragraph1": "Driven by the concerns of Indonesian pond farmers who struggle with high operational costs impacting productivity, we have taken a pledge to innovate technology solutions.",
+    "about_paragraph2": "Our goal is to empower farmers to achieve the best possible outcomes in terms of quantity and quality in aquaculture production while making a direct contribution to environmental preservation through eco-friendly innovations.",
+    "show_less_button": "Show Less",
+    "learn_more_button": "Learn More",
+    "product_present_label": "Product present"
+  },
+  "landing_banner": {
+  "product_present_label": "CRUSTEA PRODUCTS",
+  "headline_1": "Boost Your Farm Productivity With",
+  "headline_crustea": "Crustea",
+  "subheadline": "Smart technology solutions to help farmers improve efficiency, cut costs, and achieve optimal harvest results.",
+  "form_name": "Full Name",
+  "form_email": "Email Address",
+  "form_phone": "WhatsApp / Phone Number",
+  "form_button": "Join Aqua Grow"
+},
+  "vision": {
+    "heading": "Our Vision",
+    "description_part1": "Increasing the Pond Farmer's Productivity",
+    "description_part2": "& Food Security by Implementing",
+    "description_part3": "Eco-Aerator Technology",
+    "list_item1": "Boosting productivity with precision Eco-Aerator systems",
+    "list_item2": "Supporting sustainable food security for future generations",
+    "list_item3": "Empowering digital-savvy pond farmers with real-time tech",
+    "image_heading_part1": "Smart Farming",
+    "image_heading_part2": "for a Better Future"
+  },
+ "mission": {
+    "heading": "Our Mission",
+    "innovation_title": "Innovation",
+    "innovation_description": "Creating Quality Appropriate Technology",
+    "sustainability_title": "Sustainability",
+    "sustainability_description": "Establish Good Relations with Partners and Customers",
+    "empowerment_title": "Empowerment",
+    "empowerment_description": "Creating Human Resources with Quality and Integrity",
+    "repair_title": "Repair",
+    "repair_description": "Making Continuous Technology Improvements",
+    "distribution_title": "Distribution",
+    "distribution_description": "Ensuring the Supply Chain and Productivity of the Aquaculture and Marine Fisheries Sector are in Good and Optimal Condition",
+    "target_title": "Target",
+    "target_description": "Even Distribution of Appropriate Technology according to National Targets"
+  },
+  "values": {
+    "heading": "Values of Crustea",
+    "creative_innovative_title": "Creative and Innovative",
+    "creative_innovative_description": "Our commitment to constantly developing new and effective solutions.",
+    "respect_title": "Respect",
+    "respect_description": "Building strong relationships based on mutual respect with all stakeholders.",
+    "humility_title": "Humility",
+    "humility_description": "Always open to learning and improving, regardless of achievements.",
+    "skillful_title": "Skillful",
+    "skillful_description": "Excellence in our capabilities and continuous professional development.",
+    "teamwork_title": "Teamwork",
+    "teamwork_description": "Achieving common goals through effective collaboration and support.",
+    "ethics_integrity_title": "Ethics and Integrity",
+    "ethics_integrity_description": "Upholding honesty, transparency, and high moral standards in all actions.",
+    "adaptive_title": "Adaptive",
+    "adaptive_description": "Ability to quickly adjust to changes and challenges in the industry."
+  },
+    "content1": {
+    "title_part1": "90% farmers",
+    "title_part2": "in aquaculture",
+    "title_subtitle": "that limit their productivity",
+    "item1_heading": "70% dead shrimp",
+    "item1_description": "uncontrolled dissolved oxygen levels",
+    "item2_heading": "High fuel cost",
+    "item2_description": "Approx Rp100mio per month"
+  },
+  "content2": {
+    "heading": "Aquaculture is one of Indonesia's economy backbones",
+    "subtitle": "70% Commodity Global Trade",
+    "year_2020": "2020",
+    "2020_item1": "3rd largest frozen shrimp exporter",
+    "2020_item2": "881.3K shrimp production",
+    "year_2025": "2025",
+    "2025_item1": "2M tons shrimp production",
+    "2025_item2": "8.5%/y CAGR"
+  },
+  "content3": {
+    "heading": "Crustea Presents Eco-Aerator",
+    "subtitle": "Market potential can be specified on several available technologies",
+    "ebii_system_title": "EBII system",
+    "ebii_system_description": "with 4 parameters: pH, DO, salinity, & temperature",
+    "solar_panel_title": "Solar Panel",
+    "solar_panel_description": "Renewable Energy",
+    "eco_aerator_title": "Eco-Aerator",
+    "eco_aerator_description": "with impeller, smaller bubble, higher oxygen levels",
+    "smart_energy_title": "Smart Energy",
+    "smart_energy_description": "Monitor & control energy used on both eco or overall aerator easily by phone",
+    "advantage_label": "advantage",
+    "advantage1": "200% bigger & higher quality shrimp",
+    "advantage2": "60–80% operational cost savings"
+  },
+  "content4": {
+    "heading": "Business Ecosystem",
+    "education_label": "Education",
+    "open_project_label": "Open Project",
+    "shrimp_cultivation_title": "Shrimp Cultivation",
+    "pre_cultivation_tech_label": "Technology",
+    "funding_aqua_input_label": "Funding,\nAqua Input",
+    "consultation_label": "Consultation",
+    "during_cultivation_tech_label": "Technology",
+    "during_cultivation_details": "Eco Aerator, EBII System, Smart Energy",
+    "post_cultivation_tech_label": "Technology",
+    "marketplace_label": "Marketplace",
+    "global_selling_label": "Global Selling / Shipping",
+    "fnb_label": "F&B",
+    "food_processing_label": "Food Processing",
+    "preservation_label": "Preservation"
+  },
+  "content5": {
+    "heading": "Our Services",
+    "service1_title": "Farming Projects with Profit-Sharing Schemes and Pond Development",
+    "service1_description": "Crustea conducts farming partnerships with profit-sharing, providing services from pond construction to technology support and market access, in exchange for a share of the harvest, ensuring an efficient and sustainable system.",
+    "service2_title": "Consultation Services and Operational Support for Shrimp and Fish Farms",
+    "service2_description": "Crustea offers expert guidance in shrimp and fish farming, from planning to implementation, ensuring optimal harvests and sustainability. It also enhances farm performance with on-site and remote tech support, emphasizing water quality, energy efficiency, and disease prevention.",
+    "service3_title": "Energy Management and Optimization",
+    "service3_description": "A real-time system for monitoring, managing, and optimizing energy use with efficient devices, automation, and renewable energy. This service reduces electricity costs, enhances energy efficiency, and promotes sustainability while maintaining productivity.",
+    "service4_title": "Sustainability and Empowerment project",
+    "service4_description": "Crustea ensures efficient aquaculture trade with the best quality and value. The company also creates value-added processed shrimp and fish products through women’s empowerment, promoting economic inclusion and sustainability by reducing waste.",
+    "service5_title": "Access to Funding Partner",
+    "service5_description": "Tailored financial solutions to empower aquaculture projects, ensuring access to resources for scaling and optimizing operations.",
+    "service6_title": "Access to Markets",
+    "service6_description": "Crustea sells high-quality processed shrimp, fish, and waste-based products in the local market and exports them globally, supporting sustainable aquaculture and market expansion."
+  },
+  "content6": {
+    "business_model_title_part1": "Business",
+    "business_model_title_part2": "Model",
+    "b2b_farmers": "Pond Farmers",
+    "b2b_sectors": "Public/Private Sectors",
+    "products_technology_title": "Products (Technology)",
+    "direct_selling_label": "Direct Selling",
+    "leasing_label": "Leasing",
+    "paas_saas_label": "PaaS/SaaS",
+    "services_revenue_title": "Services & Other Revenue:",
+    "shrimp_trading_products": "Shrimp trading & Processing Products",
+    "projects": "Projects",
+    "consulting_technical_assistance": "Consulting & Technical Assistance",
+    "technology_maintenance_repair": "Technology Maintenance & Repair",
+    "production_capacity_value": "200",
+    "production_capacity_unit": "ppm",
+    "production_capacity_label": "Production capacity",
+    "production_capacity_timeframe": "Per month",
+    "revenue_projected_value": "$40M",
+    "revenue_projected_label": "Revenue projected",
+    "revenue_projected_year": "in 2030",
+    "gross_margin_value": "Up to 35%",
+    "gross_margin_label": "Gross Margin",
+    "our_impact_title": "Our Impact",
+    "impact_shrimp_fish_quality_value": "200%",
+    "impact_shrimp_fish_quality_description": "Bigger & Higher Quality Shrimp and Fish",
+    "impact_operational_cost_saving_value": "80%",
+    "impact_operational_cost_saving_description": "Operational Cost Saving",
+    "impact_ghg_reduction_value": "23K tCO2e",
+    "impact_ghg_reduction_description": "GHG Reduction",
+    "impact_women_management_value": "60%",
+    "impact_women_management_description": "Women Management",
+    "sdg1_alt": "SDG 1 No Poverty",
+    "sdg2_alt": "SDG 2 Zero Hunger",
+    "sdg7_alt": "SDG 7 Affordable and Clean Energy",
+    "sdg14_alt": "SDG 14 Life Below Water",
+    "sdg13_alt": "SDG 13 Climate Action"
+  },
+  "content7": {
+    "main_title": "Eco-Aerator Implementation",
+    "subtitle": "Eco Friendly & Smart Aerator for Aquaculture",
+    "description_part1": "Crustea’s sustainable technology solutions (Eco Aerator, EBII, and Smart Energy systems)",
+    "description_part2_highlight": "enable precise oxygen control in shrimp and fish ponds, boosting productivity and reducing electricity costs by up to 80%.",
+    "description_part3": "Let’s achieve more sustainable aquaculture cultivation and increase farmer production through funding support for technology implementation as part of your CSR.",
+    "potential_impact_title": "Potential Impact",
+    "impact_item1": "150% bigger shrimp and fish",
+    "impact_item2": "30–50% saving in electrical fee",
+    "impact_item3": "100 tCO2e GHG reduction",
+    "image_alt_aerator": "Eco Aerator Devices",
+    "image_alt_background": "Pond Background"
+  },
+  "content8": {
+    "main_title": "Eco-Aerator Implementation",
+    "subtitle": "Eco Friendly & Smart Aerator for Aquaculture",
+    "impact_shrimp_fish_percent": "200%",
+    "impact_shrimp_fish_desc": "Bigger shrimp and fish\nHigher quality",
+    "eco_aerator_title": "Eco-Aerator",
+    "eco_aerator_desc": "with impeller, smaller bubble,\nhigher oxygen levels",
+    "technology_overview_title": "Technology Overview",
+    "photovoltaic_title": "Photovoltaic",
+    "photovoltaic_desc": "Renewable Energy",
+    "ebii_system_title": "EBII system",
+    "ebii_system_desc": "with 4 parameters:\npH, DO, salinity, & temperature",
+    "ghg_reduction_value": "23.044",
+    "ghg_reduction_desc": "tCO2e GHG Reduction",
+    "smart_energy_title": "Smart Energy",
+    "smart_energy_desc": "Monitor & control energy used\non both each or overall aerator\neasily by phone",
+    "auto_control_highlight": "Auto-control",
+    "auto_control_desc": "the aerator on/off\naccording to EBII System measurement",
+    "image_alt_aerator": "Eco Aerator Product",
+    "image_alt_ebii": "EBII System Display",
+    "image_alt_smart_energy": "Smart Energy Dashboard",
+    "image_alt_arrow": "Arrow Icon"
+  },
+  "content9": {
+    "main_title": "Women Empowerment",
+    "subtitle": "Advance Potential Role for Women in Aquaculture",
+    "section_title_women_in_aquaculture": "Women in Aquaculture",
+    "description": "Empowering women in aquaculture is crucial for sustainable development. By providing equal access to resources, training, and opportunities, we can unlock the full potential of women in this vital sector. When women thrive in aquaculture, communities prosper, economies grow, and the environment benefits. Let's work together to ensure women have the support they need to succeed and lead in aquaculture.",
+    "detail_title": "Detail",
+    "detail_item1": "1 day training",
+    "detail_item2": "Processing and marketing groups (poklahsar)",
+    "detail_item3": "50 – 75 participants (women) in every location",
+    "kpi_title": "KPI",
+    "kpi_item1_highlight": "80% of participants",
+    "kpi_item1_text": "increase in knowledge about possible participation in aquaculture",
+    "kpi_item2_highlight": "Produces 2 products",
+    "kpi_item2_text": "that ready to market from shrimp and cultivation",
+    "image_alt_zoomable": "Zoomable image of women in aquaculture",
+    "modal_image_preview": "Preview",
+    "search_icon_alt": "Search icon",
+    "close_modal_button": "Close modal"
+  },
+  "content10": {
+    "main_title": "Capacity Building in Aquaculture",
+    "subtitle": "Aquaculture Workshop for Shrimp and Fish Farmers",
+    "section_title_capacity_building": "Capacity Building",
+    "description": "Capacity building in aquaculture is essential for sustainable growth and development in the industry. By enhancing the skills, knowledge, and resources of individuals and organizations involved in aquaculture, we can improve production efficiency, promote innovation, and ensure environmental sustainability. Through targeted training, education, and technology transfer, we empower stakeholders to meet current challenges and seize future opportunities in aquaculture.",
+    "detail_title": "Detail",
+    "detail_item1": "1 location 1 module",
+    "detail_item2_part1": "2 Days Training (1",
+    "detail_item2_part2": "st",
+    "detail_item2_part3": "day is in class training and 2",
+    "detail_item2_part4": "nd",
+    "detail_item2_part5": "day is practical knowledge)",
+    "detail_item3_part1": "50–75 target participants in each region (Traditional, semi-intensive, and/or intensive pond farmer groups)",
+    "detail_item3_part2": "Traditional, semi-intensive, and/or intensive pond farmer groups",
+    "kpi_title": "KPI",
+    "kpi_item1_highlight": "80% of participants",
+    "kpi_item1_text": "increase in knowledge and preparedness to implement sustainable and renewable energy practices in aquaculture",
+    "kpi_item2_highlight": "50% of participants",
+    "kpi_item2_text": "initiate changes or improvements in their aquaculture practices",
+    "image_alt_shrimp_in_hand": "Shrimp in hand"
+  },
+  "usersSection": {
+    "user_label": "Users",
+    "location_label": "Locations",
+    "ponds_label": "Ponds",
+    "user_count": "600",
+    "location_count": "20",
+    "ponds_count": "50"
+  },
+  "productsHeader": {
+    "main_heading_part1": "Operational cost",
+    "main_heading_part2_highlight": "savings",
+    "main_heading_part3": "of up to",
+    "main_heading_part4_highlight": "80%",
+    "button_text": "Buy Processed Products",
+    "banner_alt_text": "Product banner"
+  },
+  "productCatalog": {
+    "section_title_part1": "Our",
+    "section_title_part2": "Product Catalog",
+    "section_description": "Discover Crustea's innovative aquaculture products — designed for sustainability, energy efficiency, and better yields.",
+    "eco_aerator_name": "Eco-Aerator",
+    "eco_aerator_desc": "Eco-Aerator uses the best environmentally friendly technological innovations with smart AI/IoT. An environmentally friendly aeration technology that will increase pond productivity while reducing pond operational costs.",
+    "ebii_system_name": "EBII System",
+    "ebii_system_desc": "EBII Monitoring & Controlling System is a sensor device that has several outstanding sensor features to help farmers control the condition of their ponds anytime, anywhere. Currently, DO levels are automated, when the DO quality is low, the aerator will turn on automatically and vice versa, The AI system in it certainly affects saving electricity used. No need to operate 24 hours, more economical Operating costs.",
+    "smart_energy_name": "Smart Energy",
+    "smart_energy_desc": "Smart Energy System is a technology that aims to determine the level of efficiency and energy savings generated when farmers apply Crustea technologies in their aquaculture processes, including detection of GHG reduction, early warning system, and Multi-parameter with stored data history.",
+    "order_button_text": "Interested to Order",
+    "order_whatsapp_message": "Hi Crustea, I'm interested in your product:",
+    "product_image_alt": "{productName} image",
+    "arrow_icon_alt": "Arrow icon",
+    "solar_panel_name": "Panel Surya",
+    "solar_panel_desc": "Crustea Solar Panels are specifically designed to meet the renewable energy needs of shrimp and fish farms. Using advanced technology, these panels efficiently convert sunlight into electricity, helping farmers reduce their dependence on electricity sources.",
+    "aerator_name":"Aerator",
+    "aerator_desc":"The Crustea aerator is designed to increase water circulation and dissolved oxygen levels in shrimp and fish ponds. With innovative technology, this aerator helps create an optimal environment for the growth and health of your aquaculture.",
+    "order_button_text": "Interested to Order",
+    "order_modal_title": "Order {{product}}",
+    "order_modal_description": "Choose how you'd like to place your order — send us a message on WhatsApp or visit our Tokopedia store.",
+    "order_via_whatsapp_desc": "Chat directly with our team for inquiries and purchases",
+    "order_whatsapp_message": "Hi Crustea, I'm interested in your product:",
+    "chat_on_whatsapp": "Chat on WhatsApp",
+    "order_on_tokopedia": "Order on Tokopedia",
+    "order_on_tokopedia_desc": "Prefer online checkout? Visit our Tokopedia store to buy directly",
+    "buy_on_tokopedia": "Buy on Tokopedia",
+    "product_image_alt": "{productName} image",
+    "arrow_icon_alt": "Arrow icon"
+  },
+    "article": {
+      "back": "Back to Blogs",
+      "notFound": "Article not found"
+    },
+  "productsPage": {
+    "main_title": "Details Products",
+    "eco_aerator_title": "Eco-Aerator",
+    "eco_aerator_description": "Aerator without the need of PLN electricity",
+    "ebii_system_title": "EBII System",
+    "ebii_system_description": "Pond monitoring & Controlling system",
+    "smart_energy_title": "Smart Energy",
+    "smart_energy_description": "Pond energy utilisation monitoring & controlling",
+    "solar_panels_title": "Solar Panels",
+    "solar_panels_description": "Reducing dependency on conventional power sources and reducing operational costs.",
+    "nanobubble_title": "Nanobubble",
+    "nanobubble_description": "DO at machine output reaches 20 ppm oxygen gas bubbles in water measuring 80 - 200 nanometers.",
+    "turbo_jet_aerator_title": "Turbo Jet Aerator",
+    "turbo_jet_aerator_description": "Efficient aerator ensuring optimal oxygen and water circulation for peak pond productivity",
+    "paddle_wheel_title": "Paddle Wheel",
+    "paddle_wheel_description": "Reliable and energy-efficient paddle aerator to increase dissolved oxygen levels and promote uniform water mixing.",
+    "aerator_brush_title": "Aerator Brush",
+    "aerator_brush_description": "Uses less energy and promotes gentle water circulation, preserving pond health and protecting the bottom",
+    "aerator_blower_title": "Aerator Blower",
+    "aerator_blower_description": "Ensuring consistent oxygen supply and increasing DO by 30 - 40%",
+    "aerator_mini_title": "Aerator Mini",
+    "aerator_mini_description": "Compact and portable aerator perfect for small-scale aquaculture setups, providing efficient oxygenation in limited spaces.",
+    "zoomed_product_alt_text": "Zoomed product image",
+    "close_modal_aria_label": "Close product image modal"
+  },
+ "krastyProducts": {
+  "intro_title": "Delicious Krasty Food",
+  "intro_desc": "Experience the freshness of our signature menu made from high-quality fish farming products.",
+  "main_title": "Our Signature Products",
+  "order_now": "Order Now",
+  "heroImageAlt": "Krasty Food Menu",
+  "ricebowl1": {
+    "title": "Spicy Chicken Ricebowl",
+    "description": "A warm bowl of rice topped with spicy chicken and savory sauce."
+  },
+  "wrap1": {
+    "title": "Beef Wrap Delight",
+    "description": "Tortilla wrap filled with tender beef, lettuce, and Krasty's special sauce."
+  },
+  "snack1": {
+    "title": "Mozarella Stick",
+    "description": "Crunchy outside, gooey cheese inside. Perfect for any snack time."
+  },
+  "drink1": {
+    "title": "Fresh Mango Yakult",
+    "description": "Refreshing blend of mango and Yakult. Sweet, tangy, and good for digestion."
+  },
+  "breakfast1": {
+    "title": "Classic Egg Sandwich",
+    "description": "Toasted sandwich with fluffy egg, cheese, and mayo."
+  }
+},
+  "testimonials": {
+    "section_title": "Testimonial",
+    "husni_name": "Husni",
+    "husni_city": "Lamongan",
+    "husni_country": "East Java",
+    "husni_testimoni": "I want to use an eco aerator because it can increase pond yield productivity and shrimp quality.",
+    "saiful_arif_name": "Saiful Arif",
+    "saiful_arif_city": "Surabaya",
+    "saiful_arif_country": "East Java",
+    "saiful_arif_testimoni": "I use solar panels and feel very helped, especially for electricity use in my fish pond.",
+    "dwi_putiardi_name": "Dwi Putiardi",
+    "dwi_putiardi_city": "Gresik",
+    "dwi_putiardi_country": "East Java",
+    "dwi_putiardi_testimoni": "Eco-aerator, saves a lot of money, especially for electricity..",
+    "icon_people_alt_text": "People icon"
+  },
+  "partnership": {
+    "section_title": "Partnership",
+    "image_alt_text_generic": "Partner logo"
+  },
+  "aboutHeader": {
+    "title_part1": "AIoT-based",
+    "title_part2": "Eco-Friendly",
+    "title_part3": "Aeration Technology Innovation in",
+    "title_part4": "Aquaculture",
+    "youtube_video_description": "Crustea company profile video"
+  },
+  "potentialProgram": {
+    "section_title_part1": "POTENTIAL",
+    "section_title_part2": "PROGRAM",
+    "program_1": "Eco-Aerator Implementation",
+    "program_2": "Capacity Building in Aquaculture",
+    "program_3": "Women Empowerment",
+    "program_4": "Millenial Shrimp Farming",
+    "program_5": "Technology Based Tilapia Biofloc",
+    "shrimp_background_alt": "Shrimp farm background image",
+    "check_icon_alt": "Checkmark icon"
+  },
+  "consultant": {
+    "section_title_part1": "Project",
+    "section_title_part2": "and Consultant",
+    "card_1_title": "Farmers construction",
+    "card_2_title": "Farmers cultivation consultation",
+    "card_3_title": "Project collaboration in the fields of AI, IoT, Renewable Energy",
+    "card_4_title": "Consultation on the use of renewable energy",
+    "farmercons_alt": "Farmers during construction",
+    "farmercult_alt": "Farmers discussing cultivation",
+    "projectcollab_alt": "Team collaborating on a project",
+    "consul_alt": "People in a consultation session"
+  },
+  "companyPhilosophy": {
+    "section_title_part1": "Company",
+    "section_title_part2": "Philosophy",
+    "value_1_title": "Creative & Innovative",
+    "value_2_title": "Respect",
+    "value_3_title": "Humility",
+    "value_4_title": "Skillful",
+    "value_5_title": "Teamwork",
+    "value_6_title": "Ethic & Integrity",
+    "value_7_title": "Adaptive",
+    "value_1_alt": "Abstract image representing creativity and innovation",
+    "value_2_alt": "Abstract image representing respect",
+    "value_3_alt": "Abstract image representing humility",
+    "value_4_alt": "Abstract image representing skillfulness",
+    "value_5_alt": "Abstract image representing teamwork",
+    "value_6_alt": "Abstract image representing ethics and integrity",
+    "value_7_alt": "Abstract image representing adaptability"
+  },
+  "awardsSection": {
+    "section_title": "Awards",
+    "section_subtitle": "National and international (2022 – 2024)",
+    "award_1_title": "2nd winner APEC, USA",
+    "award_2_title": "Gold Medal ASEAN Digital Awards",
+    "award_3_title": "Winner Startup World Cup",
+    "award_4_title": "Entrepreneur Award",
+    "award_5_title": "Archipelagic & Island States Forum",
+    "award_6_title": "Winner of Astranauts",
+    "award_image_alt_generic": "Award certificate or trophy",
+    "zoomed_award_image_alt": "Zoomed award image",
+    "close_button_aria_label": "Close"
+  },
+  "crusteaTeam": {
+    "section_title_part1": "Crustea",
+    "section_title_part2": "Team",
+    "member_1": {
+      "name": "Roikhanatun Nafi’ah",
+      "role": "Founder & CEO",
+      "exp_part1": "+7 yr in Mgmt & Innovation"
+    },
+    "member_2": {
+      "name": "Riza Alaudin Syah",
+      "role": "Founder & CTO",
+      "exp_part1": "+10 yr in AI/IoT Expert",
+      "exp_part2": "+10 yr in Software Expert"
+    },
+    "member_3": {
+      "name": "Prisma Riashuda",
+      "role": "Founder & Head of Tech",
+      "exp_part1": "+4 yr in Tech & Aquaculture"
+    },
+    "member_4": {
+      "name": "Cak Andi",
+      "role": "Advisor",
+      "exp_part1": "Farm Owner & Aquaculture Practitioners"
+    },
+    "member_5": {
+      "name": "Rahmadita Filaili",
+      "role": "CFO",
+      "exp_part1": "+4 yr in Cost Planning & Control"
+    },
+    "member_6": {
+      "name": "Dian Martha Nurrul Amanah",
+      "role": "CMO",
+      "exp_part1": "+5 yr in asset management credit verification",
+      "exp_part2": "+2 yr digital business lecturer"
+    },
+    "member_7": {
+      "name": "Cak Lucky",
+      "role": "Advisor",
+      "exp_part1": "Start-up Coach"
+    },
+    "member_8": {
+      "name": "Ardiansyah",
+      "role": "Head of Operational Excellence",
+      "exp_part1": "+9 yr in Engineering, Project Management & Government Policies"
+    },
+    "member_9": {
+      "name": "Muhammad Azril",
+      "role": "Head of Aquaculture",
+      "exp_part1": "+10 yr in aquaculture"
+    },
+    "profile_picture_alt": "{name}'s profile picture",
+    "company_logo_alt": "Company logo"
+  },
+  
+ "career": {
+  "hero_title": "Join Our Amazing Journey",
+  "hero_desc": "Be part of a modern, innovative, and inspiring environment where your ideas matter.",
+  "hero_button": "Explore Careers",
+  "section_title": "Discover Your Dream Career",
+  "section_description": "We offer opportunities for Fresh Graduates, Professionals, and Internships to grow together.",
+  "jobs": [
+    {
+      "title": "Software Engineer",
+      "category": "Professional",
+      "type": "Fresh Graduate",
+      "location": "Semarang",
+      "status": "Not Open",
+      "description": "Responsible for developing internal systems and new products."
+    },
+    {
+      "title": "UI/UX Designer",
+      "category": "Fresh Graduate",
+      "type": "Fresh Graduate",
+      "location": "Semarang",
+      "status": "Closed",
+      "description": "Design user interfaces that are attractive and easy to use."
+    },
+    {
+      "title": "Marketing Intern",
+      "category": "Internship",
+      "type": "Internship",
+      "location": "Semarang",
+      "status": "Not Open",
+      "description": "Support the marketing team in digital campaigns and branding."
+    }
+  ]
+}
+
+
+}

@@ -2,8 +2,12 @@ import { motion } from "framer-motion";
 
 export default function ScrollAnimationWrapper({
   children,
-  className,
+  className = "",
   ...props
+}: {
+  children?: any;
+  className?: string;
+  [key: string]: any;
 }) {
   return (
     <motion.div

@@ -9,17 +9,24 @@ import value4 from "/images/landing/about/value4.png";
 import value5 from "/images/landing/about/value5.png";
 import value6 from "/images/landing/about/value6.png";
 import value7 from "/images/landing/about/value7.png";
+import { useTranslation } from "react-i18next"; // Import useTranslation
 
 const Values = () => {
+  const { t } = useTranslation(); // Dapatkan fungsi 't' (translate)
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
     <>
-      <div className="justify-center text-center mt-8 md:mt-16">
+      <div className="justify-center text-center mt-2 md:mt-16">
         <ScrollAnimationWrapper className={undefined}>
           <motion.div variants={scrollAnimation}>
             <h2 className="text-black-600 text-center font-Cabin justify-center mx-auto md:px-0 text-3xl md:text-5xl font-bold">
-              Company <span className="text-[#ACC937]">Philosophy</span>
+              {t("companyPhilosophy.section_title_part1")}{" "}
+              {/* Menggunakan companyPhilosophy */}
+              <span className="text-[#ACC937]">
+                {t("companyPhilosophy.section_title_part2")}{" "}
+                {/* Menggunakan companyPhilosophy */}
+              </span>
             </h2>
           </motion.div>
         </ScrollAnimationWrapper>
@@ -31,27 +38,42 @@ const Values = () => {
               className="w-full flex flex-row h-32 md:h-96"
             >
               <div
-                className="bg-center bg-cover basis-1/3 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/5 h-full flex items-center "
+                className="bg-center bg-cover basis-1/3 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/5 h-full flex items-center group relative"
                 style={{ backgroundImage: `url(${value1})` }}
               >
-                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin">
-                  Creative & Innovative
+                <span className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white text-sm p-2 text-center sr-only">
+                  {t("companyPhilosophy.value_1_alt")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
+                </span>
+                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin z-10">
+                  {t("companyPhilosophy.value_1_title")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
                 </h1>
               </div>
               <div
-                className="bg-center bg-cover basis-1/3 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/5 h-full flex items-center "
+                className="bg-center bg-cover basis-1/3 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/5 h-full flex items-center group relative"
                 style={{ backgroundImage: `url(${value2})` }}
               >
-                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin">
-                  Respect
+                <span className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white text-sm p-2 text-center sr-only">
+                  {t("companyPhilosophy.value_2_alt")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
+                </span>
+                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin z-10">
+                  {t("companyPhilosophy.value_2_title")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
                 </h1>
               </div>
               <div
-                className="bg-center bg-cover basis-1/3 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/5 h-full flex items-center "
+                className="bg-center bg-cover basis-1/3 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/5 h-full flex items-center group relative"
                 style={{ backgroundImage: `url(${value3})` }}
               >
-                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin">
-                  Humility
+                <span className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white text-sm p-2 text-center sr-only">
+                  {t("companyPhilosophy.value_3_alt")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
+                </span>
+                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin z-10">
+                  {t("companyPhilosophy.value_3_title")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
                 </h1>
               </div>
             </motion.div>
@@ -65,19 +87,29 @@ const Values = () => {
               className="w-full flex flex-row h-32 md:h-96"
             >
               <div
-                className="bg-center bg-cover basis-1/2 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/3 h-full flex items-center "
+                className="bg-center bg-cover basis-1/2 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/3 h-full flex items-center group relative"
                 style={{ backgroundImage: `url(${value4})` }}
               >
-                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin">
-                  Skillful
+                <span className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white text-sm p-2 text-center sr-only">
+                  {t("companyPhilosophy.value_4_alt")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
+                </span>
+                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin z-10">
+                  {t("companyPhilosophy.value_4_title")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
                 </h1>
               </div>
               <div
-                className="bg-center bg-cover basis-1/2 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/3 h-full flex items-center "
+                className="bg-center bg-cover basis-1/2 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/3 h-full flex items-center group relative"
                 style={{ backgroundImage: `url(${value5})` }}
               >
-                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin">
-                  Teamwork
+                <span className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white text-sm p-2 text-center sr-only">
+                  {t("companyPhilosophy.value_5_alt")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
+                </span>
+                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin z-10">
+                  {t("companyPhilosophy.value_5_title")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
                 </h1>
               </div>
             </motion.div>
@@ -89,19 +121,29 @@ const Values = () => {
               className="w-full flex flex-row h-32 md:h-96"
             >
               <div
-                className="bg-center bg-cover basis-1/2 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/3 h-full flex items-center "
+                className="bg-center bg-cover basis-1/2 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/3 h-full flex items-center group relative"
                 style={{ backgroundImage: `url(${value6})` }}
               >
-                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin">
-                  Ethic & Integrity
+                <span className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white text-sm p-2 text-center sr-only">
+                  {t("companyPhilosophy.value_6_alt")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
+                </span>
+                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin z-10">
+                  {t("companyPhilosophy.value_6_title")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
                 </h1>
               </div>
               <div
-                className="bg-center bg-cover basis-1/2 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/3 h-full flex items-center "
+                className="bg-center bg-cover basis-1/2 transition duration-1000 ease-in-out hover:transition-all hover:basis-2/3 h-full flex items-center group relative"
                 style={{ backgroundImage: `url(${value7})` }}
               >
-                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin">
-                  Adaptive
+                <span className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white text-sm p-2 text-center sr-only">
+                  {t("companyPhilosophy.value_7_alt")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
+                </span>
+                <h1 className="drop-shadow-md text-2xl md:text-4xl text-center justify-center mx-auto text-white-300 font-bold font-Cabin z-10">
+                  {t("companyPhilosophy.value_7_title")}{" "}
+                  {/* Menggunakan companyPhilosophy */}
                 </h1>
               </div>
             </motion.div>

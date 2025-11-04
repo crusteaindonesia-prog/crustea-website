@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import Mission from "./Mission";
 import Users from "./Users";
 import Vision from "./Vision";
-import Values from "./Values";
+import Values from "./Values2";
 import Content1 from "./Content1";
 import Content2 from "./Content2";
 import Content3 from "./Content3";
@@ -21,11 +21,11 @@ const HomePage: React.FC = () => {
       <Hero />
       <Vision />
       <Mission />
-      <Values />
-      <Content1 />
-      <Content2 />
-      <Content3 />
+      {/* <Values /> */}
+      {/* <Content1 /> */}
+      {/* <Content2 /> */}
       <Content4 />
+      <Content3 />
       <Content5 />
       <Content6 />
       <Content7 />

@@ -1,19 +1,21 @@
 import Consultant from "./Consultant";
-import Header from "./Header";
+import Header from "./HeaderAbout";
 import Values from "./Values";
+import Values2 from "../HomePage/Values2";
 import PotentialProgram from "./PotentialProgram";
 import Awards from "./Awards";
 import CrusteaTeam from "./CrusteaTeam";
 
 const About = () => {
   return (
-    <div className="my-20 lg:mt-10">
-      <Header />
-      <PotentialProgram />
-      <Consultant />
+    <div className="pt-20 my-20 lg:mt-14">
+      {/* <Header /> */}
+      {/* <PotentialProgram />
+      <Consultant /> */}
       <Values />
+      <Values2 />
       <Awards />
-      <CrusteaTeam />
+      {/* <CrusteaTeam /> */}
     </div>
   );
 };

@@ -3,6 +3,9 @@ import Partnership from "./Partnership";
 import ProductCatalog from "./Produk";
 import Testimoni from "./Testimoni";
 import OurProduct from "./OurProduct";
+import Content1 from "../HomePage/Content1";
+import Content2 from "../HomePage/Content2";
+import OurProductKrastyFood from "./OurProductKrastyFood";
 
 const Products = () => {
   return (
@@ -10,8 +13,11 @@ const Products = () => {
       <Header />
       <ProductCatalog />
       <OurProduct />
-      <Testimoni />
-      <Partnership />
+      <Content1 />
+      <Content2 />
+      <OurProductKrastyFood />
+      {/* <Testimoni /> */}
+      {/* <Partnership /> */}
     </div>
   );
 };

@@ -2,27 +2,36 @@ import getScrollAnimation from "../../../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "../../Layout/ScrollAnimationWrapper";
 import React, { useMemo } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next"; // Import useTranslation
 
-const Users = ({
-  listUser = [
-    {
-      name: "Users",
-      number: "600",
-      icon: "/assets/Icon/heroicons_sm-user.svg",
-    },
-    {
-      name: "Locations",
-      number: "20",
-      icon: "/assets/Icon/gridicons_location.svg",
-    },
-    {
-      name: "Ponds",
-      number: "50",
-      icon: "/assets/Icon/bx_bxs-server.svg",
-    },
-  ],
-}) => {
+const Users = () => {
+  // Hapus prop listUser karena akan diambil dari terjemahan
+  const { t } = useTranslation(); // Dapatkan fungsi 't' (translate)
+
+  // Definisikan listUser di sini, menggunakan nilai terjemahan
+  const listUser = useMemo(
+    () => [
+      {
+        name: t("usersSection.user_label"),
+        number: t("usersSection.user_count"),
+        icon: "/assets/Icon/heroicons_sm-user.svg",
+      },
+      {
+        name: t("usersSection.location_label"),
+        number: t("usersSection.location_count"),
+        icon: "/assets/Icon/gridicons_location.svg",
+      },
+      {
+        name: t("usersSection.ponds_label"),
+        number: t("usersSection.ponds_count"),
+        icon: "/assets/Icon/bx_bxs-server.svg",
+      },
+    ],
+    [t]
+  ); // Pastikan useMemo bereaksi terhadap perubahan bahasa (t)
+
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+
   return (
     <>
       <div className="relative w-3/4 flex mx-auto pt-5 lg:mb-16 md:pt-14">
@@ -36,7 +45,12 @@ const Users = ({
             >
               <div className="flex mx-auto w-40 sm:w-auto">
                 <div className="flex items-center justify-center hue-rotate-90 bg-orange-100 w-12 h-12 mr-6 rounded-full">
-                  <img src={listUsers.icon} className="h-6 w-6 " />
+                  <img
+                    src={listUsers.icon}
+                    className="h-6 w-6 "
+                    alt={`${listUsers.name} icon`}
+                  />{" "}
+                  {/* Tambahkan alt text */}
                 </div>
                 <div className="flex flex-col">
                   <p className="text-xl text-black-600 font-bold">

@@ -1,11 +1,44 @@
 import React from "react";
+import { useTranslation } from "react-i18next"; // Import useTranslation
 
 const Content6 = () => {
+  const { t } = useTranslation(); // Dapatkan fungsi 't' (translate)
+
+  // Data untuk ikon SDG
+  const sdgIcons = [
+    { src: "/images/landing/content6-icon1.png", altKey: "content6.sdg1_alt" },
+    { src: "/images/landing/content6-icon2.png", altKey: "content6.sdg2_alt" },
+    { src: "/images/landing/content6-icon3.png", altKey: "content6.sdg7_alt" },
+    { src: "/images/landing/content6-icon4.png", altKey: "content6.sdg14_alt" },
+    { src: "/images/landing/content6-icon5.png", altKey: "content6.sdg13_alt" },
+  ];
+
+  // Data untuk kartu metrik dampak
+  const impactMetrics = [
+    {
+      valueKey: "content6.impact_shrimp_fish_quality_value",
+      descriptionKey: "content6.impact_shrimp_fish_quality_description",
+    },
+    {
+      valueKey: "content6.impact_operational_cost_saving_value",
+      descriptionKey: "content6.impact_operational_cost_saving_description",
+    },
+    {
+      valueKey: "content6.impact_ghg_reduction_value",
+      descriptionKey: "content6.impact_ghg_reduction_description",
+    },
+    {
+      valueKey: "content6.impact_women_management_value",
+      descriptionKey: "content6.impact_women_management_description",
+    },
+  ];
+
   return (
     <section
       className="relative py-12 md:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 overflow-hidden min-h-screen flex flex-col justify-center"
       style={{
-       background: 'linear-gradient(to bottom, #ffffff 0%, #ffffff 5%, var(--color-crustea-light-green,rgba(208, 249, 155, 0.17)) 20%, #ffffff 100%)',
+        background:
+          "linear-gradient(to bottom, #ffffff 0%, #ffffff 5%, var(--color-crustea-light-green,rgba(208, 249, 155, 0.17)) 20%, #ffffff 100%)",
       }}
     >
       <div className="max-w-7xl mx-auto relative z-10 w-full">
@@ -13,15 +46,21 @@ const Content6 = () => {
         <div className="mb-8 md:mb-10 lg:mb-12 text-center">
           <span
             className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-wide"
-            style={{ color: 'var(--color-crustea-dark-blue,rgb(157, 215, 32))' }}
+            style={{
+              color: "var(--color-crustea-dark-blue,rgb(157, 215, 32))",
+            }}
           >
-            Business
-          </span>&nbsp;
-          <span  className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-wide"
-            style={{ color: 'var(--color-crustea-dark-blue,rgb(36, 82, 134))' }}
+            {t("content6.business_model_title_part1")}{" "}
+            {/* Terjemahkan "Business" */}
+          </span>
+          &nbsp;
+          <span
+            className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-wide"
+            style={{ color: "var(--color-crustea-dark-blue,rgb(36, 82, 134))" }}
           >
-             Model
-         </span>
+            {t("content6.business_model_title_part2")}{" "}
+            {/* Terjemahkan "Model" */}
+          </span>
         </div>
 
         {/* Main Content Grid */}
@@ -34,17 +73,18 @@ const Content6 = () => {
                 border border-solid
                 transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-xl
               `}
-              style={{ borderColor: 'var(--color-crustea-accent-blue,rgb(7, 61, 83))' }}
+              style={{
+                borderColor: "var(--color-crustea-accent-blue,rgb(7, 61, 83))",
+              }}
             >
-              {/* B2B Icon / Graphic */}
+              {/* B2B Icon / Graphic (SVG remains as is for now) */}
               <div
                 className="relative w-28 h-28 rounded-full flex items-center justify-center mb-4"
                 style={{
-                  backgroundColor: 'var(--color-crustea-light-blue, #DDEBF0)',
-                  color: 'var(--color-crustea-dark-blue,rgb(34, 85, 157))'
+                  backgroundColor: "var(--color-crustea-light-blue, #DDEBF0)",
+                  color: "var(--color-crustea-dark-blue,rgb(34, 85, 157))",
                 }}
               >
-                {/* Simplified representation of the B2B icon - two intertwined persons */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-16 w-16"
@@ -66,7 +106,7 @@ const Content6 = () => {
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                   strokeWidth={1}
-                  style={{ color: 'var(--color-crustea-dark-blue, #192E4C)' }}
+                  style={{ color: "var(--color-crustea-dark-blue, #192E4C)" }}
                 >
                   <path
                     strokeLinecap="round"
@@ -78,10 +118,9 @@ const Content6 = () => {
 
               <div
                 className="flex items-center text-xl font-semibold mb-2"
-                style={{ color: 'var(--color-crustea-dark-blue, #192E4C)' }}
+                style={{ color: "var(--color-crustea-dark-blue, #192E4C)" }}
               >
                 <span className="mr-2">B</span>
-                {/* Rotated arrow for B2B representation */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-7 w-7 rotate-90"
@@ -89,7 +128,7 @@ const Content6 = () => {
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                   strokeWidth={2}
-                  style={{ color: 'var(--color-crustea-accent-blue, #237392)' }}
+                  style={{ color: "var(--color-crustea-accent-blue, #237392)" }}
                 >
                   <path
                     strokeLinecap="round"
@@ -100,8 +139,10 @@ const Content6 = () => {
                 <span className="ml-2">B</span>
               </div>
               <ul className="list-none text-base text-gray-700 text-center font-medium">
-                <li className="mb-1">Pond Farmers</li>
-                <li>Public/Private Sectors</li>
+                <li className="mb-1">{t("content6.b2b_farmers")}</li>{" "}
+                {/* Terjemahkan "Pond Farmers" */}
+                <li>{t("content6.b2b_sectors")}</li>{" "}
+                {/* Terjemahkan "Public/Private Sectors" */}
               </ul>
             </div>
             {/* Arrow indicating flow towards products/services */}
@@ -112,7 +153,7 @@ const Content6 = () => {
               viewBox="0 0 24 24"
               stroke="currentColor"
               strokeWidth={2}
-              style={{ color: 'var(--color-crustea-accent-green, #2E8B57)' }}
+              style={{ color: "var(--color-crustea-accent-green, #2E8B57)" }}
             >
               <path
                 strokeLinecap="round"
@@ -130,13 +171,18 @@ const Content6 = () => {
                 border border-solid
                 transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-xl
               `}
-              style={{ borderColor: 'var(--color-crustea-accent-blue, #237392)' }}
+              style={{
+                borderColor: "var(--color-crustea-accent-blue, #237392)",
+              }}
             >
               <h3
                 className="text-xl font-bold mb-6"
-                style={{ color: 'var(--color-crustea-dark-blue,rgb(13, 62, 130))' }}
+                style={{
+                  color: "var(--color-crustea-dark-blue,rgb(13, 62, 130))",
+                }}
               >
-                Products (Technology)
+                {t("content6.products_technology_title")}{" "}
+                {/* Terjemahkan "Products (Technology)" */}
               </h3>
               <div className="grid grid-cols-3 gap-4 md:gap-6 flex-grow items-center">
                 {/* Direct Selling Card */}
@@ -144,11 +190,12 @@ const Content6 = () => {
                   <div
                     className="w-20 h-20 rounded-full flex items-center justify-center mb-2 shadow-sm"
                     style={{
-                      backgroundColor: 'var(--color-crustea-light-green, #DDEBF0)',
-                      color: 'var(--color-crustea-accent-green, #2E8B57)'
+                      backgroundColor:
+                        "var(--color-crustea-light-green, #DDEBF0)",
+                      color: "var(--color-crustea-accent-green, #2E8B57)",
                     }}
                   >
-                    {/* Hand with plant icon */}
+                    {/* Hand with plant icon (SVG remains as is) */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-10 w-10"
@@ -169,18 +216,22 @@ const Content6 = () => {
                       />
                     </svg>
                   </div>
-                  <p className="text-sm text-gray-700 font-medium">Direct Selling</p>
+                  <p className="text-sm text-gray-700 font-medium">
+                    {t("content6.direct_selling_label")}
+                  </p>{" "}
+                  {/* Terjemahkan "Direct Selling" */}
                 </div>
                 {/* Leasing Card */}
                 <div className="flex flex-col items-center">
                   <div
                     className="w-20 h-20 rounded-full flex items-center justify-center mb-2 shadow-sm"
                     style={{
-                      backgroundColor: 'var(--color-crustea-light-blue, #DDEBF0)',
-                      color: 'var(--color-crustea-accent-blue, #237392)'
+                      backgroundColor:
+                        "var(--color-crustea-light-blue, #DDEBF0)",
+                      color: "var(--color-crustea-accent-blue, #237392)",
                     }}
                   >
-                    {/* Key icon */}
+                    {/* Key icon (SVG remains as is) */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-10 w-10"
@@ -196,18 +247,22 @@ const Content6 = () => {
                       />
                     </svg>
                   </div>
-                  <p className="text-sm text-gray-700 font-medium">Leasing</p>
+                  <p className="text-sm text-gray-700 font-medium">
+                    {t("content6.leasing_label")}
+                  </p>{" "}
+                  {/* Terjemahkan "Leasing" */}
                 </div>
                 {/* PaaS/SaaS Card */}
                 <div className="flex flex-col items-center">
                   <div
                     className="w-20 h-20 rounded-full flex items-center justify-center mb-2 shadow-sm"
                     style={{
-                      backgroundColor: 'var(--color-crustea-light-blue, #DDEBF0)',
-                      color: 'var(--color-crustea-accent-blue, #237392)'
+                      backgroundColor:
+                        "var(--color-crustea-light-blue, #DDEBF0)",
+                      color: "var(--color-crustea-accent-blue, #237392)",
                     }}
                   >
-                    {/* Person with data streams icon */}
+                    {/* Person with data streams icon (SVG remains as is) */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-10 w-10"
@@ -223,7 +278,10 @@ const Content6 = () => {
                       />
                     </svg>
                   </div>
-                  <p className="text-sm text-gray-700 font-medium">PaaS/SaaS</p>
+                  <p className="text-sm text-gray-700 font-medium">
+                    {t("content6.paas_saas_label")}
+                  </p>{" "}
+                  {/* Terjemahkan "PaaS/SaaS" */}
                 </div>
               </div>
             </div>
@@ -237,19 +295,27 @@ const Content6 = () => {
                 border border-solid
                 transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-xl
               `}
-              style={{ borderColor: 'var(--color-crustea-accent-blue, #237392)' }}
+              style={{
+                borderColor: "var(--color-crustea-accent-blue, #237392)",
+              }}
             >
               <h3
                 className="text-xl font-bold mb-6"
-                style={{ color: 'var(--color-crustea-dark-blue,rgb(24, 71, 138))' }}
+                style={{
+                  color: "var(--color-crustea-dark-blue,rgb(24, 71, 138))",
+                }}
               >
-                Services & Other Revenue:
+                {t("content6.services_revenue_title")}{" "}
+                {/* Terjemahkan "Services & Other Revenue:" */}
               </h3>
               <ul className="list-disc list-inside text-base text-gray-700 space-y-3 font-medium">
-                <li>Shrimp trading & Processing Products</li>
-                <li>Projects</li>
-                <li>Consulting & Technical Assistance</li>
-                <li>Technology Maintenance & Repair</li>
+                <li>{t("content6.shrimp_trading_products")}</li>{" "}
+                {/* Terjemahkan item */}
+                <li>{t("content6.projects")}</li> {/* Terjemahkan item */}
+                <li>{t("content6.consulting_technical_assistance")}</li>{" "}
+                {/* Terjemahkan item */}
+                <li>{t("content6.technology_maintenance_repair")}</li>{" "}
+                {/* Terjemahkan item */}
               </ul>
             </div>
           </div>
@@ -263,25 +329,37 @@ const Content6 = () => {
               border border-solid
               transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg
             `}
-            style={{ borderColor: 'var(--color-crustea-accent-blue, #237392)' }}
+            style={{ borderColor: "var(--color-crustea-accent-blue, #237392)" }}
           >
             <div
               className="w-24 h-24 rounded-full flex items-center justify-center mb-3"
               style={{
-                backgroundColor: 'var(--color-crustea-light-blue, #DDEBF0)',
-                color: 'var(--color-crustea-dark-blue, #192E4C)'
+                backgroundColor: "var(--color-crustea-light-blue, #DDEBF0)",
+                color: "var(--color-crustea-dark-blue, #192E4C)",
               }}
             >
-              <span className="text-3xl font-extrabold">200</span>
-              <span className="text-lg ml-1 font-semibold">ppm</span>
+              <span className="text-3xl font-extrabold">
+                {t("content6.production_capacity_value")}
+              </span>{" "}
+              {/* Terjemahkan nilai */}
+              <span className="text-lg ml-1 font-semibold">
+                {t("content6.production_capacity_unit")}
+              </span>{" "}
+              {/* Terjemahkan unit */}
             </div>
             <p
               className="text-lg font-semibold text-center mt-2"
-              style={{ color: 'var(--color-crustea-dark-blue,rgb(28, 67, 120))' }}
+              style={{
+                color: "var(--color-crustea-dark-blue,rgb(28, 67, 120))",
+              }}
             >
-              Production capacity
+              {t("content6.production_capacity_label")}{" "}
+              {/* Terjemahkan label */}
             </p>
-            <p className="text-base text-gray-700 text-center">Per month</p>
+            <p className="text-base text-gray-700 text-center">
+              {t("content6.production_capacity_timeframe")}
+            </p>{" "}
+            {/* Terjemahkan timeframe */}
           </div>
           <div
             className={`
@@ -289,24 +367,34 @@ const Content6 = () => {
               border border-solid
               transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg
             `}
-            style={{ borderColor: 'var(--color-crustea-accent-blue,rgb(22, 87, 113))' }}
+            style={{
+              borderColor: "var(--color-crustea-accent-blue,rgb(22, 87, 113))",
+            }}
           >
             <div
               className="w-24 h-24 rounded-full flex items-center justify-center mb-3"
               style={{
-                backgroundColor: 'var(--color-crustea-light-green, #DDEBF0)',
-                color: 'var(--color-crustea-accent-green, #2E8B57)'
+                backgroundColor: "var(--color-crustea-light-green, #DDEBF0)",
+                color: "var(--color-crustea-accent-green, #2E8B57)",
               }}
             >
-              <span className="text-3xl font-extrabold">$40M</span>
+              <span className="text-3xl font-extrabold">
+                {t("content6.revenue_projected_value")}
+              </span>{" "}
+              {/* Terjemahkan nilai */}
             </div>
             <p
               className="text-lg font-semibold text-center mt-2"
-              style={{ color: 'var(--color-crustea-dark-blue,rgb(29, 70, 127))' }}
+              style={{
+                color: "var(--color-crustea-dark-blue,rgb(29, 70, 127))",
+              }}
             >
-              Revenue projected
+              {t("content6.revenue_projected_label")} {/* Terjemahkan label */}
             </p>
-            <p className="text-base text-gray-700 text-center">in 2030</p>
+            <p className="text-base text-gray-700 text-center">
+              {t("content6.revenue_projected_year")}
+            </p>{" "}
+            {/* Terjemahkan tahun */}
           </div>
           <div
             className={`
@@ -314,22 +402,27 @@ const Content6 = () => {
               border border-solid
               transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg
             `}
-            style={{ borderColor: 'var(--color-crustea-accent-blue, #237392)' }}
+            style={{ borderColor: "var(--color-crustea-accent-blue, #237392)" }}
           >
             <div
               className="w-24 h-24 rounded-full flex items-center justify-center mb-3"
               style={{
-                backgroundColor: 'var(--color-crustea-light-blue, #DDEBF0)',
-                color: 'var(--color-crustea-dark-blue, #192E4C)'
+                backgroundColor: "var(--color-crustea-light-blue, #DDEBF0)",
+                color: "var(--color-crustea-dark-blue, #192E4C)",
               }}
             >
-              <span className="text-3xl font-extrabold">Up to 35%</span>
+              <span className="text-3xl font-extrabold">
+                {t("content6.gross_margin_value")}
+              </span>{" "}
+              {/* Terjemahkan nilai */}
             </div>
             <p
               className="text-lg font-semibold text-center mt-2"
-              style={{ color: 'var(--color-crustea-dark-blue,rgb(28, 61, 106))' }}
+              style={{
+                color: "var(--color-crustea-dark-blue,rgb(28, 61, 106))",
+              }}
             >
-              Gross Margin
+              {t("content6.gross_margin_label")} {/* Terjemahkan label */}
             </p>
           </div>
         </div>
@@ -341,62 +434,52 @@ const Content6 = () => {
             border border-solid
             transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-xl
           `}
-          style={{ borderColor: 'var(--color-crustea-accent-blue, #237392)' }}
+          style={{ borderColor: "var(--color-crustea-accent-blue, #237392)" }}
         >
           <h3
             className="text-xl font-bold mb-6 text-center"
-            style={{ color: 'var(--color-crustea-dark-blue,rgb(26, 70, 132))' }}
+            style={{ color: "var(--color-crustea-dark-blue,rgb(26, 70, 132))" }}
           >
-           Our Impact
+            {t("content6.our_impact_title")} {/* Terjemahkan "Our Impact" */}
           </h3>
 
           {/* Baris Atas: Ikon SDG (5 ikon) */}
           <div className="flex justify-center items-center flex-wrap gap-4 md:gap-6 lg:gap-8 mb-8 md:mb-10">
-            {/* Setiap ikon SDG ditempatkan dalam kotak putih sendiri sesuai gambar */}
-            <div className="flex flex-col items-center justify-center w-20 h-20 bg-white rounded-xl shadow-md">
-              <img src="/images/landing/content6-icon1.png" alt="SDG 1 No Poverty" className="w-16 h-16 object-contain" />
-            </div>
-            <div className="flex flex-col items-center justify-center w-20 h-20 bg-white rounded-xl shadow-md">
-              <img src="/images/landing/content6-icon2.png" alt="SDG 2 Zero Hunger" className="w-16 h-16 object-contain" />
-            </div>
-            <div className="flex flex-col items-center justify-center w-20 h-20 bg-white rounded-xl shadow-md">
-              <img src="/images/landing/content6-icon3.png" alt="SDG 7 Affordable and Clean Energy" className="w-16 h-16 object-contain" />
-            </div>
-            <div className="flex flex-col items-center justify-center w-20 h-20 bg-white rounded-xl shadow-md">
-              <img src="/images/landing/content6-icon4.png" alt="SDG 14 Life Below Water" className="w-16 h-16 object-contain" />
-            </div>
-            <div className="flex flex-col items-center justify-center w-20 h-20 bg-white rounded-xl shadow-md">
-              <img src="/images/landing/content6-icon5.png" alt="SDG 13 Climate Action" className="w-16 h-16 object-contain" />
-            </div>
+            {sdgIcons.map((icon, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center justify-center w-20 h-20 bg-white rounded-xl shadow-md"
+              >
+                <img
+                  src={icon.src}
+                  alt={t(icon.altKey)}
+                  className="w-16 h-16 object-contain"
+                />{" "}
+                {/* Terjemahkan alt text */}
+              </div>
+            ))}
           </div>
 
           {/* Baris Bawah: Kartu Metrik (4 kartu) */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-            {/* Setiap kartu metrik sesuai gambar */}
-            <div className="flex flex-col items-center text-center p-4 bg-white rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg">
-              <p className="text-xl font-bold text-crustea-dark-blue mb-2"  style={{ color: 'var(--color-crustea-dark-blue,rgb(28, 61, 106))' }}>200%</p>
-              <p className="text-sm font-semibold text-gray-700 leading-relaxed">
-                Bigger & Higher Quality Shrimp and Fish
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center p-4 bg-white rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg">
-              <p className="text-xl font-bold text-crustea-dark-blue mb-2"  style={{ color: 'var(--color-crustea-dark-blue,rgb(28, 61, 106))' }}>80%</p>
-              <p className="text-sm font-semibold text-gray-700 leading-relaxed">
-                Operational Cost Saving
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center p-4 bg-white rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg">
-              <p className="text-xl font-bold text-crustea-dark-blue mb-2"  style={{ color: 'var(--color-crustea-dark-blue,rgb(28, 61, 106))' }}>23K tCO2e</p>
-              <p className="text-sm font-semibold text-gray-700 leading-relaxed">
-                GHG Reduction
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center p-4 bg-white rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg">
-              <p className="text-xl font-bold text-crustea-dark-blue mb-2"  style={{ color: 'var(--color-crustea-dark-blue,rgb(28, 61, 106))' }}>60%</p>
-              <p className="text-sm font-semibold text-gray-700 leading-relaxed">
-                Women Management
-              </p>
-            </div>
+            {impactMetrics.map((metric, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center text-center p-4 bg-white rounded-xl shadow-md transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg"
+              >
+                <p
+                  className="text-xl font-bold text-crustea-dark-blue mb-2"
+                  style={{
+                    color: "var(--color-crustea-dark-blue,rgb(28, 61, 106))",
+                  }}
+                >
+                  {t(metric.valueKey)} {/* Terjemahkan nilai */}
+                </p>
+                <p className="text-sm font-semibold text-gray-700 leading-relaxed">
+                  {t(metric.descriptionKey)} {/* Terjemahkan deskripsi */}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -1,15 +1,19 @@
 import React from "react";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
-
-const programs = [
-  "Eco-Aerator Implementation",
-  "Capacity Building in Aquaculture",
-  "Women Empowerment",
-  "Millenial Shrimp Farming",
-  "Technology Based Tilapia Biofloc",
-];
+import { useTranslation } from "react-i18next"; // Import useTranslation
 
 export default function PotentialProgram() {
+  const { t } = useTranslation(); // Dapatkan fungsi 't' (translate)
+
+  // Definisikan array program di dalam komponen dan terjemahkan setiap item
+  const programs = [
+    t("potentialProgram.program_1"),
+    t("potentialProgram.program_2"),
+    t("potentialProgram.program_3"),
+    t("potentialProgram.program_4"),
+    t("potentialProgram.program_5"),
+  ];
+
   return (
     <section className="relative w-full overflow-hidden mt-20">
       {/* Background image and gradient overlays */}
@@ -17,7 +21,7 @@ export default function PotentialProgram() {
         <div className="w-full h-full relative">
           <img
             src="/images/landing/potentialprogram.png"
-            alt="Shrimp background"
+            alt={t("potentialProgram.shrimp_background_alt")}
             className="w-full h-full object-cover object-center opacity-40"
           />
           {/* Horizontal gradient */}
@@ -32,7 +36,9 @@ export default function PotentialProgram() {
         {/* Mobile title */}
         <div className="block md:hidden text-center">
           <h2 className="text-3xl font-extrabold text-[#407d31] drop-shadow-md mb-6">
-            POTENTIAL <br /> PROGRAM
+            {t("potentialProgram.section_title_part1")} <br />{" "}
+            {t("potentialProgram.section_title_part2")}{" "}
+            {/* Terjemahkan judul mobile */}
           </h2>
         </div>
 
@@ -57,7 +63,7 @@ export default function PotentialProgram() {
                 </svg>
               </div>
               <span className="text-base sm:text-lg md:text-xl text-[#005f61] font-semibold">
-                {program}
+                {program} {/* Program sudah diterjemahkan dari array di atas */}
               </span>
             </div>
           ))}
@@ -88,7 +94,9 @@ export default function PotentialProgram() {
         {/* Desktop title */}
         <div className="hidden md:block text-right md:pr-12">
           <h2 className="text-4xl md:text-5xl font-extrabold text-[#005f61] drop-shadow-md leading-snug">
-            POTENTIAL <br /> PROGRAM
+            {t("potentialProgram.section_title_part1")} <br />{" "}
+            {t("potentialProgram.section_title_part2")}{" "}
+            {/* Terjemahkan judul desktop */}
           </h2>
         </div>
       </div>

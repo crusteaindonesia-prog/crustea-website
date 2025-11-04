@@ -7,21 +7,27 @@
   <link rel="manifest" href="/manifest.webmanifest" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- google fonts -->
+  <!-- Google Fonts Preconnect -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <!-- Ubuntu -->
+  <!-- LCP-Critical Font: Ubuntu -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 
+  <!-- Non-critical Fonts: Lazy-load -->
   <!-- Montserrat -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" media="print" onload="this.media='all'">
   <!-- Cabin -->
-  <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" media="print" onload="this.media='all'">
   <!-- DM Sans -->
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" media="print" onload="this.media='all'">
+
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+  </noscript>
 
   <title translate="no">Crustea</title>
 </head>

@@ -1,8 +1,8 @@
 import getScrollAnimation from "../utils/getScrollAnimation";
-import eco from "../../public/images/landing/produk1.png";
-import ebii from "../../public/images/landing/produk2.png";
-import arrowIcon from "../../public/images/landing/Component 2.png";
-import smartEnergy from "../../public/images/landing/produk3.png";
+import eco from "/images/landing/produk1.png";
+import ebii from "/images/landing/produk2.png";
+import arrowIcon from "/images/landing/Component 2.png";
+import smartEnergy from "/images/landing/produk3.png";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import React, { useMemo } from "react";
 import { motion } from "framer-motion";
@@ -86,7 +86,7 @@ const ProductCatalog = ({
                   <ScrollAnimationWrapper className="mt-auto mb-3">
                     <motion.div variants={scrollAnimation} className="ml-3">
                       <a
-                       href={`https://wa.me/6282140773592?text=Hi%20Crustea,%20I'm%20interested%20in%20your%20product:%20${product.name}`}
+                        href={`https://wa.me/6282140773592?text=Hi%20Crustea,%20I'm%20interested%20in%20your%20product:%20${product.name}`}
                         className="rounded-md cursor-pointer hover:ring-2 hover:ring-[#ACCB37] flex self-end items-center w-fit p-1"
                       >
                         <h3 className="text-[#ACCB37] md:text-2xl">

@@ -1,0 +1,645 @@
+{
+   "popup": {
+    "title": "Ubah Tambak Udang Anda!",
+    "description": "Layanan renovasi dan revitalisasi dari ahli untuk meningkatkan produktivitas tambakmu!",
+    "button_text": "Daftar Sekarang"
+  },
+  "home": {
+    "title": "PERUSAHAAN TEKNOLOGI AKUAKULTUR",
+    "subtitle": "untuk Budidaya Berkelanjutan",
+    "desc": "Menciptakan solusi bagi petambak di Indonesia dengan mengembangkan berbagai teknologi untuk meningkatkan produktivitas dan efisiensi kolam.",
+    "contact": "Hubungi Kami",
+    "products": "Lihat Produk"
+  },
+
+  "header": {
+    "home": "Beranda",
+    "products": "Produk",
+    "resources": "Sumber Daya",
+    "company": "Perusahaan",
+    "careers": "Karir",
+    "language": "Bahasa",
+    "getStarted": "Mulai Sekarang"
+  },
+  "productDropdown": {
+    "allProducts": {
+      "title": "Semua Produk",
+      "desc": "Jelajahi seluruh rangkaian produk teknologi kami."
+    },
+    "iotProduct": {
+      "title": "Produk IoT",
+      "desc": "Telusuri apa saja Produk unggulan IoT Crustea."
+    },
+    "pesanProduk": {
+      "title": "Detail & Pesan Produk",
+      "desc": "Pelajari sebelum pesan Produk Tambak."
+    },
+    "krastyFood": {
+      "title": "Olahan Pangan",
+      "desc": "Intip lebih dekat apa saja Olahan Pangan hasil tambak."
+    },
+    "consultation": {
+      "title": "Konsultasi",
+      "desc": "Dapatkan saran ahli untuk kebutuhan Anda."
+    }
+    ,
+    "produkLayanan": {
+      "title": "Produk dan Layanan",
+      "desc": "Jelajahi seluruh produk dan layanan kami."
+    }
+  },
+  "resourcesDropdown": {
+    "blog": "Blog",
+    "testimonials": "Testimoni",
+    "videos": "Video"
+  },
+  "companyDropdown": {
+    "aboutUs": "Tentang Kami",
+    "partners": "Bergabung Bersama Kami"
+  },
+  "careersDropdown": {
+    "fullTime": "Waktu Penuh",
+    "partTime": "Waktu Paruh",
+    "intern": "Magang"
+  },
+  "produkLayanan": {
+  "title": "Produk & Layanan",
+  "eco_title": "Proyek Budidaya dengan Skema Bagi Hasil dan Pengembangan Tambak",
+  "eco_description": "Crustea melakukan kemitraan budidaya dengan sistem bagi hasil, menyediakan layanan mulai dari pembangunan tambak hingga dukungan teknologi dan akses pasar. Sistem ini memastikan efisiensi dan keberlanjutan melalui pembagian hasil panen.",
+  "lightbulb_title": "Layanan Konsultasi dan Dukungan Operasional Tambak Udang dan Ikan",
+  "lightbulb_description": "Crustea memberikan panduan ahli dalam budidaya udang dan ikan, mulai dari perencanaan hingga pelaksanaan, untuk memastikan hasil panen optimal dan berkelanjutan. Kami juga meningkatkan kinerja tambak melalui dukungan teknologi di lapangan maupun jarak jauh, dengan fokus pada kualitas air, efisiensi energi, dan pencegahan penyakit.",
+  "memory_title": "Manajemen dan Optimalisasi Energi",
+  "memory_description": "Sistem real-time untuk memantau, mengelola, dan mengoptimalkan penggunaan energi dengan perangkat efisien, otomatisasi, dan energi terbarukan. Layanan ini membantu mengurangi biaya listrik, meningkatkan efisiensi energi, serta mendukung keberlanjutan tanpa mengurangi produktivitas.",
+  "water_drop_title": "Proyek Keberlanjutan dan Pemberdayaan",
+  "water_drop_description": "Crustea memastikan perdagangan akuakultur yang efisien dengan kualitas dan nilai terbaik. Perusahaan juga menciptakan produk olahan bernilai tambah dari udang dan ikan melalui pemberdayaan perempuan, mendorong inklusi ekonomi dan keberlanjutan dengan mengurangi limbah.",
+  "science_title": "Akses ke Mitra Pendanaan",
+  "science_description": "Solusi keuangan yang disesuaikan untuk mendukung proyek akuakultur, memastikan akses terhadap sumber daya guna meningkatkan dan mengoptimalkan operasional.",
+  "groups_title": "Akses ke Pasar",
+  "groups_description": "Crustea menjual produk olahan udang, ikan, dan produk berbasis limbah berkualitas tinggi di pasar lokal maupun ekspor global, mendukung akuakultur berkelanjutan dan perluasan pasar."
+  },
+
+  "footer": {
+    "company_name": "PT Eco Karya Teknologi",
+    "address_line1": "Lantai Dasar Crustea Labs,",
+    "address_line2": "Jl. Sanggung Timur No.1, Jatingaleh, Semarang,",
+    "address_line3": "Jawa Tengah 50254",
+    "cs_sales": "CS & Sales",
+    "products_heading": "Produk",
+    "products_catalog": "Katalog Produk Crustea",
+    "products_buy_smart_energy": "Beli Smart Energy",
+    "products_buy_ebii_system": "Beli Sistem EBII",
+    "products_buy_eco_aerator": "Beli Eco Aerator",
+    "products_buy_turbo_jet_aerator": "Beli Turbo Jet Aerator",
+    "products_buy_mini_aerator": "Beli Mini Aerator",
+    "products_shrimp_market_tokopedia": "Pasar Udang Tokopedia",
+    "products_blog_news_article": "Berita Blog & Artikel",
+    "solutions_heading": "Solusi",
+    "solutions_challenges_shrimp_farmers": "Tantangan Petambak",
+    "solutions_success_vaname_cultivation": "Sukses Budidaya Udang Vaname",
+    "solutions_iot_aquaculture": "IoT Akuakultur",
+    "solutions_biofloc": "Bioflok",
+    "resources_heading": "Sumber Daya",
+    "resources_blog": "Blog",
+    "resources_testimoni": "Testimoni",
+    "resources_videos": "Video",
+    "resources_konsultasi": "Konsultasi",
+    "resources_food_processing": "Olahan Pangan",
+    "resources_pesan_produk": "Pesan Produk",
+    "company_heading": "Perusahaan",
+    "company_pricing": "Harga",
+    "company_about_us": "Tentang Kami",
+    "company_careers": "Karir",
+    "company_partner_with_us": "Bermitra Dengan Kami",
+    "reports_heading": "Laporan",
+    "reports_2025": "Laporan 2025",
+    "reports_2024": "Laporan 2024",
+    "reports_2023": "Laporan 2023",
+    "reports_2022": "Laporan 2022",
+    "copyright": "© {{year}} PT Eco Karya Teknologi CRUSTEA"
+  },
+  "hero": {
+    "tagline_part1": "TEKNOLOGI",
+    "tagline_part2": "AKUAKULTUR",
+    "tagline_part3": "PERUSAHAAN",
+    "subtitle": "untuk Budidaya Berkelanjutan",
+    "description": "Menciptakan solusi bagi petambak di Indonesia dengan mengembangkan berbagai teknologi untuk meningkatkan produktivitas dan efisiensi di tambak.",
+    "contact_us_button": "📞 Hubungi Kami",
+    "get_products_button": "Dapatkan Produk",
+    "product_label": "PRODUK CRUSTEA",
+    "uncover_story_heading_part1": "Ungkap",
+    "uncover_story_heading_part2": "Kisah Kami",
+    "dedicated_to_heading_part1": "Kami Berdedikasi untuk",
+    "dedicated_to_heading_part2": "Meningkatkan Produktivitas",
+    "dedicated_to_heading_part3": "Petambak Indonesia.",
+    "about_paragraph1": "Didorong oleh kekhawatiran petambak Indonesia yang berjuang dengan biaya operasional tinggi yang berdampak pada produktivitas, kami telah berjanji untuk berinovasi solusi teknologi.",
+    "about_paragraph2": "Tujuan kami adalah memberdayakan petambak untuk mencapai hasil terbaik dalam hal kuantitas dan kualitas produksi akuakultur sambil memberikan kontribusi langsung pada pelestarian lingkungan melalui inovasi ramah lingkungan.",
+    "show_less_button": "Sembunyikan",
+    "learn_more_button": "Pelajari Lebih Lanjut",
+    "product_present_label": "Presentasi Produk"
+  },
+  "landing_banner": {
+  "product_present_label": "PRODUK CRUSTEA",
+  "headline_1": "Tingkatkan Produktivitas Tambak Anda Bersama",
+  "headline_crustea": "Crustea",
+  "subheadline": "Solusi teknologi pintar untuk membantu petambak meningkatkan efisiensi, menekan biaya, dan meraih hasil panen optimal.",
+  "form_name": "Nama Lengkap",
+  "form_email": "Alamat Email",
+  "form_phone": "Nomor WhatsApp / HP",
+  "form_button": "Gabung ke Aqua Grow"
+},
+  "vision": {
+    "heading": "Visi Kami",
+    "description_part1": "Meningkatkan Produktivitas Petambak",
+    "description_part2": "& Ketahanan Pangan dengan Menerapkan",
+    "description_part3": "Teknologi Eco-Aerator",
+    "list_item1": "Meningkatkan produktivitas dengan sistem Eco-Aerator presisi",
+    "list_item2": "Mendukung ketahanan pangan berkelanjutan untuk generasi mendatang",
+    "list_item3": "Memberdayakan petambak yang melek digital dengan teknologi real-time",
+    "image_heading_part1": "Pertanian Cerdas",
+    "image_heading_part2": "untuk Masa Depan yang Lebih Baik"
+  },
+  "mission": {
+    "heading": "Misi Kami",
+    "innovation_title": "Inovasi",
+    "innovation_description": "Menciptakan Teknologi Tepat Guna Berkualitas",
+    "sustainability_title": "Keberlanjutan",
+    "sustainability_description": "Membangun Hubungan Baik dengan Mitra dan Pelanggan",
+    "empowerment_title": "Pemberdayaan",
+    "empowerment_description": "Menciptakan Sumber Daya Manusia dengan Kualitas dan Integritas",
+    "repair_title": "Perbaikan",
+    "repair_description": "Melakukan Peningkatan Teknologi Berkelanjutan",
+    "distribution_title": "Distribusi",
+    "distribution_description": "Memastikan Rantai Pasok dan Produktivitas Sektor Budidaya dan Perikanan Laut dalam Kondisi Baik dan Optimal",
+    "target_title": "Target",
+    "target_description": "Pemerataan Teknologi Tepat Guna sesuai Target Nasional"
+  },
+  "values": {
+    "heading": "Nilai-nilai Crustea",
+    "creative_innovative_title": "Kreatif dan Inovatif",
+    "creative_innovative_description": "Komitmen kami untuk terus mengembangkan solusi baru dan efektif.",
+    "respect_title": "Rasa Hormat",
+    "respect_description": "Membangun hubungan yang kuat berdasarkan rasa saling hormat dengan semua pemangku kepentingan.",
+    "humility_title": "Kerendahan Hati",
+    "humility_description": "Selalu terbuka untuk belajar dan meningkatkan diri, tanpa memandang pencapaian.",
+    "skillful_title": "Terampil",
+    "skillful_description": "Keunggulan dalam kemampuan kami dan pengembangan profesional berkelanjutan.",
+    "teamwork_title": "Kerja Tim",
+    "teamwork_description": "Mencapai tujuan bersama melalui kolaborasi dan dukungan yang efektif.",
+    "ethics_integrity_title": "Etika dan Integritas",
+    "ethics_integrity_description": "Menjunjung tinggi kejujuran, transparansi, dan standar moral yang tinggi dalam setiap tindakan.",
+    "adaptive_title": "Adaptif",
+    "adaptive_description": "Kemampuan untuk dengan cepat menyesuaikan diri dengan perubahan dan tantangan di industri."
+  },
+  "content1": {
+    "title_part1": "90% petambak",
+    "title_part2": "akuakultur",
+    "title_subtitle": "yang membatasi produktivitas mereka",
+    "item1_heading": "70% udang mati",
+    "item1_description": "karena kadar oksigen terlarut yang tidak terkontrol",
+    "item2_heading": "Biaya bahan bakar tinggi",
+    "item2_description": "Sekitar Rp100 juta per bulan"
+  },
+  "content2": {
+    "heading": "Akuakultur adalah salah satu tulang punggung perekonomian Indonesia",
+    "subtitle": "70% Perdagangan Komoditas Global",
+    "year_2020": "2020",
+    "2020_item1": "Eksportir udang beku terbesar ke-3",
+    "2020_item2": "Produksi udang 881.3 ribu ton",
+    "year_2025": "2025",
+    "2025_item1": "Produksi udang 2 juta ton",
+    "2025_item2": "CAGR 8.5%/tahun"
+  },
+  "content3": {
+    "heading": "Crustea Mempersembahkan Eco-Aerator",
+    "subtitle": "Potensi pasar dapat ditentukan pada beberapa teknologi yang tersedia",
+    "ebii_system_title": "Sistem EBII",
+    "ebii_system_description": "dengan 4 parameter: pH, DO, salinitas, & suhu",
+    "solar_panel_title": "Panel Surya",
+    "solar_panel_description": "Energi Terbarukan",
+    "eco_aerator_title": "Eco-Aerator",
+    "eco_aerator_description": "dengan impeller, gelembung lebih kecil, tingkat oksigen lebih tinggi",
+    "smart_energy_title": "Smart Energy",
+    "smart_energy_description": "Memantau & mengontrol energi yang digunakan pada aerator ramah lingkungan atau keseluruhan dengan mudah melalui telepon",
+    "advantage_label": "keunggulan",
+    "advantage1": "Udang 200% lebih besar & berkualitas lebih tinggi",
+    "advantage2": "Penghematan biaya operasional 60–80%"
+  },
+  "content4": {
+    "heading": "Ekosistem Bisnis",
+    "education_label": "Edukasi",
+    "open_project_label": "Proyek Terbuka",
+    "shrimp_cultivation_title": "Budidaya Udang",
+    "pre_cultivation_tech_label": "Teknologi",
+    "funding_aqua_input_label": "Pendanaan,\nInput Aqua",
+    "consultation_label": "Konsultasi",
+    "during_cultivation_tech_label": "Teknologi",
+    "during_cultivation_details": "Eco Aerator, Sistem EBII, Smart Energy",
+    "post_cultivation_tech_label": "Teknologi",
+    "marketplace_label": "Marketplace",
+    "global_selling_label": "Penjualan / Pengiriman Global",
+    "fnb_label": "F&B",
+    "food_processing_label": "Pengolahan Makanan",
+    "preservation_label": "Pengawetan"
+  },
+  "content5": {
+    "heading": "Layanan Kami",
+    "service1_title": "Proyek Budidaya dengan Skema Bagi Hasil dan Pengembangan Tambak",
+    "service1_description": "Crustea melakukan kemitraan budidaya dengan bagi hasil, menyediakan layanan mulai dari pembangunan tambak hingga dukungan teknologi dan akses pasar, dengan imbalan bagian dari hasil panen, memastikan sistem yang efisien dan berkelanjutan.",
+    "service2_title": "Layanan Konsultasi dan Dukungan Operasional untuk Tambak Udang dan Ikan",
+    "service2_description": "Crustea menawarkan panduan ahli dalam budidaya udang dan ikan, dari perencanaan hingga implementasi, memastikan panen yang optimal dan keberlanjutan. Ini juga meningkatkan kinerja tambak dengan dukungan teknologi di tempat dan jarak jauh, menekankan kualitas air, efisiensi energi, dan pencegahan penyakit.",
+    "service3_title": "Manajemen dan Optimasi Energi",
+    "service3_description": "Sistem real-time untuk memantau, mengelola, dan mengoptimalkan penggunaan energi dengan perangkat efisien, otomatisasi, dan energi terbarukan. Layanan ini mengurangi biaya listrik, meningkatkan efisiensi energi, dan mempromosikan keberlanjutan sambil menjaga produktivitas.",
+    "service4_title": "Proyek Keberlanjutan dan Pemberdayaan",
+    "service4_description": "Crustea memastikan perdagangan akuakultur yang efisien dengan kualitas dan nilai terbaik. Perusahaan juga menciptakan produk olahan udang dan ikan bernilai tambah melalui pemberdayaan perempuan, mempromosikan inklusi ekonomi dan keberlanjutan dengan mengurangi limbah.",
+    "service5_title": "Akses ke Mitra Pendanaan",
+    "service5_description": "Solusi keuangan yang disesuaikan untuk memberdayakan proyek akuakultur, memastikan akses ke sumber daya untuk menskalakan dan mengoptimalkan operasi.",
+    "service6_title": "Akses ke Pasar",
+    "service6_description": "Crustea menjual produk udang, ikan, dan limbah olahan berkualitas tinggi di pasar lokal dan mengekspornya secara global, mendukung akuakultur berkelanjutan dan ekspansi pasar."
+  },
+  "content6": {
+    "business_model_title_part1": "Model",
+    "business_model_title_part2": "Bisnis",
+    "b2b_farmers": "Petambak",
+    "b2b_sectors": "Sektor Publik/Swasta",
+    "products_technology_title": "Produk (Teknologi)",
+    "direct_selling_label": "Penjualan Langsung",
+    "leasing_label": "Sewa Guna Usaha",
+    "paas_saas_label": "PaaS/SaaS",
+    "services_revenue_title": "Layanan & Pendapatan Lain:",
+    "shrimp_trading_products": "Perdagangan Udang & Produk Olahan",
+    "projects": "Proyek",
+    "consulting_technical_assistance": "Konsultasi & Bantuan Teknis",
+    "technology_maintenance_repair": "Pemeliharaan & Perbaikan Teknologi",
+    "production_capacity_value": "200",
+    "production_capacity_unit": "ppm",
+    "production_capacity_label": "Kapasitas Produksi",
+    "production_capacity_timeframe": "Per bulan",
+    "revenue_projected_value": "$40Jt",
+    "revenue_projected_label": "Proyeksi Pendapatan",
+    "revenue_projected_year": "di 2030",
+    "gross_margin_value": "Hingga 35%",
+    "gross_margin_label": "Margin Kotor",
+    "our_impact_title": "Dampak Kami",
+    "impact_shrimp_fish_quality_value": "200%",
+    "impact_shrimp_fish_quality_description": "Udang dan Ikan Lebih Besar & Berkualitas Tinggi",
+    "impact_operational_cost_saving_value": "80%",
+    "impact_operational_cost_saving_description": "Penghematan Biaya Operasional",
+    "impact_ghg_reduction_value": "23K tCO2e",
+    "impact_ghg_reduction_description": "Pengurangan GRK",
+    "impact_women_management_value": "60%",
+    "impact_women_management_description": "Manajemen Perempuan",
+    "sdg1_alt": "SDG 1 Tanpa Kemiskinan",
+    "sdg2_alt": "SDG 2 Tanpa Kelaparan",
+    "sdg7_alt": "SDG 7 Energi Bersih dan Terjangkau",
+    "sdg14_alt": "SDG 14 Kehidupan Bawah Air",
+    "sdg13_alt": "SDG 13 Aksi Iklim"
+  },
+  "content7": {
+    "main_title": "Implementasi Eco-Aerator",
+    "subtitle": "Aerator Ramah Lingkungan & Cerdas untuk Akuakultur",
+    "description_part1": "Solusi teknologi berkelanjutan Crustea (Eco Aerator, EBII, dan sistem Smart Energy)",
+    "description_part2_highlight": "memungkinkan kontrol oksigen yang presisi di tambak udang dan ikan, meningkatkan produktivitas dan mengurangi biaya listrik hingga 80%.",
+    "description_part3": "Mari wujudkan budidaya akuakultur yang lebih berkelanjutan dan tingkatkan produksi petani melalui dukungan pendanaan untuk implementasi teknologi sebagai bagian dari CSR Anda.",
+    "potential_impact_title": "Dampak Potensial",
+    "impact_item1": "Udang dan ikan 150% lebih besar dan berkualitas lebih tinggi",
+    "impact_item2": "Penghematan biaya listrik 30–50%",
+    "impact_item3": "Pengurangan GRK 100 tCO2e",
+    "image_alt_aerator": "Perangkat Eco Aerator",
+    "image_alt_background": "Latar Belakang Kolam"
+  },
+  "content8": {
+    "main_title": "Implementasi Eco-Aerator",
+    "subtitle": "Aerator Ramah Lingkungan & Cerdas untuk Akuakultur",
+    "impact_shrimp_fish_percent": "200%",
+    "impact_shrimp_fish_desc": "Udang dan ikan lebih besar\nKualitas lebih tinggi",
+    "eco_aerator_title": "Eco-Aerator",
+    "eco_aerator_desc": "dengan impeller, gelembung lebih kecil,\ntingkat oksigen lebih tinggi",
+    "technology_overview_title": "Tinjauan Teknologi",
+    "photovoltaic_title": "Fotovoltaik",
+    "photovoltaic_desc": "Energi Terbarukan",
+    "ebii_system_title": "Sistem EBII",
+    "ebii_system_desc": "dengan 4 parameter:\npH, DO, salinitas, & suhu",
+    "ghg_reduction_value": "23.044",
+    "ghg_reduction_desc": "Pengurangan GRK tCO2e",
+    "smart_energy_title": "Smart Energy",
+    "smart_energy_desc": "Memantau & mengontrol energi yang digunakan\npada setiap aerator atau keseluruhan aerator\ndengan mudah melalui ponsel",
+    "auto_control_highlight": "Kontrol otomatis",
+    "auto_control_desc": "aerator on/off\nsesuai dengan pengukuran Sistem EBII",
+    "image_alt_aerator": "Produk Eco Aerator",
+    "image_alt_ebii": "Tampilan Sistem EBII",
+    "image_alt_smart_energy": "Dasbor Smart Energy",
+    "image_alt_arrow": "Ikon Panah"
+  },
+  "content9": {
+    "main_title": "Pemberdayaan Wanita",
+    "subtitle": "Meningkatkan Peran Potensial Wanita dalam Akuakultur",
+    "section_title_women_in_aquaculture": "Wanita dalam Akuakultur",
+    "description": "Memberdayakan wanita dalam akuakultur sangat penting untuk pembangunan berkelanjutan. Dengan menyediakan akses yang sama terhadap sumber daya, pelatihan, dan peluang, kita dapat membuka potensi penuh wanita di sektor vital ini. Ketika wanita berkembang di akuakultur, komunitas akan makmur, ekonomi akan tumbuh, dan lingkungan akan mendapatkan manfaat. Mari kita bekerja sama untuk memastikan wanita memiliki dukungan yang mereka butuhkan untuk berhasil dan memimpin dalam akuakultur.",
+    "detail_title": "Detail",
+    "detail_item1": "Pelatihan 1 hari",
+    "detail_item2": "Kelompok pengolah dan pemasar (poklahsar)",
+    "detail_item3": "50 – 75 peserta (wanita) di setiap lokasi",
+    "kpi_title": "KPI",
+    "kpi_item1_highlight": "80% peserta",
+    "kpi_item1_text": "peningkatan pengetahuan tentang kemungkinan partisipasi dalam akuakultur",
+    "kpi_item2_highlight": "Menghasilkan 2 produk",
+    "kpi_item2_text": "yang siap dipasarkan dari udang dan budidaya",
+    "image_alt_zoomable": "Gambar yang dapat diperbesar tentang wanita dalam akuakultur",
+    "modal_image_preview": "Pratinjau",
+    "search_icon_alt": "Ikon pencarian",
+    "close_modal_button": "Tutup modal"
+  },
+  "content10": {
+    "main_title": "Peningkatan Kapasitas dalam Akuakultur",
+    "subtitle": "Lokakarya Akuakultur untuk Petani Udang dan Ikan",
+    "section_title_capacity_building": "Peningkatan Kapasitas",
+    "description": "Peningkatan kapasitas dalam akuakultur sangat penting untuk pertumbuhan dan pembangunan berkelanjutan di industri ini. Dengan meningkatkan keterampilan, pengetahuan, dan sumber daya individu serta organisasi yang terlibat dalam akuakultur, kita dapat meningkatkan efisiensi produksi, mempromosikan inovasi, dan memastikan kelestarian lingkungan. Melalui pelatihan terarah, pendidikan, dan transfer teknologi, kami memberdayakan para pemangku kepentingan untuk menghadapi tantangan saat ini dan meraih peluang di masa depan dalam akuakultur.",
+    "detail_title": "Detail",
+    "detail_item1": "1 lokasi 1 modul",
+    "detail_item2_part1": "Pelatihan 2 Hari (Hari ke-1 adalah pelatihan di kelas dan Hari ke-2 adalah pengetahuan praktis)",
+    "detail_item2_part2": "ke-1",
+    "detail_item2_part3": "adalah pelatihan di kelas dan Hari ke-2 adalah pengetahuan praktis)",
+    "detail_item2_part4": "ke-2",
+    "detail_item2_part5": "adalah pengetahuan praktis)",
+    "detail_item3_part1": "50–75 target peserta di setiap wilayah (Kelompok Petani Tambak tradisional, semi intensif, dan/atau intensif)",
+    "detail_item3_part2": "Kelompok Petani Tambak tradisional, semi intensif, dan/atau intensif",
+    "kpi_title": "KPI",
+    "kpi_item1_highlight": "80% peserta",
+    "kpi_item1_text": "peningkatan pengetahuan dan kesiapan untuk menerapkan praktik energi berkelanjutan dan terbarukan dalam akuakultur",
+    "kpi_item2_highlight": "50% peserta",
+    "kpi_item2_text": "memulai perubahan atau peningkatan dalam praktik akuakultur mereka",
+    "image_alt_shrimp_in_hand": "Udang di tangan"
+  },
+  "usersSection": {
+    "user_label": "Pengguna",
+    "location_label": "Lokasi",
+    "ponds_label": "Tambak",
+    "user_count": "600",
+    "location_count": "20",
+    "ponds_count": "50"
+  },
+  "productsHeader": {
+    "main_heading_part1": "Penghematan biaya",
+    "main_heading_part2_highlight": "operasional",
+    "main_heading_part3": "hingga",
+    "main_heading_part4_highlight": "80%",
+    "button_text": "Beli Produk Olahan",
+    "banner_alt_text": "Spanduk produk"
+  },
+  "productCatalog": {
+    "section_title_part1": "Katalog",
+    "section_title_part2": "Produk Kami",
+    "section_description": "Temukan produk akuakultur inovatif Crustea — dirancang untuk keberlanjutan, efisiensi energi, dan hasil yang lebih baik.",
+    "eco_aerator_name": "Eco-Aerator",
+    "eco_aerator_desc": "Eco-Aerator menggunakan inovasi teknologi ramah lingkungan terbaik dengan AI/IoT cerdas. Sebuah teknologi aerasi ramah lingkungan yang akan meningkatkan produktivitas tambak sekaligus menekan biaya operasional tambak.",
+    "ebii_system_name": "Sistem EBII",
+    "ebii_system_desc": "EBII Monitoring & Controlling System adalah perangkat sensor yang memiliki beberapa fitur sensor unggulan untuk membantu para petani mengontrol kondisi tambaknya kapanpun dan dimanapun. Saat ini kadar DO sudah otomatis, saat kualitas DO rendah, aerator akan menyala otomatis dan sebaliknya, Sistem AI di dalamnya tentu berpengaruh pada penghematan listrik yang digunakan. Tidak perlu beroperasi 24 jam, Biaya Operasional lebih hemat.",
+    "smart_energy_name": "Smart Energy",
+    "smart_energy_desc": "Smart Energy System adalah teknologi yang bertujuan untuk mengetahui tingkat efisiensi dan penghematan energi yang dihasilkan ketika petani menerapkan teknologi Crustea dalam proses budidaya mereka, termasuk deteksi pengurangan GRK, sistem peringatan dini, dan Multi-parameter dengan riwayat data tersimpan.",
+    "order_button_text": "Tertarik untuk Memesan",
+    "order_whatsapp_message": "Halo Crustea, saya tertarik dengan produk Anda:",
+    "product_image_alt": "Gambar {productName}",
+    "arrow_icon_alt": "Ikon panah",
+    "solar_panel_name": "Panel Surya",
+    "solar_panel_desc": "Panel Surya Crustea dirancang khusus untuk memenuhi kebutuhan energi terbarukan di tambak udang dan ikan. Dengan teknologi canggih, panel ini mengubah sinar matahari menjadi listrik yang efisien, membantu petambak mengurangi ketergantungan pada sumber listrik.",
+    "aerator_name":"Aerator",
+    "aerator_desc":"Aerator Crustea dirancang untuk meningkatkan sirkulasi air dan kadar oksigen terlarut di tambak udang dan ikan. Dengan teknologi inovatif, aerator ini membantu menciptakan lingkungan yang optimal untuk pertumbuhan dan kesehatan akuakultur Anda.",
+    "order_button_text": "Tertarik untuk Memesan",
+    "order_modal_title": "Pesan {{product}}",
+    "order_modal_description": "Pilih cara pemesanan — kirim pesan lewat WhatsApp atau kunjungi toko kami di Tokopedia.",
+    "order_via_whatsapp_desc": "Chat langsung dengan tim kami untuk pertanyaan dan pembelian",
+    "order_whatsapp_message": "Halo Crustea, saya tertarik dengan produk Anda:",
+    "chat_on_whatsapp": "Chat di WhatsApp",
+    "order_on_tokopedia": "Pesan di Tokopedia",
+    "order_on_tokopedia_desc": "Kunjungi toko Tokopedia kami untuk membeli langsung.",
+    "buy_on_tokopedia": "Beli di Tokopedia",
+    "product_image_alt": "Gambar {productName}",
+    "arrow_icon_alt": "Ikon panah"
+  },
+  "article": {
+    "back": "Kembali ke Blog",
+    "notFound": "Artikel tidak ditemukan"
+  },
+  "productsPage": {
+    "main_title": "Detail Produk",
+    "eco_aerator_title": "Eco-Aerator",
+    "eco_aerator_description": "Aerator tanpa kebutuhan listrik PLN",
+    "ebii_system_title": "Sistem EBII",
+    "ebii_system_description": "Sistem pemantauan & pengendalian tambak",
+    "smart_energy_title": "Smart Energy",
+    "smart_energy_description": "Pemantauan & pengendalian pemanfaatan energi tambak",
+    "solar_panels_title": "Panel Surya",
+    "solar_panels_description": "Mengurangi ketergantungan pada sumber listrik konvensional dan mengurangi biaya operasional.",
+    "nanobubble_title": "Nanobubble",
+    "nanobubble_description": "DO pada output mesin mencapai 20 ppm gelembung gas oksigen dalam air berukuran 80 - 200 nanometer.",
+    "turbo_jet_aerator_title": "Aerator Turbo Jet",
+    "turbo_jet_aerator_description": "Aerator efisien memastikan sirkulasi oksigen dan air yang optimal untuk produktivitas tambak puncak",
+    "paddle_wheel_title": "Kincir Air",
+    "paddle_wheel_description": "Kincir air yang andal dan hemat energi untuk meningkatkan kadar oksigen terlarut dan mendorong pencampuran air yang seragam.",
+    "aerator_brush_title": "Aerator Sikat",
+    "aerator_brush_description": "Menggunakan lebih sedikit energi dan mendorong sirkulasi air yang lembut, menjaga kesehatan tambak dan melindungi dasar",
+    "aerator_blower_title": "Aerator Blower",
+    "aerator_blower_description": "Memastikan pasokan oksigen yang konsisten dan meningkatkan DO sebesar 30 - 40%",
+    "aerator_mini_title": "Aerator Mini",
+    "aerator_mini_description": "Aerator ringkas dan portabel sempurna untuk pengaturan akuakultur skala kecil, menyediakan oksigenasi yang efisien di ruang terbatas.",
+    "zoomed_product_alt_text": "Gambar produk yang diperbesar",
+    "close_modal_aria_label": "Tutup modal gambar produk"
+  },
+ "krastyProducts": {
+  "intro_title": "Makanan Lezat Krasty",
+  "intro_desc": "Rasakan kesegaran menu andalan kami dari olahan hasil Tambak Berkualitas.",
+  "main_title": "Produk Unggulan Kami",
+  "order_now": "Pesan Sekarang",
+  "heroImageAlt": "Menu Krasty Food",
+  "ricebowl1": {
+    "title": "Ricebowl Ayam Pedas",
+    "description": "Semangkuk nasi hangat dengan ayam pedas dan saus gurih."
+  },
+  "wrap1": {
+    "title": "Wrap Daging Sapi",
+    "description": "Tortilla isi daging sapi empuk, selada, dan saus spesial Krasty."
+  },
+  "snack1": {
+    "title": "Stik Mozarella",
+    "description": "Renyah di luar, keju meleleh di dalam. Cocok untuk camilan."
+  },
+  "drink1": {
+    "title": "Mango Yakult Segar",
+    "description": "Campuran mangga dan Yakult. Manis, asam, dan menyegarkan."
+  },
+  "breakfast1": {
+    "title": "Roti Telur Klasik",
+    "description": "Roti panggang isi telur, keju, dan mayo yang lembut."
+  }
+},
+  "testimonials": {
+    "section_title": "Testimoni",
+    "husni_name": "Husni",
+    "husni_city": "Lamongan",
+    "husni_country": "Jawa Timur",
+    "husni_testimoni": "Saya ingin menggunakan eco aerator karena mampu meningkatkan produktivitas hasil tambak dan kualitas udang.",
+    "saiful_arif_name": "Saiful Arif",
+    "saiful_arif_city": "Surabaya",
+    "saiful_arif_country": "Jawa Timur",
+    "saiful_arif_testimoni": "Saya menggunakan panel surya dan merasa sangat terbantu, terutama untuk penggunaan listrik di kolam ikan yang saya miliki.",
+    "dwi_putiardi_name": "Dwi Putiardi",
+    "dwi_putiardi_city": "Gresik",
+    "dwi_putiardi_country": "Jawa Timur",
+    "dwi_putiardi_testimoni": "Eco-aerator, sangat menghemat sekali terutama untuk listrik..",
+    "icon_people_alt_text": "Ikon orang"
+  },
+  "partnership": {
+    "section_title": "Kemitraan",
+    "image_alt_text_generic": "Logo mitra"
+  },
+  "aboutHeader": {
+    "title_part1": "Inovasi Teknologi Aerasi",
+    "title_part2": "Ramah Lingkungan",
+    "title_part3": "Berbasis AIoT di Bidang",
+    "title_part4": "Akuakultur",
+    "youtube_video_description": "Video profil perusahaan Crustea"
+  },
+  "potentialProgram": {
+    "section_title_part1": "PROGRAM",
+    "section_title_part2": "POTENSIAL",
+    "program_1": "Implementasi Eco-Aerator",
+    "program_2": "Peningkatan Kapasitas di Akuakultur",
+    "program_3": "Pemberdayaan Perempuan",
+    "program_4": "Budidaya Udang Milenial",
+    "program_5": "Biofloc Nila Berbasis Teknologi",
+    "shrimp_background_alt": "Gambar latar belakang tambak udang",
+    "check_icon_alt": "Ikon centang"
+  },
+  "consultant": {
+    "section_title_part1": "Proyek",
+    "section_title_part2": "dan Konsultan",
+    "card_1_title": "Pembangunan sarana petani",
+    "card_2_title": "Konsultasi budidaya petani",
+    "card_3_title": "Kolaborasi proyek di bidang AI, IoT, Energi Terbarukan",
+    "card_4_title": "Konsultasi pemanfaatan energi terbarukan",
+    "farmercons_alt": "Petani selama konstruksi",
+    "farmercult_alt": "Petani berdiskusi tentang budidaya",
+    "projectcollab_alt": "Tim berkolaborasi dalam sebuah proyek",
+    "consul_alt": "Orang-orang dalam sesi konsultasi"
+  },
+  "companyPhilosophy": {
+    "section_title_part1": "Filosofi",
+    "section_title_part2": "Perusahaan",
+    "value_1_title": "Kreatif & Inovatif",
+    "value_2_title": "Rasa Hormat",
+    "value_3_title": "Kerendahan Hati",
+    "value_4_title": "Terampil",
+    "value_5_title": "Kerja Tim",
+    "value_6_title": "Etika & Integritas",
+    "value_7_title": "Adaptif",
+    "value_1_alt": "Gambar abstrak mewakili kreativitas dan inovasi",
+    "value_2_alt": "Gambar abstrak mewakili rasa hormat",
+    "value_3_alt": "Gambar abstrak mewakili kerendahan hati",
+    "value_4_alt": "Gambar abstrak mewakili keterampilan",
+    "value_5_alt": "Gambar abstrak mewakili kerja tim",
+    "value_6_alt": "Gambar abstrak mewakili etika dan integritas",
+    "value_7_alt": "Gambar abstrak mewakili kemampuan beradaptasi"
+  },
+  "awardsSection": {
+    "section_title": "Penghargaan",
+    "section_subtitle": "Nasional dan internasional (2022 – 2024)",
+    "award_1_title": "Juara 2 APEC, USA",
+    "award_2_title": "Medali Emas ASEAN Digital Awards",
+    "award_3_title": "Pemenang Startup World Cup",
+    "award_4_title": "Penghargaan Wirausaha",
+    "award_5_title": "Forum Negara Kepulauan dan Pulau Kecil",
+    "award_6_title": "Pemenang Astranauts",
+    "award_image_alt_generic": "Sertifikat atau piala penghargaan",
+    "zoomed_award_image_alt": "Gambar penghargaan diperbesar",
+    "close_button_aria_label": "Tutup"
+  },
+  "crusteaTeam": {
+    "section_title_part1": "Tim",
+    "section_title_part2": "Crustea",
+    "member_1": {
+      "name": "Roikhanatun Nafi’ah",
+      "role": "Pendiri & CEO",
+      "exp_part1": "+7 tahun dalam Manajemen & Inovasi"
+    },
+    "member_2": {
+      "name": "Riza Alaudin Syah",
+      "role": "Pendiri & CTO",
+      "exp_part1": "+10 tahun Ahli AI/IoT",
+      "exp_part2": "+10 tahun Ahli Perangkat Lunak"
+    },
+    "member_3": {
+      "name": "Prisma Riashuda",
+      "role": "Pendiri & Kepala Teknologi",
+      "exp_part1": "+4 tahun dalam Teknologi & Akuakultur"
+    },
+    "member_4": {
+      "name": "Cak Andi",
+      "role": "Penasihat",
+      "exp_part1": "Pemilik Tambak & Praktisi Akuakultur"
+    },
+    "member_5": {
+      "name": "Rahmadita Filaili",
+      "role": "CFO",
+      "exp_part1": "+4 tahun dalam Perencanaan & Pengendalian Biaya"
+    },
+    "member_6": {
+      "name": "Dian Martha Nurrul Amanah",
+      "role": "CMO",
+      "exp_part1": "+5 tahun dalam verifikasi kredit manajemen aset",
+      "exp_part2": "+2 tahun dosen bisnis digital"
+    },
+    "member_7": {
+      "name": "Cak Lucky",
+      "role": "Penasihat",
+      "exp_part1": "Pelatih Startup"
+    },
+    "member_8": {
+      "name": "Ardiansyah",
+      "role": "Kepala Keunggulan Operasional",
+      "exp_part1": "+9 tahun dalam Teknik, Manajemen Proyek & Kebijakan Pemerintah"
+    },
+    "member_9": {
+      "name": "Muhammad Azril",
+      "role": "Kepala Akuakultur",
+      "exp_part1": "+10 tahun dalam akuakultur"
+    },
+    "profile_picture_alt": "Foto profil {name}",
+    "company_logo_alt": "Logo perusahaan"
+  },
+
+"career": {
+  "hero_title": "Bergabunglah Bersama Perjalanan Kami",
+  "hero_desc": "Jadilah bagian dari lingkungan modern, inovatif, dan inspiratif di mana ide Anda sangat berarti.",
+  "hero_button": "Lihat Karir",
+  "section_title": "Temukan Karir Impianmu",
+  "section_description": "Kami membuka peluang bagi Fresh Graduate, Profesional, maupun Internship untuk berkembang bersama.",
+  "jobs": [
+    {
+      "title": "Software Engineer",
+      "category": "Profesional",
+      "type": "Profesional",
+      "location": "Semarang",
+      "status": "Not Open",
+      "description": "Bertanggung jawab mengembangkan sistem internal dan produk baru."
+    },
+    {
+      "title": "UI/UX Designer",
+      "category": "Fresh Graduate",
+      "type": "Fresh Graduate",
+      "location": "Semarang",
+      "status": "Closed",
+      "description": "Mendesain antarmuka pengguna yang menarik dan mudah digunakan."
+    },
+    {
+      "title": "Marketing Intern",
+      "category": "Internship",
+      "type": "Internship",
+      "location": "Semarang",
+      "status": "Not Open",
+      "description": "Mendukung tim marketing dalam kampanye digital dan branding."
+    }
+  ]
+}
+
+
+}

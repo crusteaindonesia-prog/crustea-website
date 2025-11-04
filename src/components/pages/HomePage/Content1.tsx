@@ -1,7 +1,10 @@
 import React from "react";
 import { GaugeCircle, DollarSign } from "lucide-react";
+import { useTranslation } from "react-i18next"; // Impor useTranslation
 
 const Content1 = () => {
+  const { t } = useTranslation(); // Dapatkan fungsi 't' (translate)
+
   return (
     <section className="relative bg-[#F3F8E9] py-16 px-4 md:px-10 overflow-hidden">
       {/* Background Image (transparan) */}
@@ -15,10 +18,14 @@ const Content1 = () => {
         {/* Left Text Content */}
         <div className="flex-1">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 leading-snug mb-6">
-            <span className="text-[#9BCB3C]">90% farmers</span>{" "}
-            <span className="text-gray-800">in aquaculture</span>
+            {/* Menggunakan terjemahan untuk judul utama */}
+            <span className="text-[#9BCB3C]">
+              {t("content1.title_part1")}
+            </span>{" "}
+            <span className="text-gray-800">{t("content1.title_part2")}</span>
             <div className="text-base font-normal text-green mt-1">
-              that limit their productivity
+              {/* Menggunakan terjemahan untuk sub-judul */}
+              {t("content1.title_subtitle")}
             </div>
           </h2>
 
@@ -28,8 +35,14 @@ const Content1 = () => {
               <GaugeCircle className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-800">70% dead shrimp</h3>
-              <p className="text-gray-600 text-sm">uncontrolled dissolved oxygen levels</p>
+              {/* Menggunakan terjemahan untuk judul item 1 */}
+              <h3 className="text-xl font-semibold text-gray-800">
+                {t("content1.item1_heading")}
+              </h3>
+              {/* Menggunakan terjemahan untuk deskripsi item 1 */}
+              <p className="text-gray-600 text-sm">
+                {t("content1.item1_description")}
+              </p>
             </div>
           </div>
 
@@ -39,18 +52,22 @@ const Content1 = () => {
               <DollarSign className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-800">High fuel cost</h3>
-              <p className="text-gray-600 text-sm">Approx Rp100mio per month</p>
+              {/* Menggunakan terjemahan untuk judul item 2 */}
+              <h3 className="text-xl font-semibold text-gray-800">
+                {t("content1.item2_heading")}
+              </h3>
+              {/* Menggunakan terjemahan untuk deskripsi item 2 */}
+              <p className="text-gray-600 text-sm">
+                {t("content1.item2_description")}
+              </p>
             </div>
           </div>
-
-          
         </div>
 
         {/* Right Image */}
         <div className="flex-1 w-full">
           <img
-            src="/images/landing/content1.jpg"
+            src="/images/landing/bg-langkat.webp"
             alt="Farmer Aerator"
             className="rounded-lg shadow-md w-full object-cover max-h-[400px]"
           />
