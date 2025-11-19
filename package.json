@@ -2,7 +2,7 @@
   "name": "crustea-company",
   "version": "1.0.0",
   "description": "Homepage for crustea",
-  "homepage": "https://crustea.id",
+  "homepage": "https://crusteaindonesia-prog.github.io/crustea-website",
   "author": "Riza  <rezaqt@gmail.com>",
   "keywords": [
     "react",
@@ -31,7 +31,9 @@
     "start": "vite",
     "build": "vite build",
     "test": "jest",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.3",
@@ -79,7 +81,7 @@
     "prettier": "^2.7.1",
     "tailwindcss": "^3.1.4",
     "ts-jest": "^28.0.5",
-    "typescript": "^4.7.4",
+    "typescript": "^4.9.5",
     "vite": "^2.9.13",
     "vite-preset-react": "^2.3.0"
   }

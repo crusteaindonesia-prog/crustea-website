@@ -1,5 +1,5 @@
 {
- "popup": {
+  "popup": {
     "title": "Upgrade Your Shrimp Pond!",
     "description": "Expert renovation and revitalization services to boost your pond's productivity!",
     "button_text": "Sign Up Now"
@@ -11,7 +11,7 @@
     "contact": "Contact Us",
     "products": "Get Products"
   },
- 
+
   "header": {
     "home": "Home",
     "products": "Products",
@@ -42,7 +42,7 @@
       "title": "Consultation",
       "desc": "Get expert advice for your needs."
     },
-      "produkLayanan": {
+    "produkLayanan": {
       "title": "Products & Services",
       "desc": "Explore all our products and services."
     }
@@ -62,20 +62,20 @@
     "intern": "Intern"
   },
   "produkLayanan": {
-  "title": "Products & Services",
-  "desc": "Explore all our products and services.",
-  "eco_title": "Farming Projects with Profit-Sharing Schemes and Pond Development",
-  "eco_description": "Crustea conducts farming partnerships with profit-sharing, providing services from pond construction to technology support and market access, in exchange for a share of the harvest, ensuring an efficient and sustainable system.",
-  "lightbulb_title": "Consultation Services and Operational Support for Shrimp and Fish Farms",
-  "lightbulb_description": "Crustea offers expert guidance in shrimp and fish farming, from planning to implementation, ensuring optimal harvests and sustainability. It also enhances farm performance with on-site and remote tech support, emphasizing water quality, energy efficiency, and disease prevention.",
-  "memory_title": "Energy Management and Optimization",
-  "memory_description": "A real-time system for monitoring, managing, and optimizing energy use with efficient devices, automation, and renewable energy. This service reduces electricity costs, enhances energy efficiency, and promotes sustainability while maintaining productivity.",
-  "water_drop_title": "Sustainability and Empowerment Projects",
-  "water_drop_description": "ECrustea ensures efficient aquaculture trade with the best quality and value. The company also creates value-added processed shrimp and fish products through women's empowerment, promoting economic inclusion and sustainability by reducing waste.",
-  "science_title": "Access to Funding Partner",
-  "science_description": "Tailored financial solutions to empower aquaculture projects, ensuring access to resources for scaling and optimizing operations.",
-  "groups_title": "Access to Markets",
-  "groups_description": "Crustea sells high-quality processed shrimp, fish, and waste-based products in the local market and exports them globally, supporting sustainable aquaculture and market expansion."
+    "title": "Products & Services",
+    "desc": "Explore all our products and services.",
+    "eco_title": "Farming Projects with Profit-Sharing Schemes and Pond Development",
+    "eco_description": "Crustea conducts farming partnerships with profit-sharing, providing services from pond construction to technology support and market access, in exchange for a share of the harvest, ensuring an efficient and sustainable system.",
+    "lightbulb_title": "Consultation Services and Operational Support for Shrimp and Fish Farms",
+    "lightbulb_description": "Crustea offers expert guidance in shrimp and fish farming, from planning to implementation, ensuring optimal harvests and sustainability. It also enhances farm performance with on-site and remote tech support, emphasizing water quality, energy efficiency, and disease prevention.",
+    "memory_title": "Energy Management and Optimization",
+    "memory_description": "A real-time system for monitoring, managing, and optimizing energy use with efficient devices, automation, and renewable energy. This service reduces electricity costs, enhances energy efficiency, and promotes sustainability while maintaining productivity.",
+    "water_drop_title": "Sustainability and Empowerment Projects",
+    "water_drop_description": "ECrustea ensures efficient aquaculture trade with the best quality and value. The company also creates value-added processed shrimp and fish products through women's empowerment, promoting economic inclusion and sustainability by reducing waste.",
+    "science_title": "Access to Funding Partner",
+    "science_description": "Tailored financial solutions to empower aquaculture projects, ensuring access to resources for scaling and optimizing operations.",
+    "groups_title": "Access to Markets",
+    "groups_description": "Crustea sells high-quality processed shrimp, fish, and waste-based products in the local market and exports them globally, supporting sustainable aquaculture and market expansion."
   },
 
   "footer": {
@@ -138,15 +138,15 @@
     "product_present_label": "Product present"
   },
   "landing_banner": {
-  "product_present_label": "CRUSTEA PRODUCTS",
-  "headline_1": "Boost Your Farm Productivity With",
-  "headline_crustea": "Crustea",
-  "subheadline": "Smart technology solutions to help farmers improve efficiency, cut costs, and achieve optimal harvest results.",
-  "form_name": "Full Name",
-  "form_email": "Email Address",
-  "form_phone": "WhatsApp / Phone Number",
-  "form_button": "Join Aqua Grow"
-},
+    "product_present_label": "CRUSTEA PRODUCTS",
+    "headline_1": "Boost Your Farm Productivity With",
+    "headline_crustea": "Crustea",
+    "subheadline": "Smart technology solutions to help farmers improve efficiency, cut costs, and achieve optimal harvest results.",
+    "form_name": "Full Name",
+    "form_email": "Email Address",
+    "form_phone": "WhatsApp / Phone Number",
+    "form_button": "Join Aqua Grow"
+  },
   "vision": {
     "heading": "Our Vision",
     "description_part1": "Increasing the Pond Farmer's Productivity",
@@ -158,7 +158,7 @@
     "image_heading_part1": "Smart Farming",
     "image_heading_part2": "for a Better Future"
   },
- "mission": {
+  "mission": {
     "heading": "Our Mission",
     "innovation_title": "Innovation",
     "innovation_description": "Creating Quality Appropriate Technology",
@@ -190,7 +190,7 @@
     "adaptive_title": "Adaptive",
     "adaptive_description": "Ability to quickly adjust to changes and challenges in the industry."
   },
-    "content1": {
+  "content1": {
     "title_part1": "90% farmers",
     "title_part2": "in aquaculture",
     "title_subtitle": "that limit their productivity",
@@ -402,8 +402,8 @@
     "arrow_icon_alt": "Arrow icon",
     "solar_panel_name": "Panel Surya",
     "solar_panel_desc": "Crustea Solar Panels are specifically designed to meet the renewable energy needs of shrimp and fish farms. Using advanced technology, these panels efficiently convert sunlight into electricity, helping farmers reduce their dependence on electricity sources.",
-    "aerator_name":"Aerator",
-    "aerator_desc":"The Crustea aerator is designed to increase water circulation and dissolved oxygen levels in shrimp and fish ponds. With innovative technology, this aerator helps create an optimal environment for the growth and health of your aquaculture.",
+    "aerator_name": "Aerator",
+    "aerator_desc": "The Crustea aerator is designed to increase water circulation and dissolved oxygen levels in shrimp and fish ponds. With innovative technology, this aerator helps create an optimal environment for the growth and health of your aquaculture.",
     "order_button_text": "Interested to Order",
     "order_modal_title": "Order {{product}}",
     "order_modal_description": "Choose how you'd like to place your order — send us a message on WhatsApp or visit our Tokopedia store.",
@@ -416,10 +416,10 @@
     "product_image_alt": "{productName} image",
     "arrow_icon_alt": "Arrow icon"
   },
-    "article": {
-      "back": "Back to Blogs",
-      "notFound": "Article not found"
-    },
+  "article": {
+    "back": "Back to Blogs",
+    "notFound": "Article not found"
+  },
   "productsPage": {
     "main_title": "Details Products",
     "eco_aerator_title": "Eco-Aerator",
@@ -445,33 +445,33 @@
     "zoomed_product_alt_text": "Zoomed product image",
     "close_modal_aria_label": "Close product image modal"
   },
- "krastyProducts": {
-  "intro_title": "Delicious Krasty Food",
-  "intro_desc": "Experience the freshness of our signature menu made from high-quality fish farming products.",
-  "main_title": "Our Signature Products",
-  "order_now": "Order Now",
-  "heroImageAlt": "Krasty Food Menu",
-  "ricebowl1": {
-    "title": "Spicy Chicken Ricebowl",
-    "description": "A warm bowl of rice topped with spicy chicken and savory sauce."
+  "krastyProducts": {
+    "intro_title": "Delicious Krasty Food",
+    "intro_desc": "Experience the freshness of our signature menu made from high-quality fish farming products.",
+    "main_title": "Our Signature Products",
+    "order_now": "Order Now",
+    "heroImageAlt": "Krasty Food Menu",
+    "ricebowl1": {
+      "title": "Spicy Chicken Ricebowl",
+      "description": "A warm bowl of rice topped with spicy chicken and savory sauce."
+    },
+    "wrap1": {
+      "title": "Beef Wrap Delight",
+      "description": "Tortilla wrap filled with tender beef, lettuce, and Krasty's special sauce."
+    },
+    "snack1": {
+      "title": "Mozarella Stick",
+      "description": "Crunchy outside, gooey cheese inside. Perfect for any snack time."
+    },
+    "drink1": {
+      "title": "Fresh Mango Yakult",
+      "description": "Refreshing blend of mango and Yakult. Sweet, tangy, and good for digestion."
+    },
+    "breakfast1": {
+      "title": "Classic Egg Sandwich",
+      "description": "Toasted sandwich with fluffy egg, cheese, and mayo."
+    }
   },
-  "wrap1": {
-    "title": "Beef Wrap Delight",
-    "description": "Tortilla wrap filled with tender beef, lettuce, and Krasty's special sauce."
-  },
-  "snack1": {
-    "title": "Mozarella Stick",
-    "description": "Crunchy outside, gooey cheese inside. Perfect for any snack time."
-  },
-  "drink1": {
-    "title": "Fresh Mango Yakult",
-    "description": "Refreshing blend of mango and Yakult. Sweet, tangy, and good for digestion."
-  },
-  "breakfast1": {
-    "title": "Classic Egg Sandwich",
-    "description": "Toasted sandwich with fluffy egg, cheese, and mayo."
-  }
-},
   "testimonials": {
     "section_title": "Testimonial",
     "husni_name": "Husni",
@@ -606,40 +606,38 @@
     "profile_picture_alt": "{name}'s profile picture",
     "company_logo_alt": "Company logo"
   },
-  
- "career": {
-  "hero_title": "Join Our Amazing Journey",
-  "hero_desc": "Be part of a modern, innovative, and inspiring environment where your ideas matter.",
-  "hero_button": "Explore Careers",
-  "section_title": "Discover Your Dream Career",
-  "section_description": "We offer opportunities for Fresh Graduates, Professionals, and Internships to grow together.",
-  "jobs": [
-    {
-      "title": "Software Engineer",
-      "category": "Professional",
-      "type": "Fresh Graduate",
-      "location": "Semarang",
-      "status": "Not Open",
-      "description": "Responsible for developing internal systems and new products."
-    },
-    {
-      "title": "UI/UX Designer",
-      "category": "Fresh Graduate",
-      "type": "Fresh Graduate",
-      "location": "Semarang",
-      "status": "Closed",
-      "description": "Design user interfaces that are attractive and easy to use."
-    },
-    {
-      "title": "Marketing Intern",
-      "category": "Internship",
-      "type": "Internship",
-      "location": "Semarang",
-      "status": "Not Open",
-      "description": "Support the marketing team in digital campaigns and branding."
-    }
-  ]
-}
 
-
+  "career": {
+    "hero_title": "Join Our Amazing Journey",
+    "hero_desc": "Be part of a modern, innovative, and inspiring environment where your ideas matter.",
+    "hero_button": "Explore Careers",
+    "section_title": "Discover Your Dream Career",
+    "section_description": "We offer opportunities for Fresh Graduates, Professionals, and Internships to grow together.",
+    "jobs": [
+      {
+        "title": "Software Engineer",
+        "category": "Professional",
+        "type": "Fresh Graduate",
+        "location": "Semarang",
+        "status": "Not Open",
+        "description": "Responsible for developing internal systems and new products."
+      },
+      {
+        "title": "UI/UX Designer",
+        "category": "Fresh Graduate",
+        "type": "Fresh Graduate",
+        "location": "Semarang",
+        "status": "Closed",
+        "description": "Design user interfaces that are attractive and easy to use."
+      },
+      {
+        "title": "Marketing Intern",
+        "category": "Internship",
+        "type": "Internship",
+        "location": "Semarang",
+        "status": "Not Open",
+        "description": "Support the marketing team in digital campaigns and branding."
+      }
+    ]
+  }
 }

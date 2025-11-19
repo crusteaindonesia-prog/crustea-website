@@ -5,7 +5,13 @@ import ScrollAnimationWrapper from "../../Layout/ScrollAnimationWrapper";
 
 const icons = {
   Innovation: (
-    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" viewBox="0 0 24 24">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="60"
+      height="60"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
       <circle cx="12" cy="12" r="12" fill="#ACCB37" />
       <path
         d="M12 4a5 5 0 00-2 9.584V17a1 1 0 001 1h2a1 1 0 001-1v-3.416A5 5 0 0012 4z"
@@ -14,7 +20,13 @@ const icons = {
     </svg>
   ),
   Sustainability: (
-    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" viewBox="0 0 24 24">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="60"
+      height="60"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
       <circle cx="12" cy="12" r="12" fill="#ACCB37" />
       <path
         d="M12 6C9.243 6 7 8.243 7 11h3l-4 5-4-5h3c0-4.418 3.582-8 8-8s8 3.582 8 8h-2a6 6 0 00-6-6z"
@@ -23,7 +35,13 @@ const icons = {
     </svg>
   ),
   Empowerment: (
-    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" viewBox="0 0 24 24">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="60"
+      height="60"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
       <circle cx="12" cy="12" r="12" fill="#ACCB37" />
       <path
         d="M12 12a3 3 0 100-6 3 3 0 000 6zm0 2c-2.67 0-8 1.34-8 4v1h16v-1c0-2.66-5.33-4-8-4z"
@@ -32,7 +50,13 @@ const icons = {
     </svg>
   ),
   Repair: (
-    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" viewBox="0 0 24 24">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="60"
+      height="60"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
       <circle cx="12" cy="12" r="12" fill="#ACCB37" />
       <path
         d="M22 2l-2 2-2-2-2 2 2 2-6 6-2-2-4 4 2 2-2 2 4 4 2-2 2 2 4-4-2-2 6-6 2 2 2-2-2-2 2-2-2-2z"
@@ -41,7 +65,13 @@ const icons = {
     </svg>
   ),
   Distribution: (
-    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" viewBox="0 0 24 24">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="60"
+      height="60"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
       <circle cx="12" cy="12" r="12" fill="#ACCB37" />
       <path
         d="M3 3h18v2H3V3zm2 4h14v2H5V7zm-2 4h18v2H3v-2zm2 4h14v2H5v-2zm-2 4h18v2H3v-2z"
@@ -50,7 +80,13 @@ const icons = {
     </svg>
   ),
   Target: (
-    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" viewBox="0 0 24 24">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="60"
+      height="60"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
       <circle cx="12" cy="12" r="12" fill="#ACCB37" />
       <path
         d="M12 8a4 4 0 100 8 4 4 0 000-8zm0-2a6 6 0 110 12A6 6 0 0112 6zm0-2a8 8 0 100 16A8 8 0 0012 4z"

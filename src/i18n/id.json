@@ -1,5 +1,5 @@
 {
-   "popup": {
+  "popup": {
     "title": "Ubah Tambak Udang Anda!",
     "description": "Layanan renovasi dan revitalisasi dari ahli untuk meningkatkan produktivitas tambakmu!",
     "button_text": "Daftar Sekarang"
@@ -41,8 +41,7 @@
     "consultation": {
       "title": "Konsultasi",
       "desc": "Dapatkan saran ahli untuk kebutuhan Anda."
-    }
-    ,
+    },
     "produkLayanan": {
       "title": "Produk dan Layanan",
       "desc": "Jelajahi seluruh produk dan layanan kami."
@@ -63,19 +62,19 @@
     "intern": "Magang"
   },
   "produkLayanan": {
-  "title": "Produk & Layanan",
-  "eco_title": "Proyek Budidaya dengan Skema Bagi Hasil dan Pengembangan Tambak",
-  "eco_description": "Crustea melakukan kemitraan budidaya dengan sistem bagi hasil, menyediakan layanan mulai dari pembangunan tambak hingga dukungan teknologi dan akses pasar. Sistem ini memastikan efisiensi dan keberlanjutan melalui pembagian hasil panen.",
-  "lightbulb_title": "Layanan Konsultasi dan Dukungan Operasional Tambak Udang dan Ikan",
-  "lightbulb_description": "Crustea memberikan panduan ahli dalam budidaya udang dan ikan, mulai dari perencanaan hingga pelaksanaan, untuk memastikan hasil panen optimal dan berkelanjutan. Kami juga meningkatkan kinerja tambak melalui dukungan teknologi di lapangan maupun jarak jauh, dengan fokus pada kualitas air, efisiensi energi, dan pencegahan penyakit.",
-  "memory_title": "Manajemen dan Optimalisasi Energi",
-  "memory_description": "Sistem real-time untuk memantau, mengelola, dan mengoptimalkan penggunaan energi dengan perangkat efisien, otomatisasi, dan energi terbarukan. Layanan ini membantu mengurangi biaya listrik, meningkatkan efisiensi energi, serta mendukung keberlanjutan tanpa mengurangi produktivitas.",
-  "water_drop_title": "Proyek Keberlanjutan dan Pemberdayaan",
-  "water_drop_description": "Crustea memastikan perdagangan akuakultur yang efisien dengan kualitas dan nilai terbaik. Perusahaan juga menciptakan produk olahan bernilai tambah dari udang dan ikan melalui pemberdayaan perempuan, mendorong inklusi ekonomi dan keberlanjutan dengan mengurangi limbah.",
-  "science_title": "Akses ke Mitra Pendanaan",
-  "science_description": "Solusi keuangan yang disesuaikan untuk mendukung proyek akuakultur, memastikan akses terhadap sumber daya guna meningkatkan dan mengoptimalkan operasional.",
-  "groups_title": "Akses ke Pasar",
-  "groups_description": "Crustea menjual produk olahan udang, ikan, dan produk berbasis limbah berkualitas tinggi di pasar lokal maupun ekspor global, mendukung akuakultur berkelanjutan dan perluasan pasar."
+    "title": "Produk & Layanan",
+    "eco_title": "Proyek Budidaya dengan Skema Bagi Hasil dan Pengembangan Tambak",
+    "eco_description": "Crustea melakukan kemitraan budidaya dengan sistem bagi hasil, menyediakan layanan mulai dari pembangunan tambak hingga dukungan teknologi dan akses pasar. Sistem ini memastikan efisiensi dan keberlanjutan melalui pembagian hasil panen.",
+    "lightbulb_title": "Layanan Konsultasi dan Dukungan Operasional Tambak Udang dan Ikan",
+    "lightbulb_description": "Crustea memberikan panduan ahli dalam budidaya udang dan ikan, mulai dari perencanaan hingga pelaksanaan, untuk memastikan hasil panen optimal dan berkelanjutan. Kami juga meningkatkan kinerja tambak melalui dukungan teknologi di lapangan maupun jarak jauh, dengan fokus pada kualitas air, efisiensi energi, dan pencegahan penyakit.",
+    "memory_title": "Manajemen dan Optimalisasi Energi",
+    "memory_description": "Sistem real-time untuk memantau, mengelola, dan mengoptimalkan penggunaan energi dengan perangkat efisien, otomatisasi, dan energi terbarukan. Layanan ini membantu mengurangi biaya listrik, meningkatkan efisiensi energi, serta mendukung keberlanjutan tanpa mengurangi produktivitas.",
+    "water_drop_title": "Proyek Keberlanjutan dan Pemberdayaan",
+    "water_drop_description": "Crustea memastikan perdagangan akuakultur yang efisien dengan kualitas dan nilai terbaik. Perusahaan juga menciptakan produk olahan bernilai tambah dari udang dan ikan melalui pemberdayaan perempuan, mendorong inklusi ekonomi dan keberlanjutan dengan mengurangi limbah.",
+    "science_title": "Akses ke Mitra Pendanaan",
+    "science_description": "Solusi keuangan yang disesuaikan untuk mendukung proyek akuakultur, memastikan akses terhadap sumber daya guna meningkatkan dan mengoptimalkan operasional.",
+    "groups_title": "Akses ke Pasar",
+    "groups_description": "Crustea menjual produk olahan udang, ikan, dan produk berbasis limbah berkualitas tinggi di pasar lokal maupun ekspor global, mendukung akuakultur berkelanjutan dan perluasan pasar."
   },
 
   "footer": {
@@ -138,15 +137,15 @@
     "product_present_label": "Presentasi Produk"
   },
   "landing_banner": {
-  "product_present_label": "PRODUK CRUSTEA",
-  "headline_1": "Tingkatkan Produktivitas Tambak Anda Bersama",
-  "headline_crustea": "Crustea",
-  "subheadline": "Solusi teknologi pintar untuk membantu petambak meningkatkan efisiensi, menekan biaya, dan meraih hasil panen optimal.",
-  "form_name": "Nama Lengkap",
-  "form_email": "Alamat Email",
-  "form_phone": "Nomor WhatsApp / HP",
-  "form_button": "Gabung ke Aqua Grow"
-},
+    "product_present_label": "PRODUK CRUSTEA",
+    "headline_1": "Tingkatkan Produktivitas Tambak Anda Bersama",
+    "headline_crustea": "Crustea",
+    "subheadline": "Solusi teknologi pintar untuk membantu petambak meningkatkan efisiensi, menekan biaya, dan meraih hasil panen optimal.",
+    "form_name": "Nama Lengkap",
+    "form_email": "Alamat Email",
+    "form_phone": "Nomor WhatsApp / HP",
+    "form_button": "Gabung ke Aqua Grow"
+  },
   "vision": {
     "heading": "Visi Kami",
     "description_part1": "Meningkatkan Produktivitas Petambak",
@@ -402,8 +401,8 @@
     "arrow_icon_alt": "Ikon panah",
     "solar_panel_name": "Panel Surya",
     "solar_panel_desc": "Panel Surya Crustea dirancang khusus untuk memenuhi kebutuhan energi terbarukan di tambak udang dan ikan. Dengan teknologi canggih, panel ini mengubah sinar matahari menjadi listrik yang efisien, membantu petambak mengurangi ketergantungan pada sumber listrik.",
-    "aerator_name":"Aerator",
-    "aerator_desc":"Aerator Crustea dirancang untuk meningkatkan sirkulasi air dan kadar oksigen terlarut di tambak udang dan ikan. Dengan teknologi inovatif, aerator ini membantu menciptakan lingkungan yang optimal untuk pertumbuhan dan kesehatan akuakultur Anda.",
+    "aerator_name": "Aerator",
+    "aerator_desc": "Aerator Crustea dirancang untuk meningkatkan sirkulasi air dan kadar oksigen terlarut di tambak udang dan ikan. Dengan teknologi inovatif, aerator ini membantu menciptakan lingkungan yang optimal untuk pertumbuhan dan kesehatan akuakultur Anda.",
     "order_button_text": "Tertarik untuk Memesan",
     "order_modal_title": "Pesan {{product}}",
     "order_modal_description": "Pilih cara pemesanan — kirim pesan lewat WhatsApp atau kunjungi toko kami di Tokopedia.",
@@ -445,33 +444,33 @@
     "zoomed_product_alt_text": "Gambar produk yang diperbesar",
     "close_modal_aria_label": "Tutup modal gambar produk"
   },
- "krastyProducts": {
-  "intro_title": "Makanan Lezat Krasty",
-  "intro_desc": "Rasakan kesegaran menu andalan kami dari olahan hasil Tambak Berkualitas.",
-  "main_title": "Produk Unggulan Kami",
-  "order_now": "Pesan Sekarang",
-  "heroImageAlt": "Menu Krasty Food",
-  "ricebowl1": {
-    "title": "Ricebowl Ayam Pedas",
-    "description": "Semangkuk nasi hangat dengan ayam pedas dan saus gurih."
+  "krastyProducts": {
+    "intro_title": "Makanan Lezat Krasty",
+    "intro_desc": "Rasakan kesegaran menu andalan kami dari olahan hasil Tambak Berkualitas.",
+    "main_title": "Produk Unggulan Kami",
+    "order_now": "Pesan Sekarang",
+    "heroImageAlt": "Menu Krasty Food",
+    "ricebowl1": {
+      "title": "Ricebowl Ayam Pedas",
+      "description": "Semangkuk nasi hangat dengan ayam pedas dan saus gurih."
+    },
+    "wrap1": {
+      "title": "Wrap Daging Sapi",
+      "description": "Tortilla isi daging sapi empuk, selada, dan saus spesial Krasty."
+    },
+    "snack1": {
+      "title": "Stik Mozarella",
+      "description": "Renyah di luar, keju meleleh di dalam. Cocok untuk camilan."
+    },
+    "drink1": {
+      "title": "Mango Yakult Segar",
+      "description": "Campuran mangga dan Yakult. Manis, asam, dan menyegarkan."
+    },
+    "breakfast1": {
+      "title": "Roti Telur Klasik",
+      "description": "Roti panggang isi telur, keju, dan mayo yang lembut."
+    }
   },
-  "wrap1": {
-    "title": "Wrap Daging Sapi",
-    "description": "Tortilla isi daging sapi empuk, selada, dan saus spesial Krasty."
-  },
-  "snack1": {
-    "title": "Stik Mozarella",
-    "description": "Renyah di luar, keju meleleh di dalam. Cocok untuk camilan."
-  },
-  "drink1": {
-    "title": "Mango Yakult Segar",
-    "description": "Campuran mangga dan Yakult. Manis, asam, dan menyegarkan."
-  },
-  "breakfast1": {
-    "title": "Roti Telur Klasik",
-    "description": "Roti panggang isi telur, keju, dan mayo yang lembut."
-  }
-},
   "testimonials": {
     "section_title": "Testimoni",
     "husni_name": "Husni",
@@ -607,39 +606,37 @@
     "company_logo_alt": "Logo perusahaan"
   },
 
-"career": {
-  "hero_title": "Bergabunglah Bersama Perjalanan Kami",
-  "hero_desc": "Jadilah bagian dari lingkungan modern, inovatif, dan inspiratif di mana ide Anda sangat berarti.",
-  "hero_button": "Lihat Karir",
-  "section_title": "Temukan Karir Impianmu",
-  "section_description": "Kami membuka peluang bagi Fresh Graduate, Profesional, maupun Internship untuk berkembang bersama.",
-  "jobs": [
-    {
-      "title": "Software Engineer",
-      "category": "Profesional",
-      "type": "Profesional",
-      "location": "Semarang",
-      "status": "Not Open",
-      "description": "Bertanggung jawab mengembangkan sistem internal dan produk baru."
-    },
-    {
-      "title": "UI/UX Designer",
-      "category": "Fresh Graduate",
-      "type": "Fresh Graduate",
-      "location": "Semarang",
-      "status": "Closed",
-      "description": "Mendesain antarmuka pengguna yang menarik dan mudah digunakan."
-    },
-    {
-      "title": "Marketing Intern",
-      "category": "Internship",
-      "type": "Internship",
-      "location": "Semarang",
-      "status": "Not Open",
-      "description": "Mendukung tim marketing dalam kampanye digital dan branding."
-    }
-  ]
-}
-
-
+  "career": {
+    "hero_title": "Bergabunglah Bersama Perjalanan Kami",
+    "hero_desc": "Jadilah bagian dari lingkungan modern, inovatif, dan inspiratif di mana ide Anda sangat berarti.",
+    "hero_button": "Lihat Karir",
+    "section_title": "Temukan Karir Impianmu",
+    "section_description": "Kami membuka peluang bagi Fresh Graduate, Profesional, maupun Internship untuk berkembang bersama.",
+    "jobs": [
+      {
+        "title": "Software Engineer",
+        "category": "Profesional",
+        "type": "Profesional",
+        "location": "Semarang",
+        "status": "Not Open",
+        "description": "Bertanggung jawab mengembangkan sistem internal dan produk baru."
+      },
+      {
+        "title": "UI/UX Designer",
+        "category": "Fresh Graduate",
+        "type": "Fresh Graduate",
+        "location": "Semarang",
+        "status": "Closed",
+        "description": "Mendesain antarmuka pengguna yang menarik dan mudah digunakan."
+      },
+      {
+        "title": "Marketing Intern",
+        "category": "Internship",
+        "type": "Internship",
+        "location": "Semarang",
+        "status": "Not Open",
+        "description": "Mendukung tim marketing dalam kampanye digital dan branding."
+      }
+    ]
+  }
 }
