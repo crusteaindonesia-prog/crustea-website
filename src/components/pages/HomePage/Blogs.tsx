@@ -24,6 +24,9 @@ const categories = [
   // "Pemberdayaan Perempuan",
 ];
 
+const getBlogImage = (blogNumber: number, fileName: string) =>
+  `/crustea-website/images/blog/blog${blogNumber}/${fileName}`;
+
 const stripHTML = (html: string) => {
   if (!html) return "";
   return html.replace(/<[^>]*>/g, ""); // hapus semua tag HTML
