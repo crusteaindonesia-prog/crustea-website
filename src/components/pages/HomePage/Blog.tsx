@@ -4288,14 +4288,15 @@ Saat mangrove mulai tumbuh dan kehidupan baru berkembang, kisah BAKAU JAYA menja
     ],
   },
   // update content 45
-{
-  id: "45",
-  img: "/images/landing/blog/blog45/Picture1.jpg",
-  poster: "/images/landing/blog/blog45/Picture1.jpg",
-  category: "Project Crustea",
-  en: {
-    title: "Crustea and Mandiri Sahabat Desa Empower Shrimp Farmers in Langkat through Technology and Value-Added Training",
-    desc: `Langkat, January 23–24, 2025 — Mandiri Sahabat Desa and Crustea successfully held a <i>Capacity Building</i> and <i>Women Empowerment</i> program in Langkat, North Sumatra. The event attracted great interest from local shrimp farmers and their spouses.<br><br>
+  {
+    id: "45",
+    img: "/images/landing/blog/blog45/Picture1.jpg",
+    poster: "/images/landing/blog/blog45/Picture1.jpg",
+    category: "Project Crustea",
+    en: {
+      title:
+        "Crustea and Mandiri Sahabat Desa Empower Shrimp Farmers in Langkat through Technology and Value-Added Training",
+      desc: `Langkat, January 23–24, 2025 — Mandiri Sahabat Desa and Crustea successfully held a <i>Capacity Building</i> and <i>Women Empowerment</i> program in Langkat, North Sumatra. The event attracted great interest from local shrimp farmers and their spouses.<br><br>
 
 The program began on January 23, 2025, with the singing of the Indonesian national anthem, followed by opening remarks from Mr. Agung Tritantyo, S.STP, M.AP (Camat Pangkalan Susu, Langkat) and Ms. Roikhanatun Nafi’ah, Founder and CEO of Crustea Indonesia. Before the <i>Capacity Building in Aquaculture</i> session, 53 participants from seven villages (Alur Cempedak, Sei Meran, Sei Siur, Beras Basah, Pangkalan Berandan, Pangkalan Susu, and Pulau Sembilan) joined interactive case discussions related to shrimp farming.<br><br>
 
@@ -4313,11 +4314,12 @@ With this program’s success, Crustea plans to replicate similar initiatives in
 
 <b>About Crustea</b><br>
 Crustea is dedicated to advancing shrimp aquaculture through technology innovation and empowerment programs. Its flagship products — including the EBII System, Solar Panel, Smart Energy, Eco-Aerator, and Mini Aerator — help reduce electricity and fuel costs by up to 80% using smart IoT and solar-based systems. Crustea continuously strives to build a sustainable ecosystem from upstream to downstream, supporting farmers with access to technology, guidance, financing, and markets.<br><br>
-`
-  },
-  in: {
-    title: "Program “Mandiri Sahabat Desa” bersama Crustea di Langkat, Sumatera Utara Sukses Menarik Minat Pembudidaya Udang tentang Teknologi dan Hasil Olahannya",
-    desc: `Langkat, 23–24 Januari 2025 — Mandiri Sahabat Desa bersama Crustea telah sukses menggelar kegiatan <i>Capacity Building</i> dan <i>Women Empowerment</i> di Langkat, Sumatera Utara. Acara ini berhasil menarik perhatian para pembudidaya udang beserta istri mereka.<br><br>
+`,
+    },
+    in: {
+      title:
+        "Program “Mandiri Sahabat Desa” bersama Crustea di Langkat, Sumatera Utara Sukses Menarik Minat Pembudidaya Udang tentang Teknologi dan Hasil Olahannya",
+      desc: `Langkat, 23–24 Januari 2025 — Mandiri Sahabat Desa bersama Crustea telah sukses menggelar kegiatan <i>Capacity Building</i> dan <i>Women Empowerment</i> di Langkat, Sumatera Utara. Acara ini berhasil menarik perhatian para pembudidaya udang beserta istri mereka.<br><br>
 
 Pada 23 Januari 2025, acara dibuka dengan menyanyikan lagu Indonesia Raya, dilanjutkan sambutan oleh Bapak Agung Tritantyo, S.STP, M.AP selaku Camat Pangkalan Susu, Langkat, dan Ibu Roikhanatun Nafi’ah selaku Founder & CEO Crustea Indonesia. Sebelum sesi <i>Capacity Building in Aquaculture</i> dimulai, sebanyak 53 peserta dari 7 desa (Alur Cempedak, Sei Meran, Sei Siur, Beras Basah, Pangkalan Berandan, Pangkalan Susu, dan Pulau Sembilan) diajak untuk mengerjakan beberapa studi kasus terkait proses budidaya udang.<br><br>
 
@@ -4335,19 +4337,24 @@ Dengan keberhasilan acara ini, Crustea berencana melanjutkan program serupa di b
 
 <b>Tentang Crustea</b><br>
 Crustea adalah perusahaan yang berdedikasi untuk mendukung keberhasilan budidaya udang melalui inovasi teknologi dan program pemberdayaan. Produk unggulannya seperti EBII System, Panel Surya, Smart Energy, Eco-Aerator, dan Aerator Mini mampu mengurangi biaya listrik dan bahan bakar hingga 80% melalui sistem Smart IoT dan panel surya yang efisien. Crustea terus berkomitmen membangun ekosistem berkelanjutan dari hulu ke hilir melalui akses teknologi, pendampingan, pembiayaan, dan pasar.<br><br>
-`
+`,
+    },
+    tags: [
+      "Project Crustea",
+      "Tambak Udang",
+      "Smart Teknologi",
+      "Renewable Energi",
+    ],
   },
-  tags: ["Project Crustea", "Tambak Udang", "Smart Teknologi", "Renewable Energi"]
-},
-// update content 46
-{
-  id: "46",
-  img: "/images/landing/blog/blog46/blog46-(4).webp",
-  poster: "/images/landing/blog/blog46/blog46-(4).webp",
-  category: "Project Crustea",
-  en: {
-    title: "From Ponds to Global Connections: Crustea at Generation Next",
-    desc: `What happens when you bring together 30 young entrepreneurs from across Southeast Asia and Australia? You create an inspiring space where ideas grow, networks expand, and sustainable futures are built.<br><br>
+  // update content 46
+  {
+    id: "46",
+    img: "/images/landing/blog/blog46/blog46-(4).webp",
+    poster: "/images/landing/blog/blog46/blog46-(4).webp",
+    category: "Project Crustea",
+    en: {
+      title: "From Ponds to Global Connections: Crustea at Generation Next",
+      desc: `What happens when you bring together 30 young entrepreneurs from across Southeast Asia and Australia? You create an inspiring space where ideas grow, networks expand, and sustainable futures are built.<br><br>
 
 Last week, Crustea had the privilege of joining <b>Generation Next</b>, a dynamic program delivered by <b>HEX</b>. The focus was clear: business growth, meaningful networking, and sustainable impact. For us, it was not just about learning new strategies—it was about connecting our mission of empowering farmers with renewable energy technology to a wider global conversation.<br><br>
 
@@ -4357,11 +4364,12 @@ We walked away with fresh perspectives, practical tools, and new partnerships th
 
 <img src="/images/landing/blog/blog46/blog46-(3).webp" class="img-rounded" alt="Generation Next Collaboration"><br><br>
 
-Congratulations to all the inspiring entrepreneurs who joined this journey. Crustea is proud to be part of this community, and we’re excited to carry forward the lessons and energy from Generation Next into our work with local farmers and beyond.`
-  },
-  in: {
-    title: "Dari Tambak ke Koneksi Global: Crustea di Program Generation Next",
-    desc: `Apa yang terjadi ketika 30 wirausahawan muda dari Asia Tenggara dan Australia berkumpul? Tercipta ruang inspiratif di mana ide tumbuh, jaringan berkembang, dan masa depan berkelanjutan dibangun bersama.<br><br>
+Congratulations to all the inspiring entrepreneurs who joined this journey. Crustea is proud to be part of this community, and we’re excited to carry forward the lessons and energy from Generation Next into our work with local farmers and beyond.`,
+    },
+    in: {
+      title:
+        "Dari Tambak ke Koneksi Global: Crustea di Program Generation Next",
+      desc: `Apa yang terjadi ketika 30 wirausahawan muda dari Asia Tenggara dan Australia berkumpul? Tercipta ruang inspiratif di mana ide tumbuh, jaringan berkembang, dan masa depan berkelanjutan dibangun bersama.<br><br>
 
 Minggu lalu, Crustea mendapat kehormatan untuk bergabung dalam <b>Generation Next</b>, sebuah program dinamis yang diselenggarakan oleh <b>HEX</b>. Fokus utamanya jelas: pertumbuhan bisnis, jejaring bermakna, dan dampak berkelanjutan. Bagi kami, ini bukan sekadar mempelajari strategi baru — tetapi tentang menghubungkan misi kami dalam memberdayakan petambak melalui teknologi energi terbarukan ke dalam percakapan global yang lebih luas.<br><br>
 
@@ -4371,19 +4379,20 @@ Kami pulang dengan perspektif baru, alat praktis, dan kemitraan segar yang akan 
 
 <img src="/images/landing/blog/blog46/blog46-(3).webp" class="img-rounded" alt="Kolaborasi Generation Next"><br><br>
 
-Selamat kepada semua wirausahawan inspiratif yang menjadi bagian dari perjalanan ini. Crustea bangga menjadi bagian dari komunitas ini, dan kami bersemangat membawa semangat serta pelajaran dari Generation Next ke dalam pekerjaan kami bersama para petambak dan komunitas lainnya.`
+Selamat kepada semua wirausahawan inspiratif yang menjadi bagian dari perjalanan ini. Crustea bangga menjadi bagian dari komunitas ini, dan kami bersemangat membawa semangat serta pelajaran dari Generation Next ke dalam pekerjaan kami bersama para petambak dan komunitas lainnya.`,
+    },
+    tags: ["Project Crustea", "Renewable Energi", "Smart Teknologi"],
   },
-  tags: ["Project Crustea", "Renewable Energi", "Smart Teknologi"]
-},
-// update content 47
-{
-  id: "47",
-  img: "/images/landing/blog/blog47/Picture1.webp",
-  poster: "/images/landing/blog/blog47/Picture1.webp",
-  category: "Project Crustea",
-  en: {
-    title: "Strengthening Ties Through Agribusiness: ASEAN Young Business Leaders Visit New Zealand for Fieldays® 2025",
-    desc: `Over the past week, Aotearoa New Zealand proudly hosted a vibrant delegation of young agribusiness entrepreneurs from Southeast Asia as part of the <b>ASEAN Young Business Leaders Initiative (YBLI)</b>. Organised by the Asia New Zealand Foundation in collaboration with the New Zealand Ministry of Foreign Affairs and Trade, this programme aims to strengthen business connections, innovation, and long-term collaboration between New Zealand and ASEAN economies.<br><br>
+  // update content 47
+  {
+    id: "47",
+    img: "/images/landing/blog/blog47/Picture1.webp",
+    poster: "/images/landing/blog/blog47/Picture1.webp",
+    category: "Project Crustea",
+    en: {
+      title:
+        "Strengthening Ties Through Agribusiness: ASEAN Young Business Leaders Visit New Zealand for Fieldays® 2025",
+      desc: `Over the past week, Aotearoa New Zealand proudly hosted a vibrant delegation of young agribusiness entrepreneurs from Southeast Asia as part of the <b>ASEAN Young Business Leaders Initiative (YBLI)</b>. Organised by the Asia New Zealand Foundation in collaboration with the New Zealand Ministry of Foreign Affairs and Trade, this programme aims to strengthen business connections, innovation, and long-term collaboration between New Zealand and ASEAN economies.<br><br>
 
 The delegation’s final stop was <b>Fieldays® 2025</b>, the Southern Hemisphere’s largest agricultural event—an ideal setting to explore sustainability, innovation, and the future of food.<br><br>
 
@@ -4414,11 +4423,12 @@ A delegate from Indonesia’s Crustea, a startup advancing climate-smart aquacul
 
 <i>“This has been a transformative opportunity to learn from pioneers, connect with values-aligned leaders, and discover how New Zealand is innovating in sustainable agribusiness. We’re excited to explore future collaborations and co-create solutions for our region’s food future.”</i><br><br>
 
-With continued support from partners such as New Zealand Trade and Enterprise, these exchanges will further strengthen ASEAN–New Zealand collaboration in meaningful and future-focused ways.`
-  },
-  in: {
-    title: "Memperkuat Hubungan Melalui Agribisnis: Pemimpin Bisnis Muda ASEAN Mengunjungi Selandia Baru untuk Fieldays® 2025",
-    desc: `Dalam satu minggu terakhir, Aotearoa Selandia Baru menyambut delegasi wirausahawan muda agribisnis dari Asia Tenggara melalui program <b>ASEAN Young Business Leaders Initiative (YBLI)</b>. Program ini diselenggarakan oleh Asia New Zealand Foundation bekerja sama dengan Kementerian Luar Negeri dan Perdagangan Selandia Baru untuk memperkuat koneksi bisnis, inovasi, dan kolaborasi jangka panjang antara Selandia Baru dan ekonomi ASEAN.<br><br>
+With continued support from partners such as New Zealand Trade and Enterprise, these exchanges will further strengthen ASEAN–New Zealand collaboration in meaningful and future-focused ways.`,
+    },
+    in: {
+      title:
+        "Memperkuat Hubungan Melalui Agribisnis: Pemimpin Bisnis Muda ASEAN Mengunjungi Selandia Baru untuk Fieldays® 2025",
+      desc: `Dalam satu minggu terakhir, Aotearoa Selandia Baru menyambut delegasi wirausahawan muda agribisnis dari Asia Tenggara melalui program <b>ASEAN Young Business Leaders Initiative (YBLI)</b>. Program ini diselenggarakan oleh Asia New Zealand Foundation bekerja sama dengan Kementerian Luar Negeri dan Perdagangan Selandia Baru untuk memperkuat koneksi bisnis, inovasi, dan kolaborasi jangka panjang antara Selandia Baru dan ekonomi ASEAN.<br><br>
 
 Perhentian terakhir delegasi adalah <b>Fieldays® 2025</b>, acara agrikultur terbesar di belahan bumi selatan—tempat ideal untuk mendalami isu keberlanjutan, inovasi, dan masa depan pangan.<br><br>
 
@@ -4449,11 +4459,10 @@ Perwakilan dari Crustea, startup Indonesia yang mengembangkan teknologi akuakult
 
 <i>“Ini adalah kesempatan transformasional untuk belajar dari para pionir, terhubung dengan pemimpin yang selaras nilai, dan melihat bagaimana Selandia Baru berinovasi dalam agribisnis berkelanjutan. Kami bersemangat mengeksplorasi kolaborasi masa depan dan menciptakan solusi bersama untuk masa depan pangan kawasan kita.”</i><br><br>
 
-Dengan dukungan berkelanjutan dari New Zealand Trade and Enterprise dan para mitra lainnya, program ini terus membangun kolaborasi yang bermakna antara ASEAN dan Selandia Baru.`
+Dengan dukungan berkelanjutan dari New Zealand Trade and Enterprise dan para mitra lainnya, program ini terus membangun kolaborasi yang bermakna antara ASEAN dan Selandia Baru.`,
+    },
+    tags: ["Project Crustea", "Smart Teknologi"],
   },
-  tags: ["Project Crustea", "Smart Teknologi"]
-},
-
 ];
 
 export default Blog;
