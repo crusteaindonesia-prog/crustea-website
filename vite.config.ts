@@ -7,7 +7,7 @@ export default defineConfig((configEnv) => {
 
   return {
     plugins: [react()],
-    base: "/crustea-website/", // Set the base path for the project on GitHub Pages
+    base: "/", // Set the base path for the project on GitHub Pages
     resolve: {
       alias: {
         app: resolve(__dirname, "src", "app"),
